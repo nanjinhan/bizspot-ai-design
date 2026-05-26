@@ -1,0 +1,37 @@
+{
+  "positive_rules": [
+    {
+      "feature": "demand_proxy_score",
+      "condition": ">= 65",
+      "text": "상권 규모와 업종 다양성 proxy가 높습니다."
+    },
+    {
+      "feature": "competition_burden_score",
+      "condition": ">= 65",
+      "text": "동일 업종 경쟁 부담 proxy가 과도하지 않습니다."
+    },
+    {
+      "feature": "accessibility_score",
+      "condition": ">= 65",
+      "text": "대중교통 접근성 proxy가 좋습니다."
+    }
+  ],
+  "negative_rules": [
+    {
+      "feature": "competition_burden_score",
+      "condition": "< 45",
+      "text": "동일 업종 경쟁 부담 proxy가 높은 편입니다."
+    },
+    {
+      "feature": "cost_burden_proxy",
+      "condition": "high quantile",
+      "text": "비용 부담 proxy가 높은 편입니다."
+    },
+    {
+      "feature": "demand_proxy_score",
+      "condition": "< 45",
+      "text": "수요 가능성 proxy가 낮아 추가 확인이 필요합니다."
+    }
+  ],
+  "safe_answer_guideline": "창업 성공을 보장하지 않고, 상가정보 스냅샷상 관측 유지와 공공데이터 proxy 기반 1차 후보지 필터링 결과로 설명할 것"
+}

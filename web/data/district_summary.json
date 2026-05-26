@@ -1,0 +1,52 @@
+[
+  {
+    "sigungu_name": "광산구",
+    "candidate_count": 389,
+    "store_count": 18896,
+    "cafe_count": 883,
+    "avg_land_price": 267361.234,
+    "bus_stop_count": 3032,
+    "subway_station_count": 66,
+    "avg_suitability_score": 45.453
+  },
+  {
+    "sigungu_name": "남구",
+    "candidate_count": 127,
+    "store_count": 8478,
+    "cafe_count": 467,
+    "avg_land_price": 342911.024,
+    "bus_stop_count": 1031,
+    "subway_station_count": 19,
+    "avg_suitability_score": 47.759
+  },
+  {
+    "sigungu_name": "동구",
+    "candidate_count": 70,
+    "store_count": 9479,
+    "cafe_count": 598,
+    "avg_land_price": 516274.286,
+    "bus_stop_count": 739,
+    "subway_station_count": 65,
+    "avg_suitability_score": 53.186
+  },
+  {
+    "sigungu_name": "북구",
+    "candidate_count": 253,
+    "store_count": 20626,
+    "cafe_count": 1027,
+    "avg_land_price": 333219.763,
+    "bus_stop_count": 2342,
+    "subway_station_count": 10,
+    "avg_suitability_score": 49.053
+  },
+  {
+    "sigungu_name": "서구",
+    "candidate_count": 145,
+    "store_count": 17846,
+    "cafe_count": 765,
+    "avg_land_price": 568459.31,
+    "bus_stop_count": 1472,
+    "subway_station_count": 93,
+    "avg_suitability_score": 54.604
+  }
+]

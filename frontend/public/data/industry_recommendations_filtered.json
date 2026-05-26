@@ -1,0 +1,1184 @@
+[
+  {
+    "candidate_id": "REC-001",
+    "place": "서구 마륵동",
+    "sigungu": "서구",
+    "dong": "마륵동",
+    "lat": 35.146173,
+    "lng": 126.849175,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 79.57,
+        "retention_proxy_score": 65.4,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 75.47,
+        "retention_proxy_score": 65.23,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "dessert_bakery",
+        "industry_label": "디저트/베이커리",
+        "score": 64.03,
+        "retention_proxy_score": 25.92,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "restaurant_general",
+        "industry_label": "일반 음식점",
+        "score": 62.57,
+        "retention_proxy_score": 32.58,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "cafe",
+        "industry_label": "카페",
+        "score": 62.31,
+        "retention_proxy_score": 20.97,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-002",
+    "place": "북구 용봉동",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.174818,
+    "lng": 126.91287,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 79.79,
+        "retention_proxy_score": 95.19,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 76.54,
+        "retention_proxy_score": 80.6,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 76.35,
+        "retention_proxy_score": 92.08,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 70.16,
+        "retention_proxy_score": 67.71,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 68.33,
+        "retention_proxy_score": 65.45,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-003",
+    "place": "동구 대인동",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.154556,
+    "lng": 126.913857,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 80.17,
+        "retention_proxy_score": 89.15,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 78.77,
+        "retention_proxy_score": 89.85,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 78.39,
+        "retention_proxy_score": 89.75,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 67.8,
+        "retention_proxy_score": 61.23,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 67.65,
+        "retention_proxy_score": 53.93,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-004",
+    "place": "북구 북동",
+    "sigungu": "북구",
+    "dong": "북동",
+    "lat": 35.154734,
+    "lng": 126.910861,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 80.69,
+        "retention_proxy_score": 84.09,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 65.95,
+        "retention_proxy_score": 54.16,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 65.13,
+        "retention_proxy_score": 59.46,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 64.98,
+        "retention_proxy_score": 46.94,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "restaurant_general",
+        "industry_label": "일반 음식점",
+        "score": 61.58,
+        "retention_proxy_score": 52.3,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-005",
+    "place": "광산구 송정동",
+    "sigungu": "광산구",
+    "dong": "송정동",
+    "lat": 35.139803,
+    "lng": 126.795704,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 78.3,
+        "retention_proxy_score": 79.14,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 67.43,
+        "retention_proxy_score": 51.68,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 66.95,
+        "retention_proxy_score": 49.52,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 64.61,
+        "retention_proxy_score": 53.99,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "convenience_store",
+        "industry_label": "편의점",
+        "score": 61.72,
+        "retention_proxy_score": 42.65,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-006",
+    "place": "북구 중흥동",
+    "sigungu": "북구",
+    "dong": "중흥동",
+    "lat": 35.173881,
+    "lng": 126.914298,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 77.1,
+        "retention_proxy_score": 94.08,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 66.51,
+        "retention_proxy_score": 64.48,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 65.28,
+        "retention_proxy_score": 67.53,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "dessert_bakery",
+        "industry_label": "디저트/베이커리",
+        "score": 62.31,
+        "retention_proxy_score": 55.52,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "convenience_store",
+        "industry_label": "편의점",
+        "score": 62.21,
+        "retention_proxy_score": 57.29,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-007",
+    "place": "동구 금동",
+    "sigungu": "동구",
+    "dong": "금동",
+    "lat": 35.144833,
+    "lng": 126.917653,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 66.1,
+        "retention_proxy_score": 48.15,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "convenience_store",
+        "industry_label": "편의점",
+        "score": 60.36,
+        "retention_proxy_score": 46.66,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-008",
+    "place": "동구 금남로5가",
+    "sigungu": "동구",
+    "dong": "금남로5가",
+    "lat": 35.151338,
+    "lng": 126.91408,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 66.4,
+        "retention_proxy_score": 61.77,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 65.02,
+        "retention_proxy_score": 59.61,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "dessert_bakery",
+        "industry_label": "디저트/베이커리",
+        "score": 60.41,
+        "retention_proxy_score": 48.3,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "convenience_store",
+        "industry_label": "편의점",
+        "score": 59.46,
+        "retention_proxy_score": 48.31,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-009",
+    "place": "동구 수기동",
+    "sigungu": "동구",
+    "dong": "수기동",
+    "lat": 35.150173,
+    "lng": 126.911063,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 76.24,
+        "retention_proxy_score": 87.09,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 65.73,
+        "retention_proxy_score": 60.59,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-010",
+    "place": "서구 치평동",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.152383,
+    "lng": 126.848922,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 75.41,
+        "retention_proxy_score": 59.32,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 75.06,
+        "retention_proxy_score": 64.45,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 65.8,
+        "retention_proxy_score": 34.83,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 65.6,
+        "retention_proxy_score": 23.97,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 64.85,
+        "retention_proxy_score": 30.79,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-011",
+    "place": "광산구 수완동",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.190425,
+    "lng": 126.825608,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 65.13,
+        "retention_proxy_score": 50.74,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 64.94,
+        "retention_proxy_score": 53.39,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 64.13,
+        "retention_proxy_score": 53.01,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 63.57,
+        "retention_proxy_score": 38.38,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 63.55,
+        "retention_proxy_score": 48.19,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-012",
+    "place": "북구 오룡동",
+    "sigungu": "북구",
+    "dong": "오룡동",
+    "lat": 35.222689,
+    "lng": 126.849209,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 65.52,
+        "retention_proxy_score": 64.46,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 64.03,
+        "retention_proxy_score": 61.35,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "convenience_store",
+        "industry_label": "편의점",
+        "score": 60.14,
+        "retention_proxy_score": 53.09,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "dessert_bakery",
+        "industry_label": "디저트/베이커리",
+        "score": 59.75,
+        "retention_proxy_score": 51.4,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "restaurant_general",
+        "industry_label": "일반 음식점",
+        "score": 59.1,
+        "retention_proxy_score": 58.06,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-013",
+    "place": "서구 양동",
+    "sigungu": "서구",
+    "dong": "양동",
+    "lat": 35.153825,
+    "lng": 126.901237,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 75.27,
+        "retention_proxy_score": 62.11,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 64.31,
+        "retention_proxy_score": 34.92,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "restaurant_general",
+        "industry_label": "일반 음식점",
+        "score": 59.49,
+        "retention_proxy_score": 18.76,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "dessert_bakery",
+        "industry_label": "디저트/베이커리",
+        "score": 58.94,
+        "retention_proxy_score": 12.09,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "restaurant_general",
+        "industry_label": "일반 음식점",
+        "score": 57.64,
+        "retention_proxy_score": 12.72,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-014",
+    "place": "북구 문흥동",
+    "sigungu": "북구",
+    "dong": "문흥동",
+    "lat": 35.185468,
+    "lng": 126.921312,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 75.02,
+        "retention_proxy_score": 94.36,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 64.63,
+        "retention_proxy_score": 64.91,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 64.09,
+        "retention_proxy_score": 68.08,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "dessert_bakery",
+        "industry_label": "디저트/베이커리",
+        "score": 58.26,
+        "retention_proxy_score": 54.93,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "dessert_bakery",
+        "industry_label": "디저트/베이커리",
+        "score": 58.23,
+        "retention_proxy_score": 39.62,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-015",
+    "place": "동구 금남로4가",
+    "sigungu": "동구",
+    "dong": "금남로4가",
+    "lat": 35.150833,
+    "lng": 126.914037,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "dessert_bakery",
+        "industry_label": "디저트/베이커리",
+        "score": 60.26,
+        "retention_proxy_score": 43.43,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-016",
+    "place": "동구 남동",
+    "sigungu": "동구",
+    "dong": "남동",
+    "lat": 35.145501,
+    "lng": 126.918904,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 78.02,
+        "retention_proxy_score": 88.87,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "restaurant_general",
+        "industry_label": "일반 음식점",
+        "score": 58.12,
+        "retention_proxy_score": 56.05,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-017",
+    "place": "서구 금호동",
+    "sigungu": "서구",
+    "dong": "금호동",
+    "lat": 35.132609,
+    "lng": 126.858142,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 75.07,
+        "retention_proxy_score": 71.33,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 74.98,
+        "retention_proxy_score": 70.73,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 64.72,
+        "retention_proxy_score": 32.61,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 63.5,
+        "retention_proxy_score": 41.01,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "convenience_store",
+        "industry_label": "편의점",
+        "score": 59.49,
+        "retention_proxy_score": 20.17,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-018",
+    "place": "동구 지산동",
+    "sigungu": "동구",
+    "dong": "지산동",
+    "lat": 35.14851,
+    "lng": 126.931488,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "restaurant_general",
+        "industry_label": "일반 음식점",
+        "score": 58.89,
+        "retention_proxy_score": 66.64,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-019",
+    "place": "서구 쌍촌동",
+    "sigungu": "서구",
+    "dong": "쌍촌동",
+    "lat": 35.158545,
+    "lng": 126.861599,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 64.9,
+        "retention_proxy_score": 35.51,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 63.56,
+        "retention_proxy_score": 42.22,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 63.29,
+        "retention_proxy_score": 31.66,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "convenience_store",
+        "industry_label": "편의점",
+        "score": 59.55,
+        "retention_proxy_score": 23.09,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "cafe",
+        "industry_label": "카페",
+        "score": 56.21,
+        "retention_proxy_score": 12.27,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-020",
+    "place": "동구 용산동",
+    "sigungu": "동구",
+    "dong": "용산동",
+    "lat": 35.120785,
+    "lng": 126.932992,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "restaurant_general",
+        "industry_label": "일반 음식점",
+        "score": 58.53,
+        "retention_proxy_score": 62.21,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-021",
+    "place": "광산구 산월동",
+    "sigungu": "광산구",
+    "dong": "산월동",
+    "lat": 35.213004,
+    "lng": 126.84557,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 64.84,
+        "retention_proxy_score": 39.81,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-022",
+    "place": "광산구 운남동",
+    "sigungu": "광산구",
+    "dong": "운남동",
+    "lat": 35.174449,
+    "lng": 126.816695,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 63.37,
+        "retention_proxy_score": 49.96,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "restaurant_general",
+        "industry_label": "일반 음식점",
+        "score": 58.48,
+        "retention_proxy_score": 38.48,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-023",
+    "place": "광산구 월계동",
+    "sigungu": "광산구",
+    "dong": "월계동",
+    "lat": 35.217302,
+    "lng": 126.844475,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "beauty_hair",
+        "industry_label": "미용실",
+        "score": 75.46,
+        "retention_proxy_score": 71.05,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 64.63,
+        "retention_proxy_score": 52.7,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "convenience_store",
+        "industry_label": "편의점",
+        "score": 59.83,
+        "retention_proxy_score": 41.14,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "dessert_bakery",
+        "industry_label": "디저트/베이커리",
+        "score": 59.17,
+        "retention_proxy_score": 39.52,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-024",
+    "place": "광산구 신촌동",
+    "sigungu": "광산구",
+    "dong": "신촌동",
+    "lat": 35.143921,
+    "lng": 126.800204,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "restaurant_general",
+        "industry_label": "일반 음식점",
+        "score": 58.42,
+        "retention_proxy_score": 46.15,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-025",
+    "place": "동구 호남동",
+    "sigungu": "동구",
+    "dong": "호남동",
+    "lat": 35.148723,
+    "lng": 126.912503,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "convenience_store",
+        "industry_label": "편의점",
+        "score": 59.83,
+        "retention_proxy_score": 47.21,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-026",
+    "place": "남구 봉선동",
+    "sigungu": "남구",
+    "dong": "봉선동",
+    "lat": 35.127171,
+    "lng": 126.911681,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 64.6,
+        "retention_proxy_score": 63.79,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 63.67,
+        "retention_proxy_score": 52.07,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 3,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 63.22,
+        "retention_proxy_score": 59.71,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 4,
+        "industry": "dessert_bakery",
+        "industry_label": "디저트/베이커리",
+        "score": 58.59,
+        "retention_proxy_score": 43.66,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 5,
+        "industry": "cafe",
+        "industry_label": "카페",
+        "score": 55.74,
+        "retention_proxy_score": 44.29,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-027",
+    "place": "북구 오치동",
+    "sigungu": "북구",
+    "dong": "오치동",
+    "lat": 35.187357,
+    "lng": 126.902832,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 63.75,
+        "retention_proxy_score": 57.39,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "dessert_bakery",
+        "industry_label": "디저트/베이커리",
+        "score": 58.2,
+        "retention_proxy_score": 53.85,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-028",
+    "place": "동구 금남로2가",
+    "sigungu": "동구",
+    "dong": "금남로2가",
+    "lat": 35.148889,
+    "lng": 126.918022,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "convenience_store",
+        "industry_label": "편의점",
+        "score": 59.74,
+        "retention_proxy_score": 46.03,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-029",
+    "place": "광산구 우산동",
+    "sigungu": "광산구",
+    "dong": "우산동",
+    "lat": 35.164124,
+    "lng": 126.80819,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 63.87,
+        "retention_proxy_score": 53.81,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "cafe",
+        "industry_label": "카페",
+        "score": 55.78,
+        "retention_proxy_score": 20.35,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-030",
+    "place": "동구 서석동",
+    "sigungu": "동구",
+    "dong": "서석동",
+    "lat": 35.145421,
+    "lng": 126.921483,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "cafe",
+        "industry_label": "카페",
+        "score": 56.12,
+        "retention_proxy_score": 44.49,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-031",
+    "place": "광산구 소촌동",
+    "sigungu": "광산구",
+    "dong": "소촌동",
+    "lat": 35.142334,
+    "lng": 126.794864,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "restaurant_general",
+        "industry_label": "일반 음식점",
+        "score": 57.7,
+        "retention_proxy_score": 44.51,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-032",
+    "place": "동구 궁동",
+    "sigungu": "동구",
+    "dong": "궁동",
+    "lat": 35.150087,
+    "lng": 126.917308,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 63.31,
+        "retention_proxy_score": 58.19,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-033",
+    "place": "북구 용두동",
+    "sigungu": "북구",
+    "dong": "용두동",
+    "lat": 35.212253,
+    "lng": 126.874083,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 63.3,
+        "retention_proxy_score": 66.6,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      },
+      {
+        "rank": 2,
+        "industry": "bunsik",
+        "industry_label": "분식",
+        "score": 62.7,
+        "retention_proxy_score": 64.29,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-034",
+    "place": "서구 화정동",
+    "sigungu": "서구",
+    "dong": "화정동",
+    "lat": 35.158819,
+    "lng": 126.882046,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "laundry",
+        "industry_label": "세탁소",
+        "score": 63.3,
+        "retention_proxy_score": 36.4,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  },
+  {
+    "candidate_id": "REC-035",
+    "place": "광산구 신창동",
+    "sigungu": "광산구",
+    "dong": "신창동",
+    "lat": 35.193398,
+    "lng": 126.837789,
+    "industry_top5": [
+      {
+        "rank": 1,
+        "industry": "chicken",
+        "industry_label": "치킨",
+        "score": 63.29,
+        "retention_proxy_score": 55.39,
+        "reason": "공공데이터 기반 입지 적합도와 상가정보 스냅샷상 관측 유지 proxy를 함께 참고했습니다."
+      }
+    ]
+  }
+]

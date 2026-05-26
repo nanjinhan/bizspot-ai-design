@@ -1,0 +1,1235 @@
+[
+  {
+    "candidate_id": "GJ-0174",
+    "name": "서구 치평동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "치평동",
+    "lat": 35.14837,
+    "lon": 126.847926,
+    "industry": "카페",
+    "suitability_score": 75.12,
+    "risk_level": "낮음",
+    "demand_score": 80.5,
+    "competition_score": 66.2,
+    "accessibility_score": 85.5,
+    "cost_score": 61.9,
+    "industry_fit_score": 78.3,
+    "model_probability": 0.9949,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "반경 격자 내 전체 상가와 생활밀착 업종이 많아 수요 가능성 proxy가 높게 평가되었습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다."
+    ],
+    "negative_reasons": []
+  },
+  {
+    "candidate_id": "GJ-0510",
+    "name": "서구 양동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "양동",
+    "lat": 35.149416,
+    "lon": 126.908057,
+    "industry": "카페",
+    "suitability_score": 73.31,
+    "risk_level": "중간",
+    "demand_score": 60.8,
+    "competition_score": 94.4,
+    "accessibility_score": 88.2,
+    "cost_score": 81.6,
+    "industry_fit_score": 57.4,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0958",
+    "name": "서구 양동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "양동",
+    "lat": 35.153417,
+    "lon": 126.902983,
+    "industry": "카페",
+    "suitability_score": 72.97,
+    "risk_level": "중간",
+    "demand_score": 70.4,
+    "competition_score": 84.5,
+    "accessibility_score": 92.9,
+    "cost_score": 81.6,
+    "industry_fit_score": 48.8,
+    "model_probability": 0.9576,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "반경 격자 내 전체 상가와 생활밀착 업종이 많아 수요 가능성 proxy가 높게 평가되었습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다."
+    ],
+    "negative_reasons": []
+  },
+  {
+    "candidate_id": "GJ-0528",
+    "name": "동구 대인동 후보지",
+    "sigungu_name": "동구",
+    "dong_name": "대인동",
+    "lat": 35.153615,
+    "lon": 126.913054,
+    "industry": "카페",
+    "suitability_score": 72.57,
+    "risk_level": "중간",
+    "demand_score": 91.6,
+    "competition_score": 40.8,
+    "accessibility_score": 95.8,
+    "cost_score": 62.2,
+    "industry_fit_score": 72.5,
+    "model_probability": 0.9877,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "반경 격자 내 전체 상가와 생활밀착 업종이 많아 수요 가능성 proxy가 높게 평가되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "동일 업종 밀집도가 높아 신규 진입 경쟁 위험이 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0526",
+    "name": "동구 계림동 후보지",
+    "sigungu_name": "동구",
+    "dong_name": "계림동",
+    "lat": 35.157472,
+    "lon": 126.913627,
+    "industry": "카페",
+    "suitability_score": 72.52,
+    "risk_level": "중간",
+    "demand_score": 63.1,
+    "competition_score": 87.3,
+    "accessibility_score": 93.4,
+    "cost_score": 71.3,
+    "industry_fit_score": 60.7,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0548",
+    "name": "동구 대인동 후보지",
+    "sigungu_name": "동구",
+    "dong_name": "대인동",
+    "lat": 35.153592,
+    "lon": 126.918285,
+    "industry": "카페",
+    "suitability_score": 72.21,
+    "risk_level": "중간",
+    "demand_score": 69.9,
+    "competition_score": 77.5,
+    "accessibility_score": 86.0,
+    "cost_score": 62.2,
+    "industry_fit_score": 67.9,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "반경 격자 내 전체 상가와 생활밀착 업종이 많아 수요 가능성 proxy가 높게 평가되었습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다."
+    ],
+    "negative_reasons": []
+  },
+  {
+    "candidate_id": "GJ-0550",
+    "name": "동구 남동 후보지",
+    "sigungu_name": "동구",
+    "dong_name": "남동",
+    "lat": 35.144574,
+    "lon": 126.918339,
+    "industry": "카페",
+    "suitability_score": 71.78,
+    "risk_level": "중간",
+    "demand_score": 75.8,
+    "competition_score": 66.2,
+    "accessibility_score": 85.1,
+    "cost_score": 67.0,
+    "industry_fit_score": 67.4,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "반경 격자 내 전체 상가와 생활밀착 업종이 많아 수요 가능성 proxy가 높게 평가되었습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다."
+    ],
+    "negative_reasons": []
+  },
+  {
+    "candidate_id": "GJ-0529",
+    "name": "동구 충장로4가 후보지",
+    "sigungu_name": "동구",
+    "dong_name": "충장로4가",
+    "lat": 35.148797,
+    "lon": 126.913754,
+    "industry": "카페",
+    "suitability_score": 71.54,
+    "risk_level": "중간",
+    "demand_score": 88.9,
+    "competition_score": 53.5,
+    "accessibility_score": 87.8,
+    "cost_score": 34.0,
+    "industry_fit_score": 74.4,
+    "model_probability": 0.9972,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "반경 격자 내 전체 상가와 생활밀착 업종이 많아 수요 가능성 proxy가 높게 평가되었습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다."
+    ],
+    "negative_reasons": [
+      "공시지가 기반 비용 부담 proxy가 높은 편입니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0509",
+    "name": "북구 누문동 후보지",
+    "sigungu_name": "북구",
+    "dong_name": "누문동",
+    "lat": 35.153362,
+    "lon": 126.908743,
+    "industry": "카페",
+    "suitability_score": 71.42,
+    "risk_level": "중간",
+    "demand_score": 60.5,
+    "competition_score": 87.3,
+    "accessibility_score": 98.6,
+    "cost_score": 76.8,
+    "industry_fit_score": 54.3,
+    "model_probability": 0.9949,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0005",
+    "name": "광산구 송정동 후보지",
+    "sigungu_name": "광산구",
+    "dong_name": "송정동",
+    "lat": 35.139716,
+    "lon": 126.797066,
+    "industry": "카페",
+    "suitability_score": 71.4,
+    "risk_level": "중간",
+    "demand_score": 61.5,
+    "competition_score": 83.1,
+    "accessibility_score": 85.5,
+    "cost_score": 79.1,
+    "industry_fit_score": 63.3,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0951",
+    "name": "북구 유동 후보지",
+    "sigungu_name": "북구",
+    "dong_name": "유동",
+    "lat": 35.157952,
+    "lon": 126.902943,
+    "industry": "카페",
+    "suitability_score": 70.53,
+    "risk_level": "중간",
+    "demand_score": 57.1,
+    "competition_score": 90.1,
+    "accessibility_score": 88.7,
+    "cost_score": 74.4,
+    "industry_fit_score": 58.5,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0836",
+    "name": "서구 화정동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "화정동",
+    "lat": 35.152866,
+    "lon": 126.880057,
+    "industry": "카페",
+    "suitability_score": 70.21,
+    "risk_level": "중간",
+    "demand_score": 61.3,
+    "competition_score": 77.5,
+    "accessibility_score": 85.4,
+    "cost_score": 76.2,
+    "industry_fit_score": 66.1,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0175",
+    "name": "서구 마륵동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "마륵동",
+    "lat": 35.145086,
+    "lon": 126.847034,
+    "industry": "카페",
+    "suitability_score": 70.11,
+    "risk_level": "중간",
+    "demand_score": 56.8,
+    "competition_score": 84.5,
+    "accessibility_score": 84.1,
+    "cost_score": 85.6,
+    "industry_fit_score": 60.7,
+    "model_probability": 0.9982,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0805",
+    "name": "서구 화정동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "화정동",
+    "lat": 35.15318,
+    "lon": 126.87559,
+    "industry": "카페",
+    "suitability_score": 69.95,
+    "risk_level": "중간",
+    "demand_score": 57.4,
+    "competition_score": 85.9,
+    "accessibility_score": 84.9,
+    "cost_score": 76.2,
+    "industry_fit_score": 61.3,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0831",
+    "name": "서구 화정동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "화정동",
+    "lat": 35.158342,
+    "lon": 126.881455,
+    "industry": "카페",
+    "suitability_score": 69.82,
+    "risk_level": "중간",
+    "demand_score": 65.3,
+    "competition_score": 83.1,
+    "accessibility_score": 76.4,
+    "cost_score": 76.2,
+    "industry_fit_score": 54.7,
+    "model_probability": 0.9816,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "반경 격자 내 전체 상가와 생활밀착 업종이 많아 수요 가능성 proxy가 높게 평가되었습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다."
+    ],
+    "negative_reasons": []
+  },
+  {
+    "candidate_id": "GJ-0502",
+    "name": "북구 유동 후보지",
+    "sigungu_name": "북구",
+    "dong_name": "유동",
+    "lat": 35.158058,
+    "lon": 126.907565,
+    "industry": "카페",
+    "suitability_score": 69.49,
+    "risk_level": "중간",
+    "demand_score": 58.9,
+    "competition_score": 80.3,
+    "accessibility_score": 83.9,
+    "cost_score": 74.4,
+    "industry_fit_score": 64.9,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0683",
+    "name": "서구 쌍촌동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "쌍촌동",
+    "lat": 35.149008,
+    "lon": 126.858133,
+    "industry": "카페",
+    "suitability_score": 69.36,
+    "risk_level": "중간",
+    "demand_score": 57.0,
+    "competition_score": 81.7,
+    "accessibility_score": 76.3,
+    "cost_score": 75.6,
+    "industry_fit_score": 69.0,
+    "model_probability": 0.9981,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0476",
+    "name": "서구 치평동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "치평동",
+    "lat": 35.153441,
+    "lon": 126.85254,
+    "industry": "카페",
+    "suitability_score": 69.33,
+    "risk_level": "중간",
+    "demand_score": 68.3,
+    "competition_score": 63.4,
+    "accessibility_score": 69.6,
+    "cost_score": 61.9,
+    "industry_fit_score": 82.1,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "반경 격자 내 전체 상가와 생활밀착 업종이 많아 수요 가능성 proxy가 높게 평가되었습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다."
+    ],
+    "negative_reasons": []
+  },
+  {
+    "candidate_id": "GJ-0030",
+    "name": "광산구 송정동 후보지",
+    "sigungu_name": "광산구",
+    "dong_name": "송정동",
+    "lat": 35.139085,
+    "lon": 126.793591,
+    "industry": "카페",
+    "suitability_score": 69.16,
+    "risk_level": "중간",
+    "demand_score": 59.8,
+    "competition_score": 77.5,
+    "accessibility_score": 86.6,
+    "cost_score": 79.1,
+    "industry_fit_score": 61.4,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0173",
+    "name": "서구 치평동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "치평동",
+    "lat": 35.153614,
+    "lon": 126.848506,
+    "industry": "카페",
+    "suitability_score": 69.15,
+    "risk_level": "중간",
+    "demand_score": 66.3,
+    "competition_score": 64.8,
+    "accessibility_score": 75.1,
+    "cost_score": 61.9,
+    "industry_fit_score": 80.2,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "반경 격자 내 전체 상가와 생활밀착 업종이 많아 수요 가능성 proxy가 높게 평가되었습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다."
+    ],
+    "negative_reasons": []
+  },
+  {
+    "candidate_id": "GJ-0006",
+    "name": "광산구 송정동 후보지",
+    "sigungu_name": "광산구",
+    "dong_name": "송정동",
+    "lat": 35.136084,
+    "lon": 126.797367,
+    "industry": "카페",
+    "suitability_score": 68.64,
+    "risk_level": "중간",
+    "demand_score": 52.8,
+    "competition_score": 91.5,
+    "accessibility_score": 82.7,
+    "cost_score": 79.1,
+    "industry_fit_score": 55.4,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0729",
+    "name": "서구 쌍촌동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "쌍촌동",
+    "lat": 35.15754,
+    "lon": 126.863341,
+    "industry": "카페",
+    "suitability_score": 68.61,
+    "risk_level": "중간",
+    "demand_score": 58.4,
+    "competition_score": 76.1,
+    "accessibility_score": 74.1,
+    "cost_score": 75.6,
+    "industry_fit_score": 70.9,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0924",
+    "name": "서구 농성동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "농성동",
+    "lat": 35.152243,
+    "lon": 126.895833,
+    "industry": "카페",
+    "suitability_score": 68.6,
+    "risk_level": "중간",
+    "demand_score": 51.4,
+    "competition_score": 90.1,
+    "accessibility_score": 80.4,
+    "cost_score": 79.2,
+    "industry_fit_score": 60.6,
+    "model_probability": 0.9952,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0893",
+    "name": "서구 농성동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "농성동",
+    "lat": 35.152847,
+    "lon": 126.890782,
+    "industry": "카페",
+    "suitability_score": 68.59,
+    "risk_level": "중간",
+    "demand_score": 51.2,
+    "competition_score": 93.0,
+    "accessibility_score": 80.5,
+    "cost_score": 79.2,
+    "industry_fit_score": 57.3,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0865",
+    "name": "서구 농성동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "농성동",
+    "lat": 35.152844,
+    "lon": 126.886214,
+    "industry": "카페",
+    "suitability_score": 68.43,
+    "risk_level": "중간",
+    "demand_score": 53.5,
+    "competition_score": 85.9,
+    "accessibility_score": 83.7,
+    "cost_score": 79.2,
+    "industry_fit_score": 59.6,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0866",
+    "name": "서구 농성동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "농성동",
+    "lat": 35.148354,
+    "lon": 126.885443,
+    "industry": "카페",
+    "suitability_score": 68.17,
+    "risk_level": "중간",
+    "demand_score": 58.3,
+    "competition_score": 71.8,
+    "accessibility_score": 75.2,
+    "cost_score": 79.2,
+    "industry_fit_score": 71.7,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0894",
+    "name": "서구 농성동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "농성동",
+    "lat": 35.149202,
+    "lon": 126.891155,
+    "industry": "카페",
+    "suitability_score": 68.17,
+    "risk_level": "중간",
+    "demand_score": 51.3,
+    "competition_score": 90.1,
+    "accessibility_score": 75.6,
+    "cost_score": 79.2,
+    "industry_fit_score": 61.0,
+    "model_probability": 0.9982,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0959",
+    "name": "남구 월산동 후보지",
+    "sigungu_name": "남구",
+    "dong_name": "월산동",
+    "lat": 35.148336,
+    "lon": 126.903566,
+    "industry": "카페",
+    "suitability_score": 67.93,
+    "risk_level": "중간",
+    "demand_score": 48.6,
+    "competition_score": 97.2,
+    "accessibility_score": 78.8,
+    "cost_score": 77.6,
+    "industry_fit_score": 54.9,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0185",
+    "name": "광산구 월계동 후보지",
+    "sigungu_name": "광산구",
+    "dong_name": "월계동",
+    "lat": 35.215634,
+    "lon": 126.847267,
+    "industry": "카페",
+    "suitability_score": 67.92,
+    "risk_level": "중간",
+    "demand_score": 58.3,
+    "competition_score": 70.4,
+    "accessibility_score": 48.8,
+    "cost_score": 77.9,
+    "industry_fit_score": 86.2,
+    "model_probability": 0.9947,
+    "positive_reasons": [
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0440",
+    "name": "광산구 월곡동 후보지",
+    "sigungu_name": "광산구",
+    "dong_name": "월곡동",
+    "lat": 35.170864,
+    "lon": 126.808823,
+    "industry": "카페",
+    "suitability_score": 67.9,
+    "risk_level": "중간",
+    "demand_score": 51.6,
+    "competition_score": 90.1,
+    "accessibility_score": 60.8,
+    "cost_score": 74.3,
+    "industry_fit_score": 69.0,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0895",
+    "name": "남구 월산동 후보지",
+    "sigungu_name": "남구",
+    "dong_name": "월산동",
+    "lat": 35.144234,
+    "lon": 126.890908,
+    "industry": "카페",
+    "suitability_score": 67.55,
+    "risk_level": "중간",
+    "demand_score": 48.6,
+    "competition_score": 91.5,
+    "accessibility_score": 66.3,
+    "cost_score": 77.6,
+    "industry_fit_score": 66.3,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0770",
+    "name": "서구 쌍촌동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "쌍촌동",
+    "lat": 35.153168,
+    "lon": 126.869537,
+    "industry": "카페",
+    "suitability_score": 67.28,
+    "risk_level": "중간",
+    "demand_score": 53.4,
+    "competition_score": 81.7,
+    "accessibility_score": 79.1,
+    "cost_score": 75.6,
+    "industry_fit_score": 63.5,
+    "model_probability": 0.9952,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0517",
+    "name": "북구 신안동 후보지",
+    "sigungu_name": "북구",
+    "dong_name": "신안동",
+    "lat": 35.161962,
+    "lon": 126.907168,
+    "industry": "카페",
+    "suitability_score": 67.14,
+    "risk_level": "중간",
+    "demand_score": 55.4,
+    "competition_score": 77.5,
+    "accessibility_score": 72.9,
+    "cost_score": 80.5,
+    "industry_fit_score": 65.3,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0004",
+    "name": "광산구 송정동 후보지",
+    "sigungu_name": "광산구",
+    "dong_name": "송정동",
+    "lat": 35.143484,
+    "lon": 126.798675,
+    "industry": "카페",
+    "suitability_score": 67.11,
+    "risk_level": "중간",
+    "demand_score": 46.8,
+    "competition_score": 94.4,
+    "accessibility_score": 83.7,
+    "cost_score": 79.1,
+    "industry_fit_score": 54.3,
+    "model_probability": 0.9888,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0477",
+    "name": "서구 치평동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "치평동",
+    "lat": 35.149125,
+    "lon": 126.852129,
+    "industry": "카페",
+    "suitability_score": 67.08,
+    "risk_level": "중간",
+    "demand_score": 58.4,
+    "competition_score": 76.1,
+    "accessibility_score": 79.3,
+    "cost_score": 61.9,
+    "industry_fit_score": 67.5,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0795",
+    "name": "서구 내방동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "내방동",
+    "lat": 35.156774,
+    "lon": 126.874695,
+    "industry": "카페",
+    "suitability_score": 67.07,
+    "risk_level": "중간",
+    "demand_score": 49.5,
+    "competition_score": 90.1,
+    "accessibility_score": 82.2,
+    "cost_score": 78.2,
+    "industry_fit_score": 56.0,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0917",
+    "name": "서구 양동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "양동",
+    "lat": 35.158159,
+    "lon": 126.896614,
+    "industry": "카페",
+    "suitability_score": 66.97,
+    "risk_level": "중간",
+    "demand_score": 45.3,
+    "competition_score": 97.2,
+    "accessibility_score": 78.9,
+    "cost_score": 81.6,
+    "industry_fit_score": 53.9,
+    "model_probability": 0.9999,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0684",
+    "name": "서구 쌍촌동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "쌍촌동",
+    "lat": 35.144203,
+    "lon": 126.857637,
+    "industry": "카페",
+    "suitability_score": 66.77,
+    "risk_level": "중간",
+    "demand_score": 49.3,
+    "competition_score": 88.7,
+    "accessibility_score": 71.3,
+    "cost_score": 75.6,
+    "industry_fit_score": 63.3,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0551",
+    "name": "동구 학동 후보지",
+    "sigungu_name": "동구",
+    "dong_name": "학동",
+    "lat": 35.139884,
+    "lon": 126.919011,
+    "industry": "카페",
+    "suitability_score": 66.54,
+    "risk_level": "중간",
+    "demand_score": 57.2,
+    "competition_score": 73.2,
+    "accessibility_score": 77.5,
+    "cost_score": 73.5,
+    "industry_fit_score": 65.5,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0888",
+    "name": "서구 농성동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "농성동",
+    "lat": 35.157905,
+    "lon": 126.890912,
+    "industry": "카페",
+    "suitability_score": 66.3,
+    "risk_level": "중간",
+    "demand_score": 45.1,
+    "competition_score": 95.8,
+    "accessibility_score": 75.6,
+    "cost_score": 79.2,
+    "industry_fit_score": 55.3,
+    "model_probability": 0.9982,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0032",
+    "name": "광산구 도산동 후보지",
+    "sigungu_name": "광산구",
+    "dong_name": "도산동",
+    "lat": 35.129952,
+    "lon": 126.791877,
+    "industry": "카페",
+    "suitability_score": 66.07,
+    "risk_level": "중간",
+    "demand_score": 47.5,
+    "competition_score": 85.9,
+    "accessibility_score": 72.1,
+    "cost_score": 85.3,
+    "industry_fit_score": 61.2,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0572",
+    "name": "동구 학동 후보지",
+    "sigungu_name": "동구",
+    "dong_name": "학동",
+    "lat": 35.14004,
+    "lon": 126.922957,
+    "industry": "카페",
+    "suitability_score": 66.05,
+    "risk_level": "중간",
+    "demand_score": 49.1,
+    "competition_score": 91.5,
+    "accessibility_score": 86.1,
+    "cost_score": 73.5,
+    "industry_fit_score": 50.1,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0737",
+    "name": "서구 쌍촌동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "쌍촌동",
+    "lat": 35.149231,
+    "lon": 126.863686,
+    "industry": "카페",
+    "suitability_score": 65.98,
+    "risk_level": "중간",
+    "demand_score": 46.7,
+    "competition_score": 93.0,
+    "accessibility_score": 70.3,
+    "cost_score": 75.6,
+    "industry_fit_score": 59.1,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0552",
+    "name": "남구 방림동 후보지",
+    "sigungu_name": "남구",
+    "dong_name": "방림동",
+    "lat": 35.13491,
+    "lon": 126.91873,
+    "industry": "카페",
+    "suitability_score": 65.85,
+    "risk_level": "중간",
+    "demand_score": 46.7,
+    "competition_score": 90.1,
+    "accessibility_score": 75.7,
+    "cost_score": 80.2,
+    "industry_fit_score": 56.8,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0031",
+    "name": "광산구 송정동 후보지",
+    "sigungu_name": "광산구",
+    "dong_name": "송정동",
+    "lat": 35.13614,
+    "lon": 126.792604,
+    "industry": "카페",
+    "suitability_score": 65.84,
+    "risk_level": "중간",
+    "demand_score": 51.1,
+    "competition_score": 80.3,
+    "accessibility_score": 78.8,
+    "cost_score": 79.1,
+    "industry_fit_score": 60.6,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0787",
+    "name": "서구 동천동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "동천동",
+    "lat": 35.171455,
+    "lon": 126.868338,
+    "industry": "카페",
+    "suitability_score": 65.7,
+    "risk_level": "중간",
+    "demand_score": 43.5,
+    "competition_score": 91.5,
+    "accessibility_score": 58.9,
+    "cost_score": 84.5,
+    "industry_fit_score": 66.2,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0837",
+    "name": "서구 화정동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "화정동",
+    "lat": 35.149343,
+    "lon": 126.879703,
+    "industry": "카페",
+    "suitability_score": 65.66,
+    "risk_level": "중간",
+    "demand_score": 52.0,
+    "competition_score": 80.3,
+    "accessibility_score": 81.6,
+    "cost_score": 76.2,
+    "industry_fit_score": 58.0,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0530",
+    "name": "동구 불로동 후보지",
+    "sigungu_name": "동구",
+    "dong_name": "불로동",
+    "lat": 35.14521,
+    "lon": 126.914323,
+    "industry": "카페",
+    "suitability_score": 65.61,
+    "risk_level": "중간",
+    "demand_score": 61.1,
+    "competition_score": 78.9,
+    "accessibility_score": 83.6,
+    "cost_score": 44.0,
+    "industry_fit_score": 58.8,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다.",
+      "공시지가 기반 비용 부담 proxy가 높은 편입니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0478",
+    "name": "서구 마륵동 후보지",
+    "sigungu_name": "서구",
+    "dong_name": "마륵동",
+    "lat": 35.144477,
+    "lon": 126.851776,
+    "industry": "카페",
+    "suitability_score": 65.59,
+    "risk_level": "중간",
+    "demand_score": 44.1,
+    "competition_score": 98.6,
+    "accessibility_score": 78.9,
+    "cost_score": 85.6,
+    "industry_fit_score": 45.3,
+    "model_probability": 0.9916,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-0546",
+    "name": "동구 계림동 후보지",
+    "sigungu_name": "동구",
+    "dong_name": "계림동",
+    "lat": 35.157252,
+    "lon": 126.918553,
+    "industry": "카페",
+    "suitability_score": 65.48,
+    "risk_level": "중간",
+    "demand_score": 50.4,
+    "competition_score": 84.5,
+    "accessibility_score": 71.8,
+    "cost_score": 71.3,
+    "industry_fit_score": 62.0,
+    "model_probability": 1.0,
+    "positive_reasons": [
+      "대중교통 접근성이 상대적으로 좋아 접근성 점수에 긍정적으로 작용했습니다.",
+      "동일 업종 경쟁 강도가 과도하지 않아 경쟁 점수에 긍정적으로 반영되었습니다.",
+      "공시지가 기반 비용 부담 proxy가 상대적으로 낮게 나타났습니다."
+    ],
+    "negative_reasons": [
+      "상가 밀도와 업종 다양성 proxy가 낮아 배후 수요 신호가 약할 수 있습니다."
+    ]
+  }
+]

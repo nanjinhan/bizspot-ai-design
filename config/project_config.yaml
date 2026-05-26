@@ -1,0 +1,46 @@
+project:
+  name: "BizSpot AI"
+  region: "Gwangju"
+  target_sido: "광주광역시"
+  sigungu_codes: ["29110", "29140", "29155", "29170", "29200"]
+  sigungu_names: ["동구", "서구", "남구", "북구", "광산구"]
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  analysis_data: "data/analysis"
+  outputs: "outputs"
+  web_data: "web/data"
+
+analysis:
+  default_industry: "카페"
+  buffer_distances_m: [300, 500, 1000]
+  grid_size_m: 500
+  random_state: 42
+  test_size: 0.2
+  top_candidate_count: 50
+
+scoring:
+  demand_weight: 0.35
+  competition_weight: 0.25
+  industry_fit_weight: 0.20
+  accessibility_weight: 0.10
+  cost_weight: 0.10
+
+optional_data:
+  use_building_api: true
+  use_real_trade_api: true
+  use_floating_population: false
+  use_shap: true
+
+api:
+  start_year: 2020
+  end_year: 2026
+  timeout_sec: 8
+  sleep_sec: 0.08
+  # Bounded first experiment. The collector caches every successful call.
+  max_real_trade_months: 12
+  # Building registry can be very large. This keeps the first experiment bounded.
+  max_building_dongs: 5
+  max_building_pages_per_dong: 1
+  num_rows: 100

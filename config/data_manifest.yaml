@@ -1,0 +1,532 @@
+datasets:
+  D0:
+  - path: C:\Users\kliou\Downloads\법정동코드 전체자료 (1).zip
+    name: 법정동코드 전체자료 (1).zip
+    extension: .zip
+    size_bytes: 385680
+    dataset_id: D0
+    encoding: ''
+    is_zip: true
+    columns_first5: []
+    row_count_estimate: null
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: ╣²┴ñ╡┐─┌╡σ └ⁿ├╝└┌╖ß.txt
+      size: 2290477
+      compressed_size: 385418
+  - path: C:\Users\kliou\Downloads\법정동코드 전체자료.zip
+    name: 법정동코드 전체자료.zip
+    extension: .zip
+    size_bytes: 385680
+    dataset_id: D0
+    encoding: ''
+    is_zip: true
+    columns_first5: []
+    row_count_estimate: null
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: ╣²┴ñ╡┐─┌╡σ └ⁿ├╝└┌╖ß.txt
+      size: 2290477
+      compressed_size: 385418
+  - path: C:\Users\kliou\Downloads\법정동코드 조회자료 (1).zip
+    name: 법정동코드 조회자료 (1).zip
+    extension: .zip
+    size_bytes: 11377
+    dataset_id: D0
+    encoding: xlsx / zip:╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+    is_zip: true
+    columns_first5:
+    - 법정동코드
+    - 법정동명
+    - 폐지구분
+    - 상위지역코드
+    - 서열
+    row_count_estimate: 5
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: ╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+      size: 14281
+      compressed_size: 11215
+  - path: C:\Users\kliou\Downloads\법정동코드 조회자료 (2).zip
+    name: 법정동코드 조회자료 (2).zip
+    extension: .zip
+    size_bytes: 6824
+    dataset_id: D0
+    encoding: xlsx / zip:╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+    is_zip: true
+    columns_first5:
+    - 법정동코드
+    - 법정동명
+    - 폐지구분
+    - 상위지역코드
+    - 서열
+    row_count_estimate: 5
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: ╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+      size: 8930
+      compressed_size: 6662
+  - path: C:\Users\kliou\Downloads\법정동코드 조회자료 (3).zip
+    name: 법정동코드 조회자료 (3).zip
+    extension: .zip
+    size_bytes: 4411
+    dataset_id: D0
+    encoding: xlsx / zip:╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+    is_zip: true
+    columns_first5:
+    - 법정동코드
+    - 법정동명
+    - 폐지구분
+    - 상위지역코드
+    - 서열
+    row_count_estimate: 5
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: ╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+      size: 5212
+      compressed_size: 4249
+  - path: C:\Users\kliou\Downloads\법정동코드 조회자료 (4).zip
+    name: 법정동코드 조회자료 (4).zip
+    extension: .zip
+    size_bytes: 4727
+    dataset_id: D0
+    encoding: xlsx / zip:╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+    is_zip: true
+    columns_first5:
+    - 법정동코드
+    - 법정동명
+    - 폐지구분
+    - 상위지역코드
+    - 서열
+    row_count_estimate: 5
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: ╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+      size: 5405
+      compressed_size: 4565
+  - path: C:\Users\kliou\Downloads\법정동코드 조회자료 (5).zip
+    name: 법정동코드 조회자료 (5).zip
+    extension: .zip
+    size_bytes: 4692
+    dataset_id: D0
+    encoding: xlsx / zip:╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+    is_zip: true
+    columns_first5:
+    - 법정동코드
+    - 법정동명
+    - 폐지구분
+    - 상위지역코드
+    - 서열
+    row_count_estimate: 5
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: ╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+      size: 5818
+      compressed_size: 4530
+  - path: C:\Users\kliou\Downloads\법정동코드 조회자료 (6).zip
+    name: 법정동코드 조회자료 (6).zip
+    extension: .zip
+    size_bytes: 4705
+    dataset_id: D0
+    encoding: xlsx / zip:╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+    is_zip: true
+    columns_first5:
+    - 법정동코드
+    - 법정동명
+    - 폐지구분
+    - 상위지역코드
+    - 서열
+    row_count_estimate: 5
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: ╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+      size: 5408
+      compressed_size: 4543
+  - path: C:\Users\kliou\Downloads\법정동코드 조회자료.zip
+    name: 법정동코드 조회자료.zip
+    extension: .zip
+    size_bytes: 6363
+    dataset_id: D0
+    encoding: xlsx / zip:╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+    is_zip: true
+    columns_first5:
+    - 법정동코드
+    - 법정동명
+    - 폐지구분
+    - 상위지역코드
+    - 서열
+    row_count_estimate: 5
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: ╣²┴ñ╡┐─┌╡σ ┴╢╚╕└┌╖ß.xlsx
+      size: 8048
+      compressed_size: 6201
+  D1:
+  - path: C:\Users\kliou\Downloads\소상공인시장진흥공단_상가(상권)정보_20260331 (1).zip
+    name: 소상공인시장진흥공단_상가(상권)정보_20260331 (1).zip
+    extension: .zip
+    size_bytes: 341021001
+    dataset_id: D1
+    encoding: utf-8-sig / zip:소상공인시장진흥공단_상가(상권)정보_광주_202603.csv
+    is_zip: true
+    columns_first5:
+    - 상가업소번호
+    - 상호명
+    - 지점명
+    - 상권업종대분류코드
+    - 상권업종대분류명
+    row_count_estimate: 75325
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: 소상공인시장진흥공단_상가(상권)정보_강원_202603.csv
+      size: 61321696
+      compressed_size: 13412324
+    - name: 소상공인시장진흥공단_상가(상권)정보_경기_202603.csv
+      size: 367852181
+      compressed_size: 89032914
+    - name: 소상공인시장진흥공단_상가(상권)정보_경남_202603.csv
+      size: 92474293
+      compressed_size: 21232845
+    - name: 소상공인시장진흥공단_상가(상권)정보_경북_202603.csv
+      size: 76309810
+      compressed_size: 17745354
+    - name: 소상공인시장진흥공단_상가(상권)정보_광주_202603.csv
+      size: 40031721
+      compressed_size: 8625645
+    - name: 소상공인시장진흥공단_상가(상권)정보_대구_202603.csv
+      size: 61825564
+      compressed_size: 13743303
+    - name: 소상공인시장진흥공단_상가(상권)정보_대전_202603.csv
+      size: 41866930
+      compressed_size: 8869933
+    - name: 소상공인시장진흥공단_상가(상권)정보_부산_202603.csv
+      size: 84329596
+      compressed_size: 18951971
+    - name: 소상공인시장진흥공단_상가(상권)정보_서울_202603.csv
+      size: 292646735
+      compressed_size: 69099066
+    - name: 소상공인시장진흥공단_상가(상권)정보_세종_202603.csv
+      size: 9651297
+      compressed_size: 1590890
+    - name: 소상공인시장진흥공단_상가(상권)정보_울산_202603.csv
+      size: 28285232
+      compressed_size: 5948542
+    - name: 소상공인시장진흥공단_상가(상권)정보_인천_202603.csv
+      size: 74007608
+      compressed_size: 16064182
+  - path: C:\Users\kliou\Downloads\소상공인시장진흥공단_상가(상권)정보_20260331.zip
+    name: 소상공인시장진흥공단_상가(상권)정보_20260331.zip
+    extension: .zip
+    size_bytes: 341021001
+    dataset_id: D1
+    encoding: utf-8-sig / zip:소상공인시장진흥공단_상가(상권)정보_광주_202603.csv
+    is_zip: true
+    columns_first5:
+    - 상가업소번호
+    - 상호명
+    - 지점명
+    - 상권업종대분류코드
+    - 상권업종대분류명
+    row_count_estimate: 75325
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: 소상공인시장진흥공단_상가(상권)정보_강원_202603.csv
+      size: 61321696
+      compressed_size: 13412324
+    - name: 소상공인시장진흥공단_상가(상권)정보_경기_202603.csv
+      size: 367852181
+      compressed_size: 89032914
+    - name: 소상공인시장진흥공단_상가(상권)정보_경남_202603.csv
+      size: 92474293
+      compressed_size: 21232845
+    - name: 소상공인시장진흥공단_상가(상권)정보_경북_202603.csv
+      size: 76309810
+      compressed_size: 17745354
+    - name: 소상공인시장진흥공단_상가(상권)정보_광주_202603.csv
+      size: 40031721
+      compressed_size: 8625645
+    - name: 소상공인시장진흥공단_상가(상권)정보_대구_202603.csv
+      size: 61825564
+      compressed_size: 13743303
+    - name: 소상공인시장진흥공단_상가(상권)정보_대전_202603.csv
+      size: 41866930
+      compressed_size: 8869933
+    - name: 소상공인시장진흥공단_상가(상권)정보_부산_202603.csv
+      size: 84329596
+      compressed_size: 18951971
+    - name: 소상공인시장진흥공단_상가(상권)정보_서울_202603.csv
+      size: 292646735
+      compressed_size: 69099066
+    - name: 소상공인시장진흥공단_상가(상권)정보_세종_202603.csv
+      size: 9651297
+      compressed_size: 1590890
+    - name: 소상공인시장진흥공단_상가(상권)정보_울산_202603.csv
+      size: 28285232
+      compressed_size: 5948542
+    - name: 소상공인시장진흥공단_상가(상권)정보_인천_202603.csv
+      size: 74007608
+      compressed_size: 16064182
+  D2:
+  - path: C:\Users\kliou\Downloads\소상공인시장진흥공단_상가(상권)정보 업종코드_20230228 (1).csv
+    name: 소상공인시장진흥공단_상가(상권)정보 업종코드_20230228 (1).csv
+    extension: .csv
+    size_bytes: 17747
+    dataset_id: D2
+    encoding: cp949
+    is_zip: false
+    columns_first5:
+    - 대분류코드
+    - 대분류명
+    - 중분류코드
+    - 중분류명
+    - 소분류코드
+    row_count_estimate: 247
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: ''
+    zip_entries: []
+  - path: C:\Users\kliou\Downloads\소상공인시장진흥공단_상가(상권)정보 업종코드_20230228.csv
+    name: 소상공인시장진흥공단_상가(상권)정보 업종코드_20230228.csv
+    extension: .csv
+    size_bytes: 17747
+    dataset_id: D2
+    encoding: cp949
+    is_zip: false
+    columns_first5:
+    - 대분류코드
+    - 대분류명
+    - 중분류코드
+    - 중분류명
+    - 소분류코드
+    row_count_estimate: 247
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: ''
+    zip_entries: []
+  D5:
+  - path: C:\Users\kliou\Downloads\AL_D150_29_20260210.zip
+    name: AL_D150_29_20260210.zip
+    extension: .zip
+    size_bytes: 69819097
+    dataset_id: D5
+    encoding: ''
+    is_zip: true
+    columns_first5: []
+    row_count_estimate: null
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: AL_D150_29_20260210.dbf
+      size: 240166973
+      compressed_size: 12232821
+    - name: AL_D150_29_20260210.shp
+      size: 95555064
+      compressed_size: 55174421
+    - name: AL_D150_29_20260210.shx
+      size: 3099020
+      compressed_size: 1475799
+    - name: AL_D150_29_20260210.prj
+      size: 553
+      compressed_size: 320
+    - name: AL_D150_29_20260210.fix
+      size: 4648393
+      compressed_size: 935024
+  - path: C:\Users\kliou\Downloads\AL_D151_29_20260210.zip
+    name: AL_D151_29_20260210.zip
+    extension: .zip
+    size_bytes: 3821168
+    dataset_id: D5
+    encoding: cp949 / zip:AL_D151_29_20260210.csv
+    is_zip: true
+    columns_first5:
+    - 고유번호
+    - 법정동코드
+    - 법정동명
+    - 특수지구분코드
+    - 특수지구분명
+    row_count_estimate: 385848
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: zip entries checked
+    zip_entries:
+    - name: AL_D151_29_20260210.csv
+      size: 42913696
+      compressed_size: 3821008
+  D6:
+  - path: C:\Users\kliou\Downloads\광주광역시_정류소_20241231.csv
+    name: 광주광역시_정류소_20241231.csv
+    extension: .csv
+    size_bytes: 194267
+    dataset_id: D6
+    encoding: cp949
+    is_zip: false
+    columns_first5:
+    - 연번
+    - 자치구
+    - ID
+    - 정류소명
+    - 주소
+    row_count_estimate: 2379
+    coord_column_candidates: []
+    address_column_candidates:
+    - 주소
+    date_column_candidates: []
+    usable: true
+    notes: ''
+    zip_entries: []
+  - path: C:\Users\kliou\Downloads\국토교통부_전국 버스정류장 위치정보_20251031.csv
+    name: 국토교통부_전국 버스정류장 위치정보_20251031.csv
+    extension: .csv
+    size_bytes: 20735435
+    dataset_id: D6
+    encoding: cp949
+    is_zip: false
+    columns_first5:
+    - 정류장번호
+    - 정류장명
+    - 위도
+    - 경도
+    - 정보수집일
+    row_count_estimate: 227065
+    coord_column_candidates:
+    - 위도
+    - 경도
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: ''
+    zip_entries: []
+  - path: C:\Users\kliou\Downloads\국토교통부_전국_버스정류장_위치정보_20251031.csv
+    name: 국토교통부_전국_버스정류장_위치정보_20251031.csv
+    extension: .csv
+    size_bytes: 20735435
+    dataset_id: D6
+    encoding: cp949
+    is_zip: false
+    columns_first5:
+    - 정류장번호
+    - 정류장명
+    - 위도
+    - 경도
+    - 정보수집일
+    row_count_estimate: 227065
+    coord_column_candidates:
+    - 위도
+    - 경도
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: ''
+    zip_entries: []
+  D7:
+  - path: C:\Users\kliou\Downloads\광주교통공사_문화노선도 현황_20221202.csv
+    name: 광주교통공사_문화노선도 현황_20221202.csv
+    extension: .csv
+    size_bytes: 3697
+    dataset_id: D7
+    encoding: utf-8-sig
+    is_zip: false
+    columns_first5:
+    - 역번호
+    - 역사명
+    - 노선번호
+    - 노선명
+    - 영문역사명
+    row_count_estimate: 20
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: ''
+    zip_entries: []
+  - path: C:\Users\kliou\Downloads\서울교통공사_1_8호선 역사 좌표(위경도) 정보_20250814.csv
+    name: 서울교통공사_1_8호선 역사 좌표(위경도) 정보_20250814.csv
+    extension: .csv
+    size_bytes: 16838
+    dataset_id: D7
+    encoding: cp949
+    is_zip: false
+    columns_first5:
+    - 연번
+    - 호선
+    - 고유역번호(외부역코드)
+    - 역명
+    - 위도
+    row_count_estimate: 276
+    coord_column_candidates:
+    - 위도
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: ''
+    zip_entries: []
+  PROMPT:
+  - path: C:\Users\kliou\Downloads\BizSpot_AI_Codex_Master_Prompt_v6.md
+    name: BizSpot_AI_Codex_Master_Prompt_v6.md
+    extension: .md
+    size_bytes: 56387
+    dataset_id: PROMPT
+    encoding: ''
+    is_zip: false
+    columns_first5: []
+    row_count_estimate: null
+    coord_column_candidates: []
+    address_column_candidates: []
+    date_column_candidates: []
+    usable: true
+    notes: ''
+    zip_entries: []
+scan_generated_at: '2026-05-14'

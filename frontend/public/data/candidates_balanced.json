@@ -1,0 +1,4567 @@
+[
+  {
+    "candidate_id": "GJ-29140-cafe-001",
+    "name": "서구 마륵동 카페 후보지",
+    "sigungu": "서구",
+    "dong": "마륵동",
+    "lat": 35.146803,
+    "lng": 126.84879,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 62.31,
+    "retention_proxy_score": 20.97,
+    "risk_level": "보통",
+    "demand_proxy_score": 63.76,
+    "competition_burden_score": 90.41,
+    "accessibility_score": 89.29,
+    "cost_burden_proxy": 417600.0,
+    "cost_inverted_score": 78.44,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 21.0,
+    "total_store_300m": 627.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-dessert_bakery-002",
+    "name": "북구 용봉동 디저트/베이커리 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.175097,
+    "lng": 126.912935,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 64.32,
+    "retention_proxy_score": 55.5,
+    "risk_level": "보통",
+    "demand_proxy_score": 74.29,
+    "competition_burden_score": 97.04,
+    "accessibility_score": 78.27,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 8.0,
+    "total_store_300m": 639.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-restaurant_general-003",
+    "name": "서구 마륵동 일반 음식점 후보지",
+    "sigungu": "서구",
+    "dong": "마륵동",
+    "lat": 35.146173,
+    "lng": 126.849175,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 62.57,
+    "retention_proxy_score": 32.58,
+    "risk_level": "보통",
+    "demand_proxy_score": 54.4,
+    "competition_burden_score": 69.9,
+    "accessibility_score": 92.93,
+    "cost_burden_proxy": 417600.0,
+    "cost_inverted_score": 78.44,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 58.0,
+    "total_store_300m": 525.0,
+    "positive_reasons": [
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-bunsik-004",
+    "name": "북구 용봉동 분식 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.175097,
+    "lng": 126.912935,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 68.33,
+    "retention_proxy_score": 65.45,
+    "risk_level": "보통",
+    "demand_proxy_score": 74.29,
+    "competition_burden_score": 94.28,
+    "accessibility_score": 78.27,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 16.0,
+    "total_store_300m": 639.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-chicken-005",
+    "name": "북구 용봉동 치킨 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.174646,
+    "lng": 126.912892,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 70.16,
+    "retention_proxy_score": 67.71,
+    "risk_level": "보통",
+    "demand_proxy_score": 73.69,
+    "competition_burden_score": 96.22,
+    "accessibility_score": 82.1,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 11.0,
+    "total_store_300m": 624.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-convenience_store-006",
+    "name": "동구 대인동 편의점 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.15515,
+    "lng": 126.91367,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 63.25,
+    "retention_proxy_score": 51.96,
+    "risk_level": "보통",
+    "demand_proxy_score": 71.52,
+    "competition_burden_score": 98.49,
+    "accessibility_score": 96.76,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 4.0,
+    "total_store_300m": 737.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-beauty_hair-007",
+    "name": "북구 북동 미용실 후보지",
+    "sigungu": "북구",
+    "dong": "북동",
+    "lat": 35.154734,
+    "lng": 126.910861,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 80.69,
+    "retention_proxy_score": 84.09,
+    "risk_level": "낮음",
+    "demand_proxy_score": 60.01,
+    "competition_burden_score": 90.52,
+    "accessibility_score": 93.87,
+    "cost_burden_proxy": 548500.0,
+    "cost_inverted_score": 68.88,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 24.0,
+    "total_store_300m": 644.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-laundry-008",
+    "name": "동구 대인동 세탁소 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.154105,
+    "lng": 126.91321,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 67.8,
+    "retention_proxy_score": 61.23,
+    "risk_level": "보통",
+    "demand_proxy_score": 73.5,
+    "competition_burden_score": 99.64,
+    "accessibility_score": 90.44,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 1.0,
+    "total_store_300m": 797.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-cafe-009",
+    "name": "북구 북동 카페 후보지",
+    "sigungu": "북구",
+    "dong": "북동",
+    "lat": 35.156348,
+    "lng": 126.911221,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 58.96,
+    "retention_proxy_score": 40.46,
+    "risk_level": "주의",
+    "demand_proxy_score": 56.0,
+    "competition_burden_score": 89.32,
+    "accessibility_score": 92.13,
+    "cost_burden_proxy": 548500.0,
+    "cost_inverted_score": 68.88,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 24.0,
+    "total_store_300m": 567.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-dessert_bakery-010",
+    "name": "서구 마륵동 디저트/베이커리 후보지",
+    "sigungu": "서구",
+    "dong": "마륵동",
+    "lat": 35.146173,
+    "lng": 126.849175,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 64.03,
+    "retention_proxy_score": 25.92,
+    "risk_level": "보통",
+    "demand_proxy_score": 54.4,
+    "competition_burden_score": 99.34,
+    "accessibility_score": 92.93,
+    "cost_burden_proxy": 417600.0,
+    "cost_inverted_score": 78.44,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 2.0,
+    "total_store_300m": 525.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-restaurant_general-011",
+    "name": "북구 북동 일반 음식점 후보지",
+    "sigungu": "북구",
+    "dong": "북동",
+    "lat": 35.15523,
+    "lng": 126.911387,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 61.58,
+    "retention_proxy_score": 52.3,
+    "risk_level": "보통",
+    "demand_proxy_score": 64.06,
+    "competition_burden_score": 56.82,
+    "accessibility_score": 90.45,
+    "cost_burden_proxy": 548500.0,
+    "cost_inverted_score": 68.88,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 103.0,
+    "total_store_300m": 677.0,
+    "positive_reasons": [
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "다만 동일 업종 밀집도가 높아 경쟁 부담도 함께 확인해야 합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-bunsik-012",
+    "name": "광산구 송정동 분식 후보지",
+    "sigungu": "광산구",
+    "dong": "송정동",
+    "lat": 35.139866,
+    "lng": 126.795649,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 66.95,
+    "retention_proxy_score": 49.52,
+    "risk_level": "보통",
+    "demand_proxy_score": 57.19,
+    "competition_burden_score": 96.25,
+    "accessibility_score": 93.79,
+    "cost_burden_proxy": 604500.0,
+    "cost_inverted_score": 64.8,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 10.0,
+    "total_store_300m": 488.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-chicken-013",
+    "name": "동구 대인동 치킨 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.155322,
+    "lng": 126.913758,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 67.65,
+    "retention_proxy_score": 53.93,
+    "risk_level": "보통",
+    "demand_proxy_score": 72.36,
+    "competition_burden_score": 96.97,
+    "accessibility_score": 95.54,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 8.0,
+    "total_store_300m": 747.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-convenience_store-014",
+    "name": "북구 중흥동 편의점 후보지",
+    "sigungu": "북구",
+    "dong": "중흥동",
+    "lat": 35.174882,
+    "lng": 126.914165,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 62.21,
+    "retention_proxy_score": 57.29,
+    "risk_level": "보통",
+    "demand_proxy_score": 80.74,
+    "competition_burden_score": 93.78,
+    "accessibility_score": 62.61,
+    "cost_burden_proxy": 743900.0,
+    "cost_inverted_score": 54.62,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 17.0,
+    "total_store_300m": 719.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-beauty_hair-015",
+    "name": "동구 대인동 미용실 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.154556,
+    "lng": 126.913857,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 80.17,
+    "retention_proxy_score": 89.15,
+    "risk_level": "낮음",
+    "demand_proxy_score": 76.34,
+    "competition_burden_score": 87.15,
+    "accessibility_score": 98.7,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 30.0,
+    "total_store_300m": 808.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-laundry-016",
+    "name": "동구 대인동 세탁소 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.155511,
+    "lng": 126.914054,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 67.07,
+    "retention_proxy_score": 63.77,
+    "risk_level": "보통",
+    "demand_proxy_score": 74.25,
+    "competition_burden_score": 98.91,
+    "accessibility_score": 86.19,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 3.0,
+    "total_store_300m": 771.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-cafe-017",
+    "name": "광산구 송정동 카페 후보지",
+    "sigungu": "광산구",
+    "dong": "송정동",
+    "lat": 35.140272,
+    "lng": 126.795692,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 58.87,
+    "retention_proxy_score": 33.99,
+    "risk_level": "주의",
+    "demand_proxy_score": 53.22,
+    "competition_burden_score": 90.78,
+    "accessibility_score": 97.81,
+    "cost_burden_proxy": 604500.0,
+    "cost_inverted_score": 64.8,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 22.0,
+    "total_store_300m": 436.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-dessert_bakery-018",
+    "name": "동구 대인동 디저트/베이커리 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.154925,
+    "lng": 126.914032,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 63.43,
+    "retention_proxy_score": 49.5,
+    "risk_level": "보통",
+    "demand_proxy_score": 75.71,
+    "competition_burden_score": 98.85,
+    "accessibility_score": 94.91,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 3.0,
+    "total_store_300m": 806.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-restaurant_general-019",
+    "name": "북구 북동 일반 음식점 후보지",
+    "sigungu": "북구",
+    "dong": "북동",
+    "lat": 35.154228,
+    "lng": 126.909841,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 60.51,
+    "retention_proxy_score": 42.07,
+    "risk_level": "보통",
+    "demand_proxy_score": 51.14,
+    "competition_burden_score": 71.15,
+    "accessibility_score": 93.74,
+    "cost_burden_proxy": 548500.0,
+    "cost_inverted_score": 68.88,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 61.0,
+    "total_store_300m": 535.0,
+    "positive_reasons": [
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-bunsik-020",
+    "name": "동구 대인동 분식 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.155033,
+    "lng": 126.913879,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 66.91,
+    "retention_proxy_score": 59.93,
+    "risk_level": "보통",
+    "demand_proxy_score": 73.86,
+    "competition_burden_score": 97.56,
+    "accessibility_score": 93.91,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 6.0,
+    "total_store_300m": 776.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-chicken-021",
+    "name": "광산구 송정동 치킨 후보지",
+    "sigungu": "광산구",
+    "dong": "송정동",
+    "lat": 35.139884,
+    "lng": 126.795364,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 67.43,
+    "retention_proxy_score": 51.68,
+    "risk_level": "보통",
+    "demand_proxy_score": 56.37,
+    "competition_burden_score": 97.99,
+    "accessibility_score": 91.31,
+    "cost_burden_proxy": 604500.0,
+    "cost_inverted_score": 64.8,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 5.0,
+    "total_store_300m": 477.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-convenience_store-022",
+    "name": "광산구 송정동 편의점 후보지",
+    "sigungu": "광산구",
+    "dong": "송정동",
+    "lat": 35.13863,
+    "lng": 126.795038,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 61.72,
+    "retention_proxy_score": 42.65,
+    "risk_level": "보통",
+    "demand_proxy_score": 68.29,
+    "competition_burden_score": 97.63,
+    "accessibility_score": 68.29,
+    "cost_burden_proxy": 604500.0,
+    "cost_inverted_score": 64.8,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 6.0,
+    "total_store_300m": 614.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-beauty_hair-023",
+    "name": "북구 용봉동 미용실 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.174818,
+    "lng": 126.91287,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 79.79,
+    "retention_proxy_score": 95.19,
+    "risk_level": "낮음",
+    "demand_proxy_score": 74.07,
+    "competition_burden_score": 78.74,
+    "accessibility_score": 81.95,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 54.0,
+    "total_store_300m": 629.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-laundry-024",
+    "name": "동구 금동 세탁소 후보지",
+    "sigungu": "동구",
+    "dong": "금동",
+    "lat": 35.144833,
+    "lng": 126.917653,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 66.1,
+    "retention_proxy_score": 48.15,
+    "risk_level": "보통",
+    "demand_proxy_score": 82.61,
+    "competition_burden_score": 99.61,
+    "accessibility_score": 54.24,
+    "cost_burden_proxy": 828300.0,
+    "cost_inverted_score": 48.46,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 2.0,
+    "total_store_300m": 858.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-cafe-025",
+    "name": "북구 용봉동 카페 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.174646,
+    "lng": 126.912892,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 58.43,
+    "retention_proxy_score": 50.08,
+    "risk_level": "주의",
+    "demand_proxy_score": 73.69,
+    "competition_burden_score": 70.22,
+    "accessibility_score": 82.1,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 79.0,
+    "total_store_300m": 624.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "다만 동일 업종 밀집도가 높아 경쟁 부담도 함께 확인해야 합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-dessert_bakery-026",
+    "name": "북구 중흥동 디저트/베이커리 후보지",
+    "sigungu": "북구",
+    "dong": "중흥동",
+    "lat": 35.174476,
+    "lng": 126.913748,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 62.31,
+    "retention_proxy_score": 55.52,
+    "risk_level": "보통",
+    "demand_proxy_score": 78.48,
+    "competition_burden_score": 96.38,
+    "accessibility_score": 68.33,
+    "cost_burden_proxy": 743900.0,
+    "cost_inverted_score": 54.62,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 10.0,
+    "total_store_300m": 692.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-restaurant_general-027",
+    "name": "서구 마륵동 일반 음식점 후보지",
+    "sigungu": "서구",
+    "dong": "마륵동",
+    "lat": 35.144483,
+    "lng": 126.845579,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 60.27,
+    "retention_proxy_score": 34.74,
+    "risk_level": "보통",
+    "demand_proxy_score": 53.0,
+    "competition_burden_score": 75.83,
+    "accessibility_score": 79.09,
+    "cost_burden_proxy": 417600.0,
+    "cost_inverted_score": 78.44,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 58.0,
+    "total_store_300m": 487.0,
+    "positive_reasons": [
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-bunsik-028",
+    "name": "북구 중흥동 분식 후보지",
+    "sigungu": "북구",
+    "dong": "중흥동",
+    "lat": 35.173764,
+    "lng": 126.914276,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 66.51,
+    "retention_proxy_score": 64.48,
+    "risk_level": "보통",
+    "demand_proxy_score": 74.54,
+    "competition_burden_score": 95.0,
+    "accessibility_score": 74.12,
+    "cost_burden_proxy": 743900.0,
+    "cost_inverted_score": 54.62,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 14.0,
+    "total_store_300m": 651.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-chicken-029",
+    "name": "동구 금남로5가 치킨 후보지",
+    "sigungu": "동구",
+    "dong": "금남로5가",
+    "lat": 35.151338,
+    "lng": 126.91408,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 66.4,
+    "retention_proxy_score": 61.77,
+    "risk_level": "보통",
+    "demand_proxy_score": 79.39,
+    "competition_burden_score": 99.5,
+    "accessibility_score": 87.38,
+    "cost_burden_proxy": 1278000.0,
+    "cost_inverted_score": 15.62,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 1.0,
+    "total_store_300m": 816.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-convenience_store-030",
+    "name": "북구 용봉동 편의점 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.176512,
+    "lng": 126.912923,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 61.67,
+    "retention_proxy_score": 43.73,
+    "risk_level": "보통",
+    "demand_proxy_score": 66.68,
+    "competition_burden_score": 96.15,
+    "accessibility_score": 73.38,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 9.0,
+    "total_store_300m": 535.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-beauty_hair-031",
+    "name": "서구 마륵동 미용실 후보지",
+    "sigungu": "서구",
+    "dong": "마륵동",
+    "lat": 35.146173,
+    "lng": 126.849175,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 79.57,
+    "retention_proxy_score": 65.4,
+    "risk_level": "낮음",
+    "demand_proxy_score": 54.4,
+    "competition_burden_score": 85.95,
+    "accessibility_score": 92.93,
+    "cost_burden_proxy": 417600.0,
+    "cost_inverted_score": 78.44,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 30.0,
+    "total_store_300m": 525.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-laundry-032",
+    "name": "동구 수기동 세탁소 후보지",
+    "sigungu": "동구",
+    "dong": "수기동",
+    "lat": 35.149444,
+    "lng": 126.911975,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 65.73,
+    "retention_proxy_score": 60.59,
+    "risk_level": "보통",
+    "demand_proxy_score": 75.07,
+    "competition_burden_score": 98.82,
+    "accessibility_score": 71.43,
+    "cost_burden_proxy": 958600.0,
+    "cost_inverted_score": 38.94,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 4.0,
+    "total_store_300m": 823.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-cafe-033",
+    "name": "동구 대인동 카페 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.154709,
+    "lng": 126.91366,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 58.42,
+    "retention_proxy_score": 42.1,
+    "risk_level": "주의",
+    "demand_proxy_score": 74.36,
+    "competition_burden_score": 83.69,
+    "accessibility_score": 95.53,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 37.0,
+    "total_store_300m": 779.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-dessert_bakery-034",
+    "name": "광산구 송정동 디저트/베이커리 후보지",
+    "sigungu": "광산구",
+    "dong": "송정동",
+    "lat": 35.138368,
+    "lng": 126.794677,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 61.35,
+    "retention_proxy_score": 41.11,
+    "risk_level": "보통",
+    "demand_proxy_score": 70.64,
+    "competition_burden_score": 96.74,
+    "accessibility_score": 67.37,
+    "cost_burden_proxy": 604500.0,
+    "cost_inverted_score": 64.8,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 9.0,
+    "total_store_300m": 649.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-restaurant_general-035",
+    "name": "광산구 송정동 일반 음식점 후보지",
+    "sigungu": "광산구",
+    "dong": "송정동",
+    "lat": 35.139947,
+    "lng": 126.795529,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 59.69,
+    "retention_proxy_score": 46.19,
+    "risk_level": "주의",
+    "demand_proxy_score": 55.67,
+    "competition_burden_score": 61.14,
+    "accessibility_score": 93.43,
+    "cost_burden_proxy": 604500.0,
+    "cost_inverted_score": 64.8,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 85.0,
+    "total_store_300m": 467.0,
+    "positive_reasons": [
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "다만 동일 업종 밀집도가 높아 경쟁 부담도 함께 확인해야 합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-bunsik-036",
+    "name": "북구 북동 분식 후보지",
+    "sigungu": "북구",
+    "dong": "북동",
+    "lat": 35.15394,
+    "lng": 126.91005,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 65.95,
+    "retention_proxy_score": 54.16,
+    "risk_level": "보통",
+    "demand_proxy_score": 53.68,
+    "competition_burden_score": 98.55,
+    "accessibility_score": 89.26,
+    "cost_burden_proxy": 548500.0,
+    "cost_inverted_score": 68.88,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 4.0,
+    "total_store_300m": 562.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-chicken-037",
+    "name": "서구 치평동 치킨 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.148713,
+    "lng": 126.847722,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 65.8,
+    "retention_proxy_score": 34.83,
+    "risk_level": "보통",
+    "demand_proxy_score": 71.73,
+    "competition_burden_score": 97.53,
+    "accessibility_score": 87.36,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 7.0,
+    "total_store_300m": 766.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-convenience_store-038",
+    "name": "광산구 수완동 편의점 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.190398,
+    "lng": 126.825882,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 61.66,
+    "retention_proxy_score": 42.51,
+    "risk_level": "보통",
+    "demand_proxy_score": 77.99,
+    "competition_burden_score": 96.18,
+    "accessibility_score": 48.97,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 10.0,
+    "total_store_300m": 738.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-beauty_hair-039",
+    "name": "동구 대인동 미용실 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.155313,
+    "lng": 126.913395,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 78.77,
+    "retention_proxy_score": 89.85,
+    "risk_level": "낮음",
+    "demand_proxy_score": 71.0,
+    "competition_burden_score": 87.35,
+    "accessibility_score": 99.55,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 30.0,
+    "total_store_300m": 728.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-laundry-040",
+    "name": "북구 오룡동 세탁소 후보지",
+    "sigungu": "북구",
+    "dong": "오룡동",
+    "lat": 35.222689,
+    "lng": 126.849209,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 65.52,
+    "retention_proxy_score": 64.46,
+    "risk_level": "보통",
+    "demand_proxy_score": 64.34,
+    "competition_burden_score": 99.11,
+    "accessibility_score": 40.48,
+    "cost_burden_proxy": 116300.0,
+    "cost_inverted_score": 100.0,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 3.0,
+    "total_store_300m": 595.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "대중교통 접근성 proxy가 낮아 접근성 검토가 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-cafe-041",
+    "name": "서구 마륵동 카페 후보지",
+    "sigungu": "서구",
+    "dong": "마륵동",
+    "lat": 35.145495,
+    "lng": 126.847761,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 57.89,
+    "retention_proxy_score": 22.64,
+    "risk_level": "주의",
+    "demand_proxy_score": 58.62,
+    "competition_burden_score": 91.63,
+    "accessibility_score": 73.96,
+    "cost_burden_proxy": 417600.0,
+    "cost_inverted_score": 78.44,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 20.0,
+    "total_store_300m": 544.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-dessert_bakery-042",
+    "name": "동구 금남로5가 디저트/베이커리 후보지",
+    "sigungu": "동구",
+    "dong": "금남로5가",
+    "lat": 35.15267,
+    "lng": 126.911203,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 60.41,
+    "retention_proxy_score": 48.3,
+    "risk_level": "보통",
+    "demand_proxy_score": 71.48,
+    "competition_burden_score": 98.32,
+    "accessibility_score": 97.13,
+    "cost_burden_proxy": 1278000.0,
+    "cost_inverted_score": 15.62,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 5.0,
+    "total_store_300m": 759.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-restaurant_general-043",
+    "name": "서구 양동 일반 음식점 후보지",
+    "sigungu": "서구",
+    "dong": "양동",
+    "lat": 35.153536,
+    "lng": 126.900645,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 59.49,
+    "retention_proxy_score": 18.76,
+    "risk_level": "주의",
+    "demand_proxy_score": 38.7,
+    "competition_burden_score": 83.28,
+    "accessibility_score": 97.33,
+    "cost_burden_proxy": 532700.0,
+    "cost_inverted_score": 70.04,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 42.0,
+    "total_store_300m": 436.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "상권 규모 proxy가 낮아 실제 수요 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-bunsik-044",
+    "name": "서구 치평동 분식 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.148237,
+    "lng": 126.848875,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 65.6,
+    "retention_proxy_score": 23.97,
+    "risk_level": "보통",
+    "demand_proxy_score": 69.94,
+    "competition_burden_score": 97.2,
+    "accessibility_score": 94.08,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 7.0,
+    "total_store_300m": 743.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-chicken-045",
+    "name": "북구 중흥동 치킨 후보지",
+    "sigungu": "북구",
+    "dong": "중흥동",
+    "lat": 35.174918,
+    "lng": 126.914966,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 65.28,
+    "retention_proxy_score": 67.53,
+    "risk_level": "보통",
+    "demand_proxy_score": 80.36,
+    "competition_burden_score": 96.02,
+    "accessibility_score": 53.7,
+    "cost_burden_proxy": 743900.0,
+    "cost_inverted_score": 54.62,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 11.0,
+    "total_store_300m": 708.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-convenience_store-046",
+    "name": "광산구 수완동 편의점 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.191011,
+    "lng": 126.825881,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 60.67,
+    "retention_proxy_score": 41.91,
+    "risk_level": "보통",
+    "demand_proxy_score": 74.85,
+    "competition_burden_score": 96.32,
+    "accessibility_score": 48.63,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 10.0,
+    "total_store_300m": 712.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-beauty_hair-047",
+    "name": "동구 대인동 미용실 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.155169,
+    "lng": 126.91401,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 78.39,
+    "retention_proxy_score": 89.75,
+    "risk_level": "낮음",
+    "demand_proxy_score": 74.89,
+    "competition_burden_score": 86.17,
+    "accessibility_score": 92.71,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 34.0,
+    "total_store_300m": 784.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-laundry-048",
+    "name": "동구 대인동 세탁소 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.152241,
+    "lng": 126.915802,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 65.28,
+    "retention_proxy_score": 64.31,
+    "risk_level": "보통",
+    "demand_proxy_score": 72.36,
+    "competition_burden_score": 99.8,
+    "accessibility_score": 79.44,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 0.0,
+    "total_store_300m": 669.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-cafe-049",
+    "name": "북구 문흥동 카페 후보지",
+    "sigungu": "북구",
+    "dong": "문흥동",
+    "lat": 35.18563,
+    "lng": 126.920928,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 57.01,
+    "retention_proxy_score": 49.43,
+    "risk_level": "주의",
+    "demand_proxy_score": 58.54,
+    "competition_burden_score": 90.59,
+    "accessibility_score": 80.73,
+    "cost_burden_proxy": 605300.0,
+    "cost_inverted_score": 64.74,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 26.0,
+    "total_store_300m": 462.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-dessert_bakery-050",
+    "name": "동구 금남로4가 디저트/베이커리 후보지",
+    "sigungu": "동구",
+    "dong": "금남로4가",
+    "lat": 35.150833,
+    "lng": 126.914037,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 60.26,
+    "retention_proxy_score": 43.43,
+    "risk_level": "보통",
+    "demand_proxy_score": 82.24,
+    "competition_burden_score": 99.24,
+    "accessibility_score": 82.56,
+    "cost_burden_proxy": 1333500.0,
+    "cost_inverted_score": 11.57,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 1.0,
+    "total_store_300m": 884.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-restaurant_general-051",
+    "name": "북구 용봉동 일반 음식점 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.174646,
+    "lng": 126.912892,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 59.3,
+    "retention_proxy_score": 62.26,
+    "risk_level": "주의",
+    "demand_proxy_score": 73.69,
+    "competition_burden_score": 39.93,
+    "accessibility_score": 82.1,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 153.0,
+    "total_store_300m": 624.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "다만 동일 업종 밀집도가 높아 경쟁 부담도 함께 확인해야 합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-bunsik-052",
+    "name": "북구 용봉동 분식 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.179085,
+    "lng": 126.895596,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 65.14,
+    "retention_proxy_score": 61.51,
+    "risk_level": "보통",
+    "demand_proxy_score": 67.61,
+    "competition_burden_score": 99.57,
+    "accessibility_score": 68.39,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 1.0,
+    "total_store_300m": 622.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-chicken-053",
+    "name": "북구 북동 치킨 후보지",
+    "sigungu": "북구",
+    "dong": "북동",
+    "lat": 35.155319,
+    "lng": 126.910037,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 64.98,
+    "retention_proxy_score": 46.94,
+    "risk_level": "보통",
+    "demand_proxy_score": 51.48,
+    "competition_burden_score": 99.53,
+    "accessibility_score": 82.21,
+    "cost_burden_proxy": 548500.0,
+    "cost_inverted_score": 68.88,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 0.0,
+    "total_store_300m": 514.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-convenience_store-054",
+    "name": "동구 금동 편의점 후보지",
+    "sigungu": "동구",
+    "dong": "금동",
+    "lat": 35.144733,
+    "lng": 126.916567,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 60.36,
+    "retention_proxy_score": 46.66,
+    "risk_level": "보통",
+    "demand_proxy_score": 84.79,
+    "competition_burden_score": 95.62,
+    "accessibility_score": 50.55,
+    "cost_burden_proxy": 828300.0,
+    "cost_inverted_score": 48.46,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 11.0,
+    "total_store_300m": 916.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-beauty_hair-055",
+    "name": "광산구 송정동 미용실 후보지",
+    "sigungu": "광산구",
+    "dong": "송정동",
+    "lat": 35.139803,
+    "lng": 126.795704,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 78.3,
+    "retention_proxy_score": 79.14,
+    "risk_level": "낮음",
+    "demand_proxy_score": 57.54,
+    "competition_burden_score": 87.36,
+    "accessibility_score": 91.05,
+    "cost_burden_proxy": 604500.0,
+    "cost_inverted_score": 64.8,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 32.0,
+    "total_store_300m": 490.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-laundry-056",
+    "name": "북구 용봉동 세탁소 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.177324,
+    "lng": 126.913756,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 65.28,
+    "retention_proxy_score": 68.62,
+    "risk_level": "보통",
+    "demand_proxy_score": 66.7,
+    "competition_burden_score": 99.41,
+    "accessibility_score": 63.66,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 2.0,
+    "total_store_300m": 521.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-cafe-057",
+    "name": "동구 대인동 카페 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.153412,
+    "lng": 126.914769,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 56.94,
+    "retention_proxy_score": 42.75,
+    "risk_level": "주의",
+    "demand_proxy_score": 79.44,
+    "competition_burden_score": 80.17,
+    "accessibility_score": 83.15,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 46.0,
+    "total_store_300m": 882.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-dessert_bakery-058",
+    "name": "서구 치평동 디저트/베이커리 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.152662,
+    "lng": 126.8489,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 60.24,
+    "retention_proxy_score": 28.91,
+    "risk_level": "보통",
+    "demand_proxy_score": 86.4,
+    "competition_burden_score": 96.38,
+    "accessibility_score": 65.33,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 10.0,
+    "total_store_300m": 877.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-restaurant_general-059",
+    "name": "북구 오룡동 일반 음식점 후보지",
+    "sigungu": "북구",
+    "dong": "오룡동",
+    "lat": 35.222689,
+    "lng": 126.849209,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 59.1,
+    "retention_proxy_score": 58.06,
+    "risk_level": "주의",
+    "demand_proxy_score": 64.34,
+    "competition_burden_score": 75.26,
+    "accessibility_score": 40.48,
+    "cost_burden_proxy": 116300.0,
+    "cost_inverted_score": 100.0,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 50.0,
+    "total_store_300m": 595.0,
+    "positive_reasons": [
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "대중교통 접근성 proxy가 낮아 접근성 검토가 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-bunsik-060",
+    "name": "광산구 수완동 분식 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.190425,
+    "lng": 126.825608,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 65.13,
+    "retention_proxy_score": 50.74,
+    "risk_level": "보통",
+    "demand_proxy_score": 76.05,
+    "competition_burden_score": 94.71,
+    "accessibility_score": 51.99,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 15.0,
+    "total_store_300m": 716.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-chicken-061",
+    "name": "광산구 수완동 치킨 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.189759,
+    "lng": 126.826454,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 64.94,
+    "retention_proxy_score": 53.39,
+    "risk_level": "보통",
+    "demand_proxy_score": 79.98,
+    "competition_burden_score": 97.36,
+    "accessibility_score": 38.33,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 6.0,
+    "total_store_300m": 744.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "대중교통 접근성 proxy가 낮아 접근성 검토가 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-convenience_store-062",
+    "name": "서구 치평동 편의점 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.152662,
+    "lng": 126.8489,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 60.36,
+    "retention_proxy_score": 30.6,
+    "risk_level": "보통",
+    "demand_proxy_score": 86.4,
+    "competition_burden_score": 92.13,
+    "accessibility_score": 65.33,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 19.0,
+    "total_store_300m": 877.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-beauty_hair-063",
+    "name": "동구 남동 미용실 후보지",
+    "sigungu": "동구",
+    "dong": "남동",
+    "lat": 35.145501,
+    "lng": 126.918904,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 78.02,
+    "retention_proxy_score": 88.87,
+    "risk_level": "낮음",
+    "demand_proxy_score": 81.44,
+    "competition_burden_score": 80.42,
+    "accessibility_score": 77.83,
+    "cost_burden_proxy": 947700.0,
+    "cost_inverted_score": 39.74,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 44.0,
+    "total_store_300m": 939.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-laundry-064",
+    "name": "북구 북동 세탁소 후보지",
+    "sigungu": "북구",
+    "dong": "북동",
+    "lat": 35.155625,
+    "lng": 126.909938,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 65.13,
+    "retention_proxy_score": 59.46,
+    "risk_level": "보통",
+    "demand_proxy_score": 50.63,
+    "competition_burden_score": 99.7,
+    "accessibility_score": 81.96,
+    "cost_burden_proxy": 548500.0,
+    "cost_inverted_score": 68.88,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 1.0,
+    "total_store_300m": 487.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-cafe-065",
+    "name": "서구 금호동 카페 후보지",
+    "sigungu": "서구",
+    "dong": "금호동",
+    "lat": 35.132664,
+    "lng": 126.858669,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 56.6,
+    "retention_proxy_score": 15.39,
+    "risk_level": "주의",
+    "demand_proxy_score": 63.71,
+    "competition_burden_score": 89.9,
+    "accessibility_score": 76.02,
+    "cost_burden_proxy": 688300.0,
+    "cost_inverted_score": 58.68,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 27.0,
+    "total_store_300m": 577.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-dessert_bakery-066",
+    "name": "광산구 수완동 디저트/베이커리 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.191002,
+    "lng": 126.825628,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 59.83,
+    "retention_proxy_score": 37.73,
+    "risk_level": "주의",
+    "demand_proxy_score": 73.71,
+    "competition_burden_score": 94.24,
+    "accessibility_score": 51.46,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 15.0,
+    "total_store_300m": 708.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-restaurant_general-067",
+    "name": "동구 지산동 일반 음식점 후보지",
+    "sigungu": "동구",
+    "dong": "지산동",
+    "lat": 35.14851,
+    "lng": 126.931488,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 58.89,
+    "retention_proxy_score": 66.64,
+    "risk_level": "주의",
+    "demand_proxy_score": 65.65,
+    "competition_burden_score": 76.82,
+    "accessibility_score": 63.65,
+    "cost_burden_proxy": 621900.0,
+    "cost_inverted_score": 63.52,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 33.0,
+    "total_store_300m": 476.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-bunsik-068",
+    "name": "동구 금남로5가 분식 후보지",
+    "sigungu": "동구",
+    "dong": "금남로5가",
+    "lat": 35.151338,
+    "lng": 126.91408,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 65.02,
+    "retention_proxy_score": 59.61,
+    "risk_level": "보통",
+    "demand_proxy_score": 79.39,
+    "competition_burden_score": 96.74,
+    "accessibility_score": 87.38,
+    "cost_burden_proxy": 1278000.0,
+    "cost_inverted_score": 15.62,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 7.0,
+    "total_store_300m": 816.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-chicken-069",
+    "name": "서구 치평동 치킨 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.152718,
+    "lng": 126.849931,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 64.85,
+    "retention_proxy_score": 30.79,
+    "risk_level": "보통",
+    "demand_proxy_score": 89.1,
+    "competition_burden_score": 98.69,
+    "accessibility_score": 55.68,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 4.0,
+    "total_store_300m": 905.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-convenience_store-070",
+    "name": "북구 오룡동 편의점 후보지",
+    "sigungu": "북구",
+    "dong": "오룡동",
+    "lat": 35.222689,
+    "lng": 126.849209,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 60.14,
+    "retention_proxy_score": 53.09,
+    "risk_level": "보통",
+    "demand_proxy_score": 64.34,
+    "competition_burden_score": 96.91,
+    "accessibility_score": 40.48,
+    "cost_burden_proxy": 116300.0,
+    "cost_inverted_score": 100.0,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 8.0,
+    "total_store_300m": 595.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "대중교통 접근성 proxy가 낮아 접근성 검토가 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-beauty_hair-071",
+    "name": "북구 중흥동 미용실 후보지",
+    "sigungu": "북구",
+    "dong": "중흥동",
+    "lat": 35.173881,
+    "lng": 126.914298,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 77.1,
+    "retention_proxy_score": 94.08,
+    "risk_level": "낮음",
+    "demand_proxy_score": 75.73,
+    "competition_burden_score": 77.97,
+    "accessibility_score": 72.45,
+    "cost_burden_proxy": 743900.0,
+    "cost_inverted_score": 54.62,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 55.0,
+    "total_store_300m": 668.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-laundry-072",
+    "name": "서구 쌍촌동 세탁소 후보지",
+    "sigungu": "서구",
+    "dong": "쌍촌동",
+    "lat": 35.158545,
+    "lng": 126.861599,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 64.9,
+    "retention_proxy_score": 35.51,
+    "risk_level": "보통",
+    "demand_proxy_score": 61.73,
+    "competition_burden_score": 96.32,
+    "accessibility_score": 75.12,
+    "cost_burden_proxy": 702000.0,
+    "cost_inverted_score": 57.68,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 10.0,
+    "total_store_300m": 500.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-cafe-073",
+    "name": "서구 치평동 카페 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.148316,
+    "lng": 126.847799,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 56.41,
+    "retention_proxy_score": 8.74,
+    "risk_level": "주의",
+    "demand_proxy_score": 68.93,
+    "competition_burden_score": 89.46,
+    "accessibility_score": 89.82,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 24.0,
+    "total_store_300m": 733.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-dessert_bakery-074",
+    "name": "북구 오룡동 디저트/베이커리 후보지",
+    "sigungu": "북구",
+    "dong": "오룡동",
+    "lat": 35.222689,
+    "lng": 126.849209,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 59.75,
+    "retention_proxy_score": 51.4,
+    "risk_level": "주의",
+    "demand_proxy_score": 64.34,
+    "competition_burden_score": 99.31,
+    "accessibility_score": 40.48,
+    "cost_burden_proxy": 116300.0,
+    "cost_inverted_score": 100.0,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 3.0,
+    "total_store_300m": 595.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "대중교통 접근성 proxy가 낮아 접근성 검토가 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-restaurant_general-075",
+    "name": "동구 용산동 일반 음식점 후보지",
+    "sigungu": "동구",
+    "dong": "용산동",
+    "lat": 35.120785,
+    "lng": 126.932992,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 58.53,
+    "retention_proxy_score": 62.21,
+    "risk_level": "주의",
+    "demand_proxy_score": 23.17,
+    "competition_burden_score": 93.35,
+    "accessibility_score": 85.84,
+    "cost_burden_proxy": 122300.0,
+    "cost_inverted_score": 100.0,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 16.0,
+    "total_store_300m": 93.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "상권 규모 proxy가 낮아 실제 수요 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-bunsik-076",
+    "name": "서구 치평동 분식 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.148713,
+    "lng": 126.847722,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 64.83,
+    "retention_proxy_score": 34.81,
+    "risk_level": "보통",
+    "demand_proxy_score": 71.73,
+    "competition_burden_score": 97.43,
+    "accessibility_score": 87.36,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 6.0,
+    "total_store_300m": 766.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-chicken-077",
+    "name": "북구 용봉동 치킨 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.177251,
+    "lng": 126.912834,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 64.76,
+    "retention_proxy_score": 65.3,
+    "risk_level": "보통",
+    "demand_proxy_score": 62.19,
+    "competition_burden_score": 97.33,
+    "accessibility_score": 71.49,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 7.0,
+    "total_store_300m": 463.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-convenience_store-078",
+    "name": "동구 대인동 편의점 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.152241,
+    "lng": 126.915802,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 59.99,
+    "retention_proxy_score": 48.66,
+    "risk_level": "주의",
+    "demand_proxy_score": 72.36,
+    "competition_burden_score": 98.18,
+    "accessibility_score": 79.44,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 3.0,
+    "total_store_300m": 669.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-beauty_hair-079",
+    "name": "북구 용봉동 미용실 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.179419,
+    "lng": 126.895827,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 76.54,
+    "retention_proxy_score": 80.6,
+    "risk_level": "낮음",
+    "demand_proxy_score": 65.07,
+    "competition_burden_score": 93.17,
+    "accessibility_score": 68.38,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 13.0,
+    "total_store_300m": 575.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-laundry-080",
+    "name": "광산구 산월동 세탁소 후보지",
+    "sigungu": "광산구",
+    "dong": "산월동",
+    "lat": 35.213004,
+    "lng": 126.84557,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 64.84,
+    "retention_proxy_score": 39.81,
+    "risk_level": "보통",
+    "demand_proxy_score": 70.69,
+    "competition_burden_score": 98.98,
+    "accessibility_score": 29.23,
+    "cost_burden_proxy": 151300.0,
+    "cost_inverted_score": 97.88,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 3.0,
+    "total_store_300m": 579.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "대중교통 접근성 proxy가 낮아 접근성 검토가 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-cafe-081",
+    "name": "북구 오룡동 카페 후보지",
+    "sigungu": "북구",
+    "dong": "오룡동",
+    "lat": 35.222689,
+    "lng": 126.849209,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 56.38,
+    "retention_proxy_score": 45.88,
+    "risk_level": "주의",
+    "demand_proxy_score": 64.34,
+    "competition_burden_score": 93.18,
+    "accessibility_score": 40.48,
+    "cost_burden_proxy": 116300.0,
+    "cost_inverted_score": 100.0,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 17.0,
+    "total_store_300m": 595.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "대중교통 접근성 proxy가 낮아 접근성 검토가 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-dessert_bakery-082",
+    "name": "광산구 수완동 디저트/베이커리 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.190016,
+    "lng": 126.823204,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 59.6,
+    "retention_proxy_score": 35.24,
+    "risk_level": "주의",
+    "demand_proxy_score": 70.81,
+    "competition_burden_score": 93.13,
+    "accessibility_score": 55.5,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 19.0,
+    "total_store_300m": 774.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-restaurant_general-083",
+    "name": "광산구 운남동 일반 음식점 후보지",
+    "sigungu": "광산구",
+    "dong": "운남동",
+    "lat": 35.176272,
+    "lng": 126.818052,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 58.48,
+    "retention_proxy_score": 38.48,
+    "risk_level": "주의",
+    "demand_proxy_score": 41.41,
+    "competition_burden_score": 84.41,
+    "accessibility_score": 70.26,
+    "cost_burden_proxy": 220400.0,
+    "cost_inverted_score": 92.84,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 26.0,
+    "total_store_300m": 225.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "상권 규모 proxy가 낮아 실제 수요 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-bunsik-084",
+    "name": "북구 문흥동 분식 후보지",
+    "sigungu": "북구",
+    "dong": "문흥동",
+    "lat": 35.18563,
+    "lng": 126.920928,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 64.63,
+    "retention_proxy_score": 64.91,
+    "risk_level": "보통",
+    "demand_proxy_score": 58.54,
+    "competition_burden_score": 95.56,
+    "accessibility_score": 80.73,
+    "cost_burden_proxy": 605300.0,
+    "cost_inverted_score": 64.74,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 13.0,
+    "total_store_300m": 462.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-chicken-085",
+    "name": "서구 금호동 치킨 후보지",
+    "sigungu": "서구",
+    "dong": "금호동",
+    "lat": 35.133421,
+    "lng": 126.858876,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 64.72,
+    "retention_proxy_score": 32.61,
+    "risk_level": "보통",
+    "demand_proxy_score": 61.9,
+    "competition_burden_score": 97.01,
+    "accessibility_score": 74.79,
+    "cost_burden_proxy": 688300.0,
+    "cost_inverted_score": 58.68,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 9.0,
+    "total_store_300m": 563.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-convenience_store-086",
+    "name": "서구 치평동 편의점 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.147767,
+    "lng": 126.847921,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 59.85,
+    "retention_proxy_score": 26.87,
+    "risk_level": "주의",
+    "demand_proxy_score": 68.98,
+    "competition_burden_score": 96.94,
+    "accessibility_score": 85.33,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 7.0,
+    "total_store_300m": 739.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-beauty_hair-087",
+    "name": "북구 용봉동 미용실 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.179448,
+    "lng": 126.89755,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 76.35,
+    "retention_proxy_score": 92.08,
+    "risk_level": "낮음",
+    "demand_proxy_score": 60.81,
+    "competition_burden_score": 92.14,
+    "accessibility_score": 74.58,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 14.0,
+    "total_store_300m": 476.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-laundry-088",
+    "name": "광산구 월계동 세탁소 후보지",
+    "sigungu": "광산구",
+    "dong": "월계동",
+    "lat": 35.21607,
+    "lng": 126.84708,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 64.63,
+    "retention_proxy_score": 52.7,
+    "risk_level": "보통",
+    "demand_proxy_score": 86.64,
+    "competition_burden_score": 99.28,
+    "accessibility_score": 30.7,
+    "cost_burden_proxy": 638700.0,
+    "cost_inverted_score": 62.3,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 2.0,
+    "total_store_300m": 806.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "대중교통 접근성 proxy가 낮아 접근성 검토가 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-cafe-089",
+    "name": "서구 마륵동 카페 후보지",
+    "sigungu": "서구",
+    "dong": "마륵동",
+    "lat": 35.145326,
+    "lng": 126.849243,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 56.34,
+    "retention_proxy_score": 15.95,
+    "risk_level": "주의",
+    "demand_proxy_score": 49.6,
+    "competition_burden_score": 92.0,
+    "accessibility_score": 79.45,
+    "cost_burden_proxy": 417600.0,
+    "cost_inverted_score": 78.44,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 19.0,
+    "total_store_300m": 472.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-dessert_bakery-090",
+    "name": "광산구 수완동 디저트/베이커리 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.191011,
+    "lng": 126.825881,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 59.59,
+    "retention_proxy_score": 27.35,
+    "risk_level": "주의",
+    "demand_proxy_score": 74.85,
+    "competition_burden_score": 94.17,
+    "accessibility_score": 48.63,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 15.0,
+    "total_store_300m": 712.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-restaurant_general-091",
+    "name": "광산구 신촌동 일반 음식점 후보지",
+    "sigungu": "광산구",
+    "dong": "신촌동",
+    "lat": 35.143921,
+    "lng": 126.800204,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 58.42,
+    "retention_proxy_score": 46.15,
+    "risk_level": "주의",
+    "demand_proxy_score": 27.27,
+    "competition_burden_score": 91.01,
+    "accessibility_score": 85.77,
+    "cost_burden_proxy": 212000.0,
+    "cost_inverted_score": 93.45,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 21.0,
+    "total_store_300m": 144.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "상권 규모 proxy가 낮아 실제 수요 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-bunsik-092",
+    "name": "서구 치평동 분식 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.152662,
+    "lng": 126.8489,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 64.55,
+    "retention_proxy_score": 38.86,
+    "risk_level": "보통",
+    "demand_proxy_score": 86.4,
+    "competition_burden_score": 95.62,
+    "accessibility_score": 65.33,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 11.0,
+    "total_store_300m": 877.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-chicken-093",
+    "name": "서구 치평동 치킨 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.154121,
+    "lng": 126.847778,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 64.5,
+    "retention_proxy_score": 42.0,
+    "risk_level": "보통",
+    "demand_proxy_score": 80.74,
+    "competition_burden_score": 98.91,
+    "accessibility_score": 66.31,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 3.0,
+    "total_store_300m": 767.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-convenience_store-094",
+    "name": "동구 호남동 편의점 후보지",
+    "sigungu": "동구",
+    "dong": "호남동",
+    "lat": 35.148723,
+    "lng": 126.912503,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 59.83,
+    "retention_proxy_score": 47.21,
+    "risk_level": "주의",
+    "demand_proxy_score": 74.6,
+    "competition_burden_score": 96.12,
+    "accessibility_score": 80.4,
+    "cost_burden_proxy": 1149500.0,
+    "cost_inverted_score": 25.01,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 10.0,
+    "total_store_300m": 848.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-beauty_hair-095",
+    "name": "동구 수기동 미용실 후보지",
+    "sigungu": "동구",
+    "dong": "수기동",
+    "lat": 35.150173,
+    "lng": 126.911063,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 76.24,
+    "retention_proxy_score": 87.09,
+    "risk_level": "낮음",
+    "demand_proxy_score": 66.52,
+    "competition_burden_score": 90.1,
+    "accessibility_score": 84.67,
+    "cost_burden_proxy": 958600.0,
+    "cost_inverted_score": 38.94,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 18.0,
+    "total_store_300m": 689.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-laundry-096",
+    "name": "광산구 송정동 세탁소 후보지",
+    "sigungu": "광산구",
+    "dong": "송정동",
+    "lat": 35.137205,
+    "lng": 126.794471,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 64.61,
+    "retention_proxy_score": 53.99,
+    "risk_level": "보통",
+    "demand_proxy_score": 64.23,
+    "competition_burden_score": 99.41,
+    "accessibility_score": 62.25,
+    "cost_burden_proxy": 604500.0,
+    "cost_inverted_score": 64.8,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 2.0,
+    "total_store_300m": 559.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-cafe-097",
+    "name": "광산구 수완동 카페 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.190425,
+    "lng": 126.825608,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 56.26,
+    "retention_proxy_score": 35.27,
+    "risk_level": "주의",
+    "demand_proxy_score": 76.05,
+    "competition_burden_score": 81.38,
+    "accessibility_score": 51.99,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 50.0,
+    "total_store_300m": 716.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-dessert_bakery-098",
+    "name": "광산구 월계동 디저트/베이커리 후보지",
+    "sigungu": "광산구",
+    "dong": "월계동",
+    "lat": 35.217278,
+    "lng": 126.84677,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 59.17,
+    "retention_proxy_score": 39.52,
+    "risk_level": "주의",
+    "demand_proxy_score": 74.56,
+    "competition_burden_score": 97.1,
+    "accessibility_score": 52.23,
+    "cost_burden_proxy": 638700.0,
+    "cost_inverted_score": 62.3,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 6.0,
+    "total_store_300m": 617.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-restaurant_general-099",
+    "name": "동구 남동 일반 음식점 후보지",
+    "sigungu": "동구",
+    "dong": "남동",
+    "lat": 35.145501,
+    "lng": 126.918904,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 58.12,
+    "retention_proxy_score": 56.05,
+    "risk_level": "주의",
+    "demand_proxy_score": 81.44,
+    "competition_burden_score": 44.98,
+    "accessibility_score": 77.83,
+    "cost_burden_proxy": 947700.0,
+    "cost_inverted_score": 39.74,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 119.0,
+    "total_store_300m": 939.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "다만 동일 업종 밀집도가 높아 경쟁 부담도 함께 확인해야 합니다.",
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-bunsik-100",
+    "name": "북구 오룡동 분식 후보지",
+    "sigungu": "북구",
+    "dong": "오룡동",
+    "lat": 35.222689,
+    "lng": 126.849209,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 64.03,
+    "retention_proxy_score": 61.35,
+    "risk_level": "보통",
+    "demand_proxy_score": 64.34,
+    "competition_burden_score": 98.39,
+    "accessibility_score": 40.48,
+    "cost_burden_proxy": 116300.0,
+    "cost_inverted_score": 100.0,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 5.0,
+    "total_store_300m": 595.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "대중교통 접근성 proxy가 낮아 접근성 검토가 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-chicken-101",
+    "name": "서구 양동 치킨 후보지",
+    "sigungu": "서구",
+    "dong": "양동",
+    "lat": 35.153536,
+    "lng": 126.900645,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 64.31,
+    "retention_proxy_score": 34.92,
+    "risk_level": "보통",
+    "demand_proxy_score": 38.7,
+    "competition_burden_score": 99.28,
+    "accessibility_score": 97.33,
+    "cost_burden_proxy": 532700.0,
+    "cost_inverted_score": 70.04,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 2.0,
+    "total_store_300m": 436.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "상권 규모 proxy가 낮아 실제 수요 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-convenience_store-102",
+    "name": "광산구 월계동 편의점 후보지",
+    "sigungu": "광산구",
+    "dong": "월계동",
+    "lat": 35.216664,
+    "lng": 126.845761,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 59.83,
+    "retention_proxy_score": 41.14,
+    "risk_level": "주의",
+    "demand_proxy_score": 82.9,
+    "competition_burden_score": 93.91,
+    "accessibility_score": 41.63,
+    "cost_burden_proxy": 638700.0,
+    "cost_inverted_score": 62.3,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 15.0,
+    "total_store_300m": 755.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "대중교통 접근성 proxy가 낮아 접근성 검토가 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-beauty_hair-103",
+    "name": "서구 마륵동 미용실 후보지",
+    "sigungu": "서구",
+    "dong": "마륵동",
+    "lat": 35.145326,
+    "lng": 126.849243,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 75.47,
+    "retention_proxy_score": 65.23,
+    "risk_level": "낮음",
+    "demand_proxy_score": 49.6,
+    "competition_burden_score": 86.25,
+    "accessibility_score": 79.45,
+    "cost_burden_proxy": 417600.0,
+    "cost_inverted_score": 78.44,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 29.0,
+    "total_store_300m": 472.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29155-laundry-104",
+    "name": "남구 봉선동 세탁소 후보지",
+    "sigungu": "남구",
+    "dong": "봉선동",
+    "lat": 35.127171,
+    "lng": 126.911681,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 64.6,
+    "retention_proxy_score": 63.79,
+    "risk_level": "보통",
+    "demand_proxy_score": 68.51,
+    "competition_burden_score": 98.32,
+    "accessibility_score": 71.86,
+    "cost_burden_proxy": 882600.0,
+    "cost_inverted_score": 44.49,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 5.0,
+    "total_store_300m": 607.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-cafe-105",
+    "name": "광산구 수완동 카페 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.190398,
+    "lng": 126.825882,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 56.25,
+    "retention_proxy_score": 33.15,
+    "risk_level": "주의",
+    "demand_proxy_score": 77.99,
+    "competition_burden_score": 81.48,
+    "accessibility_score": 48.97,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 49.0,
+    "total_store_300m": 738.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-dessert_bakery-106",
+    "name": "서구 양동 디저트/베이커리 후보지",
+    "sigungu": "서구",
+    "dong": "양동",
+    "lat": 35.153536,
+    "lng": 126.900645,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 58.94,
+    "retention_proxy_score": 12.09,
+    "risk_level": "주의",
+    "demand_proxy_score": 38.7,
+    "competition_burden_score": 99.34,
+    "accessibility_score": 97.33,
+    "cost_burden_proxy": 532700.0,
+    "cost_inverted_score": 70.04,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 2.0,
+    "total_store_300m": 436.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "상권 규모 proxy가 낮아 실제 수요 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-restaurant_general-107",
+    "name": "동구 대인동 일반 음식점 후보지",
+    "sigungu": "동구",
+    "dong": "대인동",
+    "lat": 35.154493,
+    "lng": 126.913978,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 58.12,
+    "retention_proxy_score": 45.47,
+    "risk_level": "주의",
+    "demand_proxy_score": 77.07,
+    "competition_burden_score": 34.75,
+    "accessibility_score": 99.58,
+    "cost_burden_proxy": 1085000.0,
+    "cost_inverted_score": 29.71,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 155.0,
+    "total_store_300m": 822.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "다만 동일 업종 밀집도가 높아 경쟁 부담도 함께 확인해야 합니다.",
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-bunsik-108",
+    "name": "광산구 수완동 분식 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.189759,
+    "lng": 126.826454,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 63.57,
+    "retention_proxy_score": 38.38,
+    "risk_level": "보통",
+    "demand_proxy_score": 79.98,
+    "competition_burden_score": 94.64,
+    "accessibility_score": 38.33,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 15.0,
+    "total_store_300m": 744.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "대중교통 접근성 proxy가 낮아 접근성 검토가 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-chicken-109",
+    "name": "북구 용봉동 치킨 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.177877,
+    "lng": 126.895477,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 64.23,
+    "retention_proxy_score": 63.41,
+    "risk_level": "보통",
+    "demand_proxy_score": 62.72,
+    "competition_burden_score": 98.19,
+    "accessibility_score": 67.45,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 5.0,
+    "total_store_300m": 568.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-convenience_store-110",
+    "name": "북구 용봉동 편의점 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.177297,
+    "lng": 126.913592,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 59.79,
+    "retention_proxy_score": 57.21,
+    "risk_level": "주의",
+    "demand_proxy_score": 65.91,
+    "competition_burden_score": 95.49,
+    "accessibility_score": 65.63,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 11.0,
+    "total_store_300m": 510.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-beauty_hair-111",
+    "name": "광산구 월계동 미용실 후보지",
+    "sigungu": "광산구",
+    "dong": "월계동",
+    "lat": 35.217302,
+    "lng": 126.844475,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 75.46,
+    "retention_proxy_score": 71.05,
+    "risk_level": "낮음",
+    "demand_proxy_score": 76.47,
+    "competition_burden_score": 88.44,
+    "accessibility_score": 49.53,
+    "cost_burden_proxy": 638700.0,
+    "cost_inverted_score": 62.3,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 20.0,
+    "total_store_300m": 659.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-laundry-112",
+    "name": "광산구 수완동 세탁소 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.191651,
+    "lng": 126.825495,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 64.13,
+    "retention_proxy_score": 53.01,
+    "risk_level": "보통",
+    "demand_proxy_score": 70.32,
+    "competition_burden_score": 99.93,
+    "accessibility_score": 44.73,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 0.0,
+    "total_store_300m": 659.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "대중교통 접근성 proxy가 낮아 접근성 검토가 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-cafe-113",
+    "name": "서구 치평동 카페 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.152662,
+    "lng": 126.8489,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 56.23,
+    "retention_proxy_score": 23.39,
+    "risk_level": "주의",
+    "demand_proxy_score": 86.4,
+    "competition_burden_score": 85.96,
+    "accessibility_score": 65.33,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 32.0,
+    "total_store_300m": 877.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29155-dessert_bakery-114",
+    "name": "남구 봉선동 디저트/베이커리 후보지",
+    "sigungu": "남구",
+    "dong": "봉선동",
+    "lat": 35.127162,
+    "lng": 126.911429,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 58.59,
+    "retention_proxy_score": 43.66,
+    "risk_level": "주의",
+    "demand_proxy_score": 67.49,
+    "competition_burden_score": 96.61,
+    "accessibility_score": 73.64,
+    "cost_burden_proxy": 882600.0,
+    "cost_inverted_score": 44.49,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 9.0,
+    "total_store_300m": 606.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-restaurant_general-115",
+    "name": "광산구 수완동 일반 음식점 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.190016,
+    "lng": 126.823204,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 58.05,
+    "retention_proxy_score": 41.9,
+    "risk_level": "주의",
+    "demand_proxy_score": 70.81,
+    "competition_burden_score": 63.03,
+    "accessibility_score": 55.5,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 93.0,
+    "total_store_300m": 774.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "다만 동일 업종 밀집도가 높아 경쟁 부담도 함께 확인해야 합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-bunsik-116",
+    "name": "광산구 수완동 분식 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.19139,
+    "lng": 126.825946,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 63.55,
+    "retention_proxy_score": 48.19,
+    "risk_level": "보통",
+    "demand_proxy_score": 75.25,
+    "competition_burden_score": 95.0,
+    "accessibility_score": 45.07,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 14.0,
+    "total_store_300m": 715.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-chicken-117",
+    "name": "북구 오치동 치킨 후보지",
+    "sigungu": "북구",
+    "dong": "오치동",
+    "lat": 35.187357,
+    "lng": 126.902832,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 63.75,
+    "retention_proxy_score": 57.39,
+    "risk_level": "보통",
+    "demand_proxy_score": 56.53,
+    "competition_burden_score": 96.02,
+    "accessibility_score": 72.27,
+    "cost_burden_proxy": 570100.0,
+    "cost_inverted_score": 67.31,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 11.0,
+    "total_store_300m": 433.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-convenience_store-118",
+    "name": "동구 금남로2가 편의점 후보지",
+    "sigungu": "동구",
+    "dong": "금남로2가",
+    "lat": 35.148889,
+    "lng": 126.918022,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 59.74,
+    "retention_proxy_score": 46.03,
+    "risk_level": "주의",
+    "demand_proxy_score": 83.74,
+    "competition_burden_score": 95.52,
+    "accessibility_score": 85.41,
+    "cost_burden_proxy": 3376000.0,
+    "cost_inverted_score": 0.0,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 10.0,
+    "total_store_300m": 929.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-beauty_hair-119",
+    "name": "서구 치평동 미용실 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.152383,
+    "lng": 126.848922,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 75.41,
+    "retention_proxy_score": 59.32,
+    "risk_level": "낮음",
+    "demand_proxy_score": 85.75,
+    "competition_burden_score": 80.83,
+    "accessibility_score": 66.05,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 46.0,
+    "total_store_300m": 868.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-laundry-120",
+    "name": "북구 문흥동 세탁소 후보지",
+    "sigungu": "북구",
+    "dong": "문흥동",
+    "lat": 35.1861,
+    "lng": 126.92309,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 64.09,
+    "retention_proxy_score": 68.08,
+    "risk_level": "보통",
+    "demand_proxy_score": 57.11,
+    "competition_burden_score": 98.42,
+    "accessibility_score": 71.1,
+    "cost_burden_proxy": 605300.0,
+    "cost_inverted_score": 64.74,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 4.0,
+    "total_store_300m": 434.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-cafe-121",
+    "name": "서구 쌍촌동 카페 후보지",
+    "sigungu": "서구",
+    "dong": "쌍촌동",
+    "lat": 35.150068,
+    "lng": 126.85786,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 56.21,
+    "retention_proxy_score": 12.27,
+    "risk_level": "주의",
+    "demand_proxy_score": 51.94,
+    "competition_burden_score": 92.22,
+    "accessibility_score": 90.71,
+    "cost_burden_proxy": 702000.0,
+    "cost_inverted_score": 57.68,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 18.0,
+    "total_store_300m": 412.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-dessert_bakery-122",
+    "name": "북구 용봉동 디저트/베이커리 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.178637,
+    "lng": 126.898342,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 58.5,
+    "retention_proxy_score": 41.74,
+    "risk_level": "주의",
+    "demand_proxy_score": 58.7,
+    "competition_burden_score": 99.84,
+    "accessibility_score": 70.5,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 1.0,
+    "total_store_300m": 457.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-restaurant_general-123",
+    "name": "서구 마륵동 일반 음식점 후보지",
+    "sigungu": "서구",
+    "dong": "마륵동",
+    "lat": 35.14538,
+    "lng": 126.849769,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 57.96,
+    "retention_proxy_score": 31.63,
+    "risk_level": "주의",
+    "demand_proxy_score": 45.48,
+    "competition_burden_score": 76.42,
+    "accessibility_score": 78.36,
+    "cost_burden_proxy": 417600.0,
+    "cost_inverted_score": 78.44,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 42.0,
+    "total_store_300m": 432.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-bunsik-124",
+    "name": "서구 금호동 분식 후보지",
+    "sigungu": "서구",
+    "dong": "금호동",
+    "lat": 35.13344,
+    "lng": 126.859041,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 63.5,
+    "retention_proxy_score": 41.01,
+    "risk_level": "보통",
+    "demand_proxy_score": 60.52,
+    "competition_burden_score": 97.6,
+    "accessibility_score": 75.13,
+    "cost_burden_proxy": 688300.0,
+    "cost_inverted_score": 58.68,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 7.0,
+    "total_store_300m": 546.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29155-chicken-125",
+    "name": "남구 봉선동 치킨 후보지",
+    "sigungu": "남구",
+    "dong": "봉선동",
+    "lat": 35.127765,
+    "lng": 126.910989,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 63.67,
+    "retention_proxy_score": 52.07,
+    "risk_level": "보통",
+    "demand_proxy_score": 66.58,
+    "competition_burden_score": 97.99,
+    "accessibility_score": 72.42,
+    "cost_burden_proxy": 882600.0,
+    "cost_inverted_score": 44.49,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 5.0,
+    "total_store_300m": 585.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-convenience_store-126",
+    "name": "북구 용봉동 편의점 후보지",
+    "sigungu": "북구",
+    "dong": "용봉동",
+    "lat": 35.179031,
+    "lng": 126.894861,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 59.62,
+    "retention_proxy_score": 53.33,
+    "risk_level": "주의",
+    "demand_proxy_score": 66.92,
+    "competition_burden_score": 95.89,
+    "accessibility_score": 62.96,
+    "cost_burden_proxy": 636800.0,
+    "cost_inverted_score": 62.44,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 11.0,
+    "total_store_300m": 609.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-beauty_hair-127",
+    "name": "서구 양동 미용실 후보지",
+    "sigungu": "서구",
+    "dong": "양동",
+    "lat": 35.153825,
+    "lng": 126.901237,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 75.27,
+    "retention_proxy_score": 62.11,
+    "risk_level": "낮음",
+    "demand_proxy_score": 39.01,
+    "competition_burden_score": 95.95,
+    "accessibility_score": 93.33,
+    "cost_burden_proxy": 532700.0,
+    "cost_inverted_score": 70.04,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 9.0,
+    "total_store_300m": 442.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "상권 규모 proxy가 낮아 실제 수요 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-laundry-128",
+    "name": "광산구 우산동 세탁소 후보지",
+    "sigungu": "광산구",
+    "dong": "우산동",
+    "lat": 35.164124,
+    "lng": 126.80819,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 63.87,
+    "retention_proxy_score": 53.81,
+    "risk_level": "보통",
+    "demand_proxy_score": 48.88,
+    "competition_burden_score": 99.28,
+    "accessibility_score": 64.6,
+    "cost_burden_proxy": 292700.0,
+    "cost_inverted_score": 87.56,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 2.0,
+    "total_store_300m": 340.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-cafe-129",
+    "name": "동구 서석동 카페 후보지",
+    "sigungu": "동구",
+    "dong": "서석동",
+    "lat": 35.145421,
+    "lng": 126.921483,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 56.12,
+    "retention_proxy_score": 44.49,
+    "risk_level": "주의",
+    "demand_proxy_score": 59.92,
+    "competition_burden_score": 81.85,
+    "accessibility_score": 88.48,
+    "cost_burden_proxy": 746300.0,
+    "cost_inverted_score": 54.44,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 36.0,
+    "total_store_300m": 557.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-dessert_bakery-130",
+    "name": "서구 마륵동 디저트/베이커리 후보지",
+    "sigungu": "서구",
+    "dong": "마륵동",
+    "lat": 35.145723,
+    "lng": 126.850142,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 58.46,
+    "retention_proxy_score": 18.38,
+    "risk_level": "주의",
+    "demand_proxy_score": 44.93,
+    "competition_burden_score": 99.77,
+    "accessibility_score": 78.99,
+    "cost_burden_proxy": 417600.0,
+    "cost_inverted_score": 78.44,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 1.0,
+    "total_store_300m": 423.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "상권 규모 proxy가 낮아 실제 수요 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-restaurant_general-131",
+    "name": "광산구 소촌동 일반 음식점 후보지",
+    "sigungu": "광산구",
+    "dong": "소촌동",
+    "lat": 35.142334,
+    "lng": 126.794864,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 57.7,
+    "retention_proxy_score": 44.51,
+    "risk_level": "주의",
+    "demand_proxy_score": 30.56,
+    "competition_burden_score": 86.91,
+    "accessibility_score": 85.92,
+    "cost_burden_proxy": 314100.0,
+    "cost_inverted_score": 86.0,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 20.0,
+    "total_store_300m": 184.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "상권 규모 proxy가 낮아 실제 수요 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-bunsik-132",
+    "name": "동구 궁동 분식 후보지",
+    "sigungu": "동구",
+    "dong": "궁동",
+    "lat": 35.150087,
+    "lng": 126.917308,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 63.31,
+    "retention_proxy_score": 58.19,
+    "risk_level": "보통",
+    "demand_proxy_score": 80.21,
+    "competition_burden_score": 95.52,
+    "accessibility_score": 77.85,
+    "cost_burden_proxy": 1266000.0,
+    "cost_inverted_score": 16.5,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 10.0,
+    "total_store_300m": 810.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-chicken-133",
+    "name": "서구 쌍촌동 치킨 후보지",
+    "sigungu": "서구",
+    "dong": "쌍촌동",
+    "lat": 35.149896,
+    "lng": 126.857234,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 63.56,
+    "retention_proxy_score": 42.22,
+    "risk_level": "보통",
+    "demand_proxy_score": 52.56,
+    "competition_burden_score": 98.32,
+    "accessibility_score": 82.79,
+    "cost_burden_proxy": 702000.0,
+    "cost_inverted_score": 57.68,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 5.0,
+    "total_store_300m": 427.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-convenience_store-134",
+    "name": "서구 쌍촌동 편의점 후보지",
+    "sigungu": "서구",
+    "dong": "쌍촌동",
+    "lat": 35.150132,
+    "lng": 126.85854,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 59.55,
+    "retention_proxy_score": 23.09,
+    "risk_level": "주의",
+    "demand_proxy_score": 54.43,
+    "competition_burden_score": 96.54,
+    "accessibility_score": 84.42,
+    "cost_burden_proxy": 702000.0,
+    "cost_inverted_score": 57.68,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 9.0,
+    "total_store_300m": 424.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-beauty_hair-135",
+    "name": "서구 금호동 미용실 후보지",
+    "sigungu": "서구",
+    "dong": "금호동",
+    "lat": 35.132609,
+    "lng": 126.858142,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 75.07,
+    "retention_proxy_score": 71.33,
+    "risk_level": "낮음",
+    "demand_proxy_score": 62.9,
+    "competition_burden_score": 88.21,
+    "accessibility_score": 70.86,
+    "cost_burden_proxy": 688300.0,
+    "cost_inverted_score": 58.68,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 28.0,
+    "total_store_300m": 556.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-laundry-136",
+    "name": "서구 치평동 세탁소 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.147053,
+    "lng": 126.846254,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 63.49,
+    "retention_proxy_score": 30.97,
+    "risk_level": "보통",
+    "demand_proxy_score": 67.82,
+    "competition_burden_score": 99.11,
+    "accessibility_score": 78.34,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 3.0,
+    "total_store_300m": 653.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-cafe-137",
+    "name": "북구 중흥동 카페 후보지",
+    "sigungu": "북구",
+    "dong": "중흥동",
+    "lat": 35.173485,
+    "lng": 126.914935,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 56.04,
+    "retention_proxy_score": 48.66,
+    "risk_level": "주의",
+    "demand_proxy_score": 70.91,
+    "competition_burden_score": 75.63,
+    "accessibility_score": 76.14,
+    "cost_burden_proxy": 743900.0,
+    "cost_inverted_score": 54.62,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 60.0,
+    "total_store_300m": 598.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-dessert_bakery-138",
+    "name": "북구 문흥동 디저트/베이커리 후보지",
+    "sigungu": "북구",
+    "dong": "문흥동",
+    "lat": 35.18627,
+    "lng": 126.920982,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 58.26,
+    "retention_proxy_score": 54.93,
+    "risk_level": "주의",
+    "demand_proxy_score": 59.32,
+    "competition_burden_score": 96.88,
+    "accessibility_score": 68.84,
+    "cost_burden_proxy": 605300.0,
+    "cost_inverted_score": 64.74,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 9.0,
+    "total_store_300m": 468.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-restaurant_general-139",
+    "name": "서구 양동 일반 음식점 후보지",
+    "sigungu": "서구",
+    "dong": "양동",
+    "lat": 35.155087,
+    "lng": 126.901367,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 57.64,
+    "retention_proxy_score": 12.72,
+    "risk_level": "주의",
+    "demand_proxy_score": 33.7,
+    "competition_burden_score": 84.59,
+    "accessibility_score": 94.61,
+    "cost_burden_proxy": 532700.0,
+    "cost_inverted_score": 70.04,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 38.0,
+    "total_store_300m": 397.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "상권 규모 proxy가 낮아 실제 수요 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29155-bunsik-140",
+    "name": "남구 봉선동 분식 후보지",
+    "sigungu": "남구",
+    "dong": "봉선동",
+    "lat": 35.126377,
+    "lng": 126.911177,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 63.22,
+    "retention_proxy_score": 59.71,
+    "risk_level": "보통",
+    "demand_proxy_score": 66.47,
+    "competition_burden_score": 97.63,
+    "accessibility_score": 75.41,
+    "cost_burden_proxy": 882600.0,
+    "cost_inverted_score": 44.49,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 6.0,
+    "total_store_300m": 578.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-chicken-141",
+    "name": "북구 용두동 치킨 후보지",
+    "sigungu": "북구",
+    "dong": "용두동",
+    "lat": 35.212253,
+    "lng": 126.874083,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 63.3,
+    "retention_proxy_score": 66.6,
+    "risk_level": "보통",
+    "demand_proxy_score": 55.08,
+    "competition_burden_score": 96.91,
+    "accessibility_score": 55.31,
+    "cost_burden_proxy": 273800.0,
+    "cost_inverted_score": 88.94,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 8.0,
+    "total_store_300m": 407.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-convenience_store-142",
+    "name": "서구 금호동 편의점 후보지",
+    "sigungu": "서구",
+    "dong": "금호동",
+    "lat": 35.133006,
+    "lng": 126.858449,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 59.49,
+    "retention_proxy_score": 20.17,
+    "risk_level": "주의",
+    "demand_proxy_score": 64.45,
+    "competition_burden_score": 94.51,
+    "accessibility_score": 69.85,
+    "cost_burden_proxy": 688300.0,
+    "cost_inverted_score": 58.68,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 15.0,
+    "total_store_300m": 596.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-beauty_hair-143",
+    "name": "서구 치평동 미용실 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.148316,
+    "lng": 126.847799,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 75.06,
+    "retention_proxy_score": 64.45,
+    "risk_level": "낮음",
+    "demand_proxy_score": 68.93,
+    "competition_burden_score": 80.46,
+    "accessibility_score": 89.82,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 45.0,
+    "total_store_300m": 733.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-laundry-144",
+    "name": "광산구 운남동 세탁소 후보지",
+    "sigungu": "광산구",
+    "dong": "운남동",
+    "lat": 35.174449,
+    "lng": 126.816695,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 63.37,
+    "retention_proxy_score": 49.96,
+    "risk_level": "보통",
+    "demand_proxy_score": 43.01,
+    "competition_burden_score": 98.69,
+    "accessibility_score": 67.4,
+    "cost_burden_proxy": 220400.0,
+    "cost_inverted_score": 92.84,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 4.0,
+    "total_store_300m": 302.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "상권 규모 proxy가 낮아 실제 수요 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-cafe-145",
+    "name": "광산구 우산동 카페 후보지",
+    "sigungu": "광산구",
+    "dong": "우산동",
+    "lat": 35.160899,
+    "lng": 126.80958,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 55.78,
+    "retention_proxy_score": 20.35,
+    "risk_level": "주의",
+    "demand_proxy_score": 48.43,
+    "competition_burden_score": 89.8,
+    "accessibility_score": 73.24,
+    "cost_burden_proxy": 292700.0,
+    "cost_inverted_score": 87.56,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 26.0,
+    "total_store_300m": 363.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-dessert_bakery-146",
+    "name": "북구 문흥동 디저트/베이커리 후보지",
+    "sigungu": "북구",
+    "dong": "문흥동",
+    "lat": 35.185866,
+    "lng": 126.922542,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 58.23,
+    "retention_proxy_score": 39.62,
+    "risk_level": "주의",
+    "demand_proxy_score": 57.24,
+    "competition_burden_score": 97.31,
+    "accessibility_score": 71.51,
+    "cost_burden_proxy": 605300.0,
+    "cost_inverted_score": 64.74,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 8.0,
+    "total_store_300m": 446.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-restaurant_general-147",
+    "name": "북구 중흥동 일반 음식점 후보지",
+    "sigungu": "북구",
+    "dong": "중흥동",
+    "lat": 35.173764,
+    "lng": 126.914276,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 57.39,
+    "retention_proxy_score": 48.33,
+    "risk_level": "주의",
+    "demand_proxy_score": 74.54,
+    "competition_burden_score": 43.99,
+    "accessibility_score": 74.12,
+    "cost_burden_proxy": 743900.0,
+    "cost_inverted_score": 54.62,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 137.0,
+    "total_store_300m": 651.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "다만 동일 업종 밀집도가 높아 경쟁 부담도 함께 확인해야 합니다.",
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-bunsik-148",
+    "name": "서구 치평동 분식 후보지",
+    "sigungu": "서구",
+    "dong": "치평동",
+    "lat": 35.153175,
+    "lng": 126.847801,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 63.17,
+    "retention_proxy_score": 40.25,
+    "risk_level": "보통",
+    "demand_proxy_score": 76.31,
+    "competition_burden_score": 96.57,
+    "accessibility_score": 72.81,
+    "cost_burden_proxy": 1095000.0,
+    "cost_inverted_score": 28.98,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 8.0,
+    "total_store_300m": 685.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-chicken-149",
+    "name": "광산구 수완동 치킨 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.191037,
+    "lng": 126.825046,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 63.29,
+    "retention_proxy_score": 46.33,
+    "risk_level": "보통",
+    "demand_proxy_score": 63.63,
+    "competition_burden_score": 98.03,
+    "accessibility_score": 54.12,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 6.0,
+    "total_store_300m": 681.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29110-convenience_store-150",
+    "name": "동구 금남로5가 편의점 후보지",
+    "sigungu": "동구",
+    "dong": "금남로5가",
+    "lat": 35.153726,
+    "lng": 126.912497,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 59.46,
+    "retention_proxy_score": 48.31,
+    "risk_level": "주의",
+    "demand_proxy_score": 73.43,
+    "competition_burden_score": 98.65,
+    "accessibility_score": 85.42,
+    "cost_burden_proxy": 1278000.0,
+    "cost_inverted_score": 15.62,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 3.0,
+    "total_store_300m": 837.0,
+    "positive_reasons": [
+      "주변 상가 규모와 업종 다양성 proxy가 높아 수요 신호가 확인됩니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-beauty_hair-151",
+    "name": "북구 문흥동 미용실 후보지",
+    "sigungu": "북구",
+    "dong": "문흥동",
+    "lat": 35.185468,
+    "lng": 126.921312,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 75.02,
+    "retention_proxy_score": 94.36,
+    "risk_level": "낮음",
+    "demand_proxy_score": 57.77,
+    "competition_burden_score": 82.19,
+    "accessibility_score": 78.25,
+    "cost_burden_proxy": 605300.0,
+    "cost_inverted_score": 64.74,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 45.0,
+    "total_store_300m": 451.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-laundry-152",
+    "name": "서구 화정동 세탁소 후보지",
+    "sigungu": "서구",
+    "dong": "화정동",
+    "lat": 35.158819,
+    "lng": 126.882046,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 63.3,
+    "retention_proxy_score": 36.4,
+    "risk_level": "보통",
+    "demand_proxy_score": 64.31,
+    "competition_burden_score": 98.62,
+    "accessibility_score": 60.63,
+    "cost_burden_proxy": 685600.0,
+    "cost_inverted_score": 58.87,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 4.0,
+    "total_store_300m": 756.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29155-cafe-153",
+    "name": "남구 봉선동 카페 후보지",
+    "sigungu": "남구",
+    "dong": "봉선동",
+    "lat": 35.126999,
+    "lng": 126.911429,
+    "recommended_industry": "cafe",
+    "industry_label": "카페",
+    "suitability_score": 55.74,
+    "retention_proxy_score": 44.29,
+    "risk_level": "주의",
+    "demand_proxy_score": 68.76,
+    "competition_burden_score": 85.87,
+    "accessibility_score": 77.77,
+    "cost_burden_proxy": 882600.0,
+    "cost_inverted_score": 44.49,
+    "industry_fit_score": 0.0,
+    "same_industry_300m": 35.0,
+    "total_store_300m": 623.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "비용 부담 proxy가 높은 편입니다. 실제 임대료와 권리금 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-dessert_bakery-154",
+    "name": "북구 오치동 디저트/베이커리 후보지",
+    "sigungu": "북구",
+    "dong": "오치동",
+    "lat": 35.187384,
+    "lng": 126.9027,
+    "recommended_industry": "dessert_bakery",
+    "industry_label": "디저트/베이커리",
+    "suitability_score": 58.2,
+    "retention_proxy_score": 53.85,
+    "risk_level": "주의",
+    "demand_proxy_score": 56.65,
+    "competition_burden_score": 96.74,
+    "accessibility_score": 70.75,
+    "cost_burden_proxy": 570100.0,
+    "cost_inverted_score": 67.31,
+    "industry_fit_score": 12.26,
+    "same_industry_300m": 9.0,
+    "total_store_300m": 437.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-restaurant_general-155",
+    "name": "서구 양동 일반 음식점 후보지",
+    "sigungu": "서구",
+    "dong": "양동",
+    "lat": 35.153754,
+    "lng": 126.903004,
+    "recommended_industry": "restaurant_general",
+    "industry_label": "일반 음식점",
+    "suitability_score": 57.39,
+    "retention_proxy_score": 27.49,
+    "risk_level": "주의",
+    "demand_proxy_score": 40.7,
+    "competition_burden_score": 79.21,
+    "accessibility_score": 86.88,
+    "cost_burden_proxy": 532700.0,
+    "cost_inverted_score": 70.04,
+    "industry_fit_score": 27.07,
+    "same_industry_300m": 56.0,
+    "total_store_300m": 508.0,
+    "positive_reasons": [
+      "동일 업종 밀집도가 있어 관련 수요가 존재한다는 신호로 볼 수 있습니다.",
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "상권 규모 proxy가 낮아 실제 수요 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29170-bunsik-156",
+    "name": "북구 용두동 분식 후보지",
+    "sigungu": "북구",
+    "dong": "용두동",
+    "lat": 35.212053,
+    "lng": 126.87316,
+    "recommended_industry": "bunsik",
+    "industry_label": "분식",
+    "suitability_score": 62.7,
+    "retention_proxy_score": 64.29,
+    "risk_level": "보통",
+    "demand_proxy_score": 53.22,
+    "competition_burden_score": 97.9,
+    "accessibility_score": 59.19,
+    "cost_burden_proxy": 273800.0,
+    "cost_inverted_score": 88.94,
+    "industry_fit_score": 34.38,
+    "same_industry_300m": 6.0,
+    "total_store_300m": 392.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-chicken-157",
+    "name": "광산구 신창동 치킨 후보지",
+    "sigungu": "광산구",
+    "dong": "신창동",
+    "lat": 35.193398,
+    "lng": 126.837789,
+    "recommended_industry": "chicken",
+    "industry_label": "치킨",
+    "suitability_score": 63.29,
+    "retention_proxy_score": 55.39,
+    "risk_level": "보통",
+    "demand_proxy_score": 58.08,
+    "competition_burden_score": 97.4,
+    "accessibility_score": 51.64,
+    "cost_burden_proxy": 296400.0,
+    "cost_inverted_score": 87.29,
+    "industry_fit_score": 39.17,
+    "same_industry_300m": 7.0,
+    "total_store_300m": 428.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29200-convenience_store-158",
+    "name": "광산구 수완동 편의점 후보지",
+    "sigungu": "광산구",
+    "dong": "수완동",
+    "lat": 35.189619,
+    "lng": 126.823062,
+    "recommended_industry": "convenience_store",
+    "industry_label": "편의점",
+    "suitability_score": 59.08,
+    "retention_proxy_score": 37.08,
+    "risk_level": "주의",
+    "demand_proxy_score": 68.05,
+    "competition_burden_score": 97.27,
+    "accessibility_score": 50.16,
+    "cost_burden_proxy": 502400.0,
+    "cost_inverted_score": 72.25,
+    "industry_fit_score": 16.03,
+    "same_industry_300m": 7.0,
+    "total_store_300m": 728.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "비용 부담 proxy가 상대적으로 낮은 편입니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-beauty_hair-159",
+    "name": "서구 금호동 미용실 후보지",
+    "sigungu": "서구",
+    "dong": "금호동",
+    "lat": 35.13362,
+    "lng": 126.859007,
+    "recommended_industry": "beauty_hair",
+    "industry_label": "미용실",
+    "suitability_score": 74.98,
+    "retention_proxy_score": 70.73,
+    "risk_level": "보통",
+    "demand_proxy_score": 59.55,
+    "competition_burden_score": 88.54,
+    "accessibility_score": 75.17,
+    "cost_burden_proxy": 688300.0,
+    "cost_inverted_score": 58.68,
+    "industry_fit_score": 100.0,
+    "same_industry_300m": 28.0,
+    "total_store_300m": 529.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  },
+  {
+    "candidate_id": "GJ-29140-laundry-160",
+    "name": "서구 쌍촌동 세탁소 후보지",
+    "sigungu": "서구",
+    "dong": "쌍촌동",
+    "lat": 35.151458,
+    "lng": 126.858823,
+    "recommended_industry": "laundry",
+    "industry_label": "세탁소",
+    "suitability_score": 63.29,
+    "retention_proxy_score": 31.66,
+    "risk_level": "보통",
+    "demand_proxy_score": 47.78,
+    "competition_burden_score": 99.64,
+    "accessibility_score": 85.51,
+    "cost_burden_proxy": 702000.0,
+    "cost_inverted_score": 57.68,
+    "industry_fit_score": 41.29,
+    "same_industry_300m": 1.0,
+    "total_store_300m": 343.0,
+    "positive_reasons": [
+      "동일 업종 과밀 부담 proxy가 상대적으로 낮은 편입니다.",
+      "버스 또는 도시철도 접근성 proxy가 양호합니다."
+    ],
+    "negative_reasons": [
+      "현장 임대료, 권리금, 유동인구, 점포 상태는 별도 확인이 필요합니다."
+    ]
+  }
+]

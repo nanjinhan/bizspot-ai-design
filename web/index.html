@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BizSpot AI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">BizSpot AI</div>
+    <nav>
+      <button class="active">대시보드</button>
+      <button>입지 분석</button>
+      <button>업종 비교</button>
+      <button>모델 검증</button>
+      <button>인사이트</button>
+      <button>설정</button>
+    </nav>
+  </aside>
+  <main>
+    <header class="topbar">
+      <input id="search" placeholder="후보지 검색">
+      <select><option>광주광역시</option></select>
+      <select id="industry"><option>카페</option></select>
+      <select id="radius"><option>500m</option><option>300m</option><option>1km</option></select>
+      <select id="model"><option>Rule Score</option><option>XGBoost</option><option>RandomForest</option></select>
+    </header>
+    <section class="notice">
+      <span>이 점수는 창업 성공을 보장하지 않습니다. 공공데이터 기반으로 후보지를 비교하기 위한 1차 필터링 지표입니다.</span>
+      <span>유동인구 데이터가 없어 수요 가능성은 상가 밀도, 교통 접근성, 공시지가, 건물 특성 등의 proxy로 계산했습니다.</span>
+      <span>비용 부담은 실제 월세가 아니라 공시지가와 상업용 거래 수준을 활용한 proxy입니다.</span>
+    </section>
+    <section class="layout">
+      <div class="map-panel">
+        <div class="map-head">
+          <h1>광주 카페 입지 적합도</h1>
+          <p>수요, 경쟁, 비용, 접근성, 업종 궁합의 균형 점수</p>
+        </div>
+        <div id="map" class="map"></div>
+      </div>
+      <aside class="detail" id="detail"></aside>
+    </section>
+    <section class="bottom">
+      <div class="panel"><h2>상위 후보지 TOP 5</h2><div id="topList"></div></div>
+      <div class="panel"><h2>모델 성능</h2><div id="metrics"></div></div>
+      <div class="panel"><h2>자치구 요약</h2><div id="districts"></div></div>
+      <div class="panel"><h2>판단 근거</h2><div id="importance"></div></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

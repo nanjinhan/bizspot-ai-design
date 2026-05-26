@@ -1,0 +1,8 @@
+{
+  "metric_meaning": "12개월 영업 유지 proxy와 후보지 점수의 보조 검증",
+  "spearman_score_vs_retention_proxy": 0.0046,
+  "spearman_p_value": 0.001978,
+  "top_20pct_retention_proxy_rate": 0.8523,
+  "bottom_20pct_retention_proxy_rate": 0.846,
+  "safe_note": "실제 창업 성과나 재무 결과를 보장하거나 예측한 결과가 아닙니다."
+}

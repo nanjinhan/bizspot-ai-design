@@ -1,0 +1,78 @@
+[
+  {
+    "feature": "food_count",
+    "importance": 0.227758
+  },
+  {
+    "feature": "total_store_count",
+    "importance": 0.13624
+  },
+  {
+    "feature": "other_store_count",
+    "importance": 0.123203
+  },
+  {
+    "feature": "industry_l2_unique",
+    "importance": 0.10898
+  },
+  {
+    "feature": "industry_diversity_entropy",
+    "importance": 0.080597
+  },
+  {
+    "feature": "industry_diversity_hhi",
+    "importance": 0.072942
+  },
+  {
+    "feature": "life_service_count",
+    "importance": 0.071745
+  },
+  {
+    "feature": "avg_land_price_dong",
+    "importance": 0.031213
+  },
+  {
+    "feature": "median_land_price_dong",
+    "importance": 0.024343
+  },
+  {
+    "feature": "bus_count_1000m",
+    "importance": 0.023348
+  },
+  {
+    "feature": "nearest_subway_m",
+    "importance": 0.021781
+  },
+  {
+    "feature": "nearest_bus_m",
+    "importance": 0.017443
+  },
+  {
+    "feature": "bus_count_500m",
+    "importance": 0.015269
+  },
+  {
+    "feature": "convenience_count",
+    "importance": 0.014891
+  },
+  {
+    "feature": "commercial_trade_count_sigungu",
+    "importance": 0.011039
+  },
+  {
+    "feature": "trade_price_median_sigungu",
+    "importance": 0.009988
+  },
+  {
+    "feature": "bus_count_300m",
+    "importance": 0.008005
+  },
+  {
+    "feature": "subway_count_1000m",
+    "importance": 0.001155
+  },
+  {
+    "feature": "subway_count_500m",
+    "importance": 6.1e-05
+  }
+]

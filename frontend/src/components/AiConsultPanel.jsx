@@ -1,0 +1,78 @@
+import { Bot, Loader2, Send } from 'lucide-react'
+import { useState } from 'react'
+import { attachGridContext, buildFallbackAnswer, selectTop3ForQuestion } from '../utils/recommendation.js'
+import { sanitizeSafeText } from '../utils/safeText.js'
+import CandidateCard from './CandidateCard.jsx'
+
+const configuredApiBase = import.meta.env.VITE_API_BASE_URL || ''
+const localApiBasePattern = /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?/i
+const API_BASE = import.meta.env.PROD
+  ? localApiBasePattern.test(configuredApiBase)
+    ? ''
+    : configuredApiBase
+  : configuredApiBase || 'http://localhost:8787'
+
+export default function AiConsultPanel({ candidates, gridScores = [], onRecommendations, onSelectCandidate }) {
+  const [question, setQuestion] = useState('광주 북구에서 카페 창업지를 검토하고 싶은데 어디가 좋아?')
+  const [answer, setAnswer] = useState('')
+  const [localTop3, setLocalTop3] = useState([])
+  const [status, setStatus] = useState('idle')
+
+  async function askAi() {
+    const { parsed, recommendations } = selectTop3ForQuestion(candidates, question)
+    const recommendationsWithGrid = attachGridContext(recommendations, gridScores)
+    setLocalTop3(recommendations)
+    onRecommendations(recommendations)
+    setStatus('loading')
+
+    try {
+      const response = await fetch(`${API_BASE}/api/ai/recommend`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question, parsed, candidates: recommendationsWithGrid }),
+      })
+      if (!response.ok) throw new Error(`AI server responded ${response.status}`)
+      const payload = await response.json()
+      setAnswer(sanitizeSafeText(payload.answer || buildFallbackAnswer(question, recommendations)))
+      setStatus(payload.fallback ? 'fallback' : 'success')
+    } catch {
+      setAnswer(sanitizeSafeText(buildFallbackAnswer(question, recommendations)))
+      setStatus('fallback')
+    }
+  }
+
+  return (
+    <section className="ai-panel">
+      <div className="section-title">
+        <Bot size={18} />
+        <h2>AI 입지 상담</h2>
+      </div>
+      <textarea
+        value={question}
+        onChange={(event) => setQuestion(event.target.value)}
+        rows={4}
+        placeholder="예: 광주 북구에서 카페 창업지를 검토하고 싶은데 어디가 좋아?"
+      />
+      <button className="primary-button" type="button" onClick={askAi} disabled={status === 'loading'}>
+        {status === 'loading' ? <Loader2 className="spin" size={17} /> : <Send size={17} />}
+        <span>후보지 찾기</span>
+      </button>
+      {status === 'fallback' && (
+        <div className="fallback-badge">API 연결이 불안정하거나 키가 없어 rule-based fallback 답변을 표시합니다.</div>
+      )}
+      {localTop3.length > 0 && (
+        <div className="ai-top3">
+          {localTop3.map((candidate, index) => (
+            <CandidateCard
+              key={candidate.candidate_id}
+              candidate={candidate}
+              rank={index + 1}
+              onSelect={onSelectCandidate}
+            />
+          ))}
+        </div>
+      )}
+      {answer && <pre className="ai-answer">{answer}</pre>}
+    </section>
+  )
+}

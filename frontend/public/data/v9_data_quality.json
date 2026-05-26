@@ -1,0 +1,38 @@
+{
+  "candidate_count": 160,
+  "industries": [
+    "beauty_hair",
+    "bunsik",
+    "cafe",
+    "chicken",
+    "convenience_store",
+    "dessert_bakery",
+    "laundry",
+    "restaurant_general"
+  ],
+  "contains_other": false,
+  "missing_required_count": 0,
+  "same_suitability_and_retention_count": 0,
+  "grid_row_count": 3454,
+  "grid_base_count": 781,
+  "grid_size_m": 500,
+  "grid_coordinate_method": "lat/lng approximate 500m bin",
+  "grid_industries": [
+    "beauty_hair",
+    "bunsik",
+    "cafe",
+    "chicken",
+    "convenience_store",
+    "dessert_bakery",
+    "laundry",
+    "restaurant_general"
+  ],
+  "grid_contains_other": false,
+  "grid_missing_required_count": 0,
+  "grid_out_of_bounds_count": 0,
+  "grid_same_suitability_and_retention_count": 1,
+  "forbidden_field_hits": [],
+  "forbidden_text_hits": [],
+  "new_store_survived_12m_used_for_scoring": false,
+  "note": "new_store_survived_12m is intentionally excluded from recommendation scoring and used only as a limitation insight."
+}

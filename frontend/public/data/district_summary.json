@@ -1,0 +1,42 @@
+[
+  {
+    "sigungu_name": "광산구",
+    "candidate_rows": 18702,
+    "avg_suitability_score": 63.7841,
+    "avg_retention_proxy_score": 63.7841,
+    "avg_cost_burden_proxy": 550311.2004,
+    "avg_same_industry_300m": 106.7533
+  },
+  {
+    "sigungu_name": "남구",
+    "candidate_rows": 9038,
+    "avg_suitability_score": 63.882,
+    "avg_retention_proxy_score": 63.882,
+    "avg_cost_burden_proxy": 625997.1122,
+    "avg_same_industry_300m": 100.1154
+  },
+  {
+    "sigungu_name": "동구",
+    "candidate_rows": 9411,
+    "avg_suitability_score": 61.6829,
+    "avg_retention_proxy_score": 61.6829,
+    "avg_cost_burden_proxy": 1280101.2113,
+    "avg_same_industry_300m": 254.7957
+  },
+  {
+    "sigungu_name": "북구",
+    "candidate_rows": 20549,
+    "avg_suitability_score": 64.0309,
+    "avg_retention_proxy_score": 64.0309,
+    "avg_cost_burden_proxy": 518925.4222,
+    "avg_same_industry_300m": 118.5872
+  },
+  {
+    "sigungu_name": "서구",
+    "candidate_rows": 17325,
+    "avg_suitability_score": 63.1578,
+    "avg_retention_proxy_score": 63.1578,
+    "avg_cost_burden_proxy": 728384.1097,
+    "avg_same_industry_300m": 156.5805
+  }
+]
