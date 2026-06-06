@@ -1,4 +1,5 @@
 import { BarChart2, CheckCircle2, XCircle } from 'lucide-react'
+import { ScrollProgress, usePageReveal } from '../components/ScrollReveal.jsx'
 
 const WEIGHTS = [
   { pct: '35%', label: '수요 가능성', desc: '유동인구·배후·상권 활성도', color: '#8272f9' },
@@ -32,21 +33,25 @@ const CANNOT = [
 ]
 
 export default function AnalysisPage() {
+  usePageReveal()
+
   return (
     <div className="info-page">
-      <div className="info-hero">
+      <ScrollProgress />
+
+      <div className="info-hero reveal">
         <BarChart2 size={32} color="#8272f9" />
         <h1>분석 방법</h1>
         <p>BizSpot AI가 입지 점수를 산출하는 방식을 설명합니다</p>
       </div>
 
       <section className="info-section">
-        <div className="info-formula-bar">
+        <div className="info-formula-bar reveal">
           Score = 수요 가능성 35% + 경쟁강도 역산 25% + 업종궁합 20% + 접근성 10% + 비용부담 역산 10%
         </div>
         <div className="info-weight-grid">
-          {WEIGHTS.map((w) => (
-            <div key={w.label} className="info-weight-card">
+          {WEIGHTS.map((w, i) => (
+            <div key={w.label} className={`info-weight-card reveal reveal-delay-${i + 1}`}>
               <div className="info-weight-pct" style={{ color: w.color }}>{w.pct}</div>
               <div className="info-weight-label">{w.label}</div>
               <div className="info-weight-desc">{w.desc}</div>
@@ -56,9 +61,9 @@ export default function AnalysisPage() {
       </section>
 
       <section className="info-section">
-        <h2>사용 변수</h2>
-        <p className="info-sub">"매출 예측" 대신 "창업 적합도·위험도·유지 가능성"으로 안전하게 설계했습니다</p>
-        <div className="info-table-wrap">
+        <h2 className="reveal">사용 변수</h2>
+        <p className="info-sub reveal">"매출 예측" 대신 "창업 적합도·위험도·유지 가능성"으로 안전하게 설계했습니다</p>
+        <div className="info-table-wrap reveal">
           <table className="info-table">
             <thead>
               <tr><th>범주</th><th>변수</th><th>산출 방법</th><th>해석</th></tr>
@@ -79,11 +84,11 @@ export default function AnalysisPage() {
 
       <section className="info-section">
         <div className="info-verdict-grid">
-          <div className="info-verdict can">
+          <div className="info-verdict can reveal reveal-delay-1">
             <h3><CheckCircle2 size={18} /> 이 결과로 말할 수 있는 결론</h3>
             <ul>{CAN.map((c) => <li key={c}>{c}</li>)}</ul>
           </div>
-          <div className="info-verdict cannot">
+          <div className="info-verdict cannot reveal reveal-delay-2">
             <h3><XCircle size={18} /> 아직 말하면 안 되는 결론</h3>
             <ul>{CANNOT.map((c) => <li key={c}>{c}</li>)}</ul>
           </div>

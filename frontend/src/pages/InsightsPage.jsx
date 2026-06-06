@@ -1,26 +1,11 @@
-import { Lightbulb, AlertTriangle } from 'lucide-react'
+import { AlertTriangle, Lightbulb } from 'lucide-react'
+import { ScrollProgress, usePageReveal } from '../components/ScrollReveal.jsx'
 
 const HYPOTHESES = [
-  {
-    id: 'H1',
-    title: '창업 적합도 가설',
-    body: '상가정보, 건축물대장, 공시지가, 실거래가, 대중교통 데이터를 결합하면 후보 위치·업종 조합의 창업 적합도 점수를 만들 수 있다.',
-  },
-  {
-    id: 'H2',
-    title: '경쟁 임계점 가설',
-    body: '동일 업종 밀집도는 수요가 있다는 신호일 수 있지만, 일정 수준을 넘으면 신규 창업자에게 경쟁 위험으로 작용한다.',
-  },
-  {
-    id: 'H3',
-    title: '비용 부담 가설',
-    body: '공시지가와 상업업무용 거래 수준이 높은 지역은 입지 가치가 높지만, 동시에 고정비 부담이 커져 위험 요인이 될 수 있다.',
-  },
-  {
-    id: 'H4',
-    title: '설명가능성 가설',
-    body: '변수 기여도를 해석하면 "왜 이 후보지가 추천되는지"와 "무엇이 위험한지"를 웹 카드로 설명할 수 있다.',
-  },
+  { id: 'H1', title: '창업 적합도 가설', body: '상가정보, 건축물대장, 공시지가, 실거래가, 대중교통 데이터를 결합하면 후보 위치·업종 조합의 창업 적합도 점수를 만들 수 있다.' },
+  { id: 'H2', title: '경쟁 임계점 가설', body: '동일 업종 밀집도는 수요가 있다는 신호일 수 있지만, 일정 수준을 넘으면 신규 창업자에게 경쟁 위험으로 작용한다.' },
+  { id: 'H3', title: '비용 부담 가설', body: '공시지가와 상업업무용 거래 수준이 높은 지역은 입지 가치가 높지만, 동시에 고정비 부담이 커져 위험 요인이 될 수 있다.' },
+  { id: 'H4', title: '설명가능성 가설', body: '변수 기여도를 해석하면 "왜 이 후보지가 추천되는지"와 "무엇이 위험한지"를 웹 카드로 설명할 수 있다.' },
 ]
 
 const VALIDATION = [
@@ -37,34 +22,38 @@ const INSIGHTS = [
 ]
 
 export default function InsightsPage() {
+  usePageReveal()
+
   return (
     <div className="info-page">
-      <div className="info-hero">
+      <ScrollProgress />
+
+      <div className="info-hero reveal">
         <Lightbulb size={32} color="#8272f9" />
         <h1>인사이트</h1>
         <p>이 프로젝트가 무엇을 검증하고 어떤 결론을 도출했는지 설명합니다</p>
       </div>
 
       <section className="info-section">
-        <h2>연구 핵심 메시지</h2>
+        <h2 className="reveal">연구 핵심 메시지</h2>
         <div className="insight-trio">
-          {INSIGHTS.map((item) => (
-            <div key={item.title} className="insight-trio-card">
+          {INSIGHTS.map((item, i) => (
+            <div key={item.title} className={`insight-trio-card reveal reveal-delay-${i + 1}`}>
               <h3>{item.title}</h3>
               <p>{item.body}</p>
             </div>
           ))}
         </div>
-        <div className="info-formula-bar" style={{ marginTop: 24 }}>
+        <div className="info-formula-bar reveal" style={{ marginTop: 24 }}>
           최종 연구 질문: 광주광역시에서 특정 위치·업종 조합의 창업 적합도는 공공데이터 기반 변수로 설명될 수 있는가?
         </div>
       </section>
 
       <section className="info-section">
-        <h2>핵심 가설</h2>
+        <h2 className="reveal">핵심 가설</h2>
         <div className="hypothesis-grid">
-          {HYPOTHESES.map((h) => (
-            <div key={h.id} className="hypothesis-card">
+          {HYPOTHESES.map((h, i) => (
+            <div key={h.id} className={`hypothesis-card reveal reveal-delay-${(i % 2) + 1}`}>
               <span className="hypothesis-id">{h.id}</span>
               <h3>{h.title}</h3>
               <p>{h.body}</p>
@@ -74,9 +63,9 @@ export default function InsightsPage() {
       </section>
 
       <section className="info-section">
-        <h2>모델 검증 설계</h2>
-        <p className="info-sub">평가 기준의 난이도와 인사이트를 동시에 잡는 핵심 파트입니다</p>
-        <div className="info-table-wrap">
+        <h2 className="reveal">모델 검증 설계</h2>
+        <p className="info-sub reveal">평가 기준의 난이도와 인사이트를 동시에 잡는 핵심 파트입니다</p>
+        <div className="info-table-wrap reveal">
           <table className="info-table">
             <thead>
               <tr><th>검증 질문</th><th>방법</th><th>지표</th><th>판단 기준</th></tr>
@@ -97,7 +86,7 @@ export default function InsightsPage() {
 
       <section className="info-section">
         <div className="info-verdict-grid">
-          <div className="info-verdict can">
+          <div className="info-verdict can reveal reveal-delay-1">
             <h3>✓ 이 결과로 말할 수 있는 결론</h3>
             <ul>
               <li>공공데이터만으로도 후보지의 경쟁도·접근성·비용 부담을 정량화할 수 있다.</li>
@@ -105,7 +94,7 @@ export default function InsightsPage() {
               <li>추천 사유와 위험 사유를 데이터로 설명할 수 있다.</li>
             </ul>
           </div>
-          <div className="info-verdict cannot">
+          <div className="info-verdict cannot reveal reveal-delay-2">
             <h3><AlertTriangle size={16} /> 아직 말하면 안 되는 결론</h3>
             <ul>
               <li>이 시스템이 실제 창업 성공을 보장한다.</li>

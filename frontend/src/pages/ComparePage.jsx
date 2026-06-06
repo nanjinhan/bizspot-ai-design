@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { GitCompare } from 'lucide-react'
+import { ScrollProgress, usePageReveal } from '../components/ScrollReveal.jsx'
 
 async function loadJson(path) {
   const res = await fetch(path)
@@ -25,6 +26,7 @@ function ScoreBar({ value, max }) {
 
 export default function ComparePage() {
   const [data, setData] = useState([])
+  usePageReveal()
 
   useEffect(() => {
     loadJson('/data/district_summary.json').then(setData)
@@ -37,7 +39,9 @@ export default function ComparePage() {
 
   return (
     <div className="info-page">
-      <div className="info-hero">
+      <ScrollProgress />
+
+      <div className="info-hero reveal">
         <GitCompare size={32} color="#8272f9" />
         <h1>자치구 비교</h1>
         <p>광주광역시 5개 자치구의 평균 입지 점수를 비교합니다</p>
@@ -46,7 +50,7 @@ export default function ComparePage() {
       <section className="info-section">
         <div className="compare-cards">
           {sorted.map((d, i) => (
-            <div key={d.sigungu_name} className={`compare-card ${i === 0 ? 'compare-card--top' : ''}`}>
+            <div key={d.sigungu_name} className={`compare-card reveal reveal-delay-${(i % 3) + 1} ${i === 0 ? 'compare-card--top' : ''}`}>
               {i === 0 && <span className="compare-badge">최고 적합도</span>}
               <div className="compare-rank">#{i + 1}</div>
               <h2 className="compare-name">{d.sigungu_name}</h2>
@@ -81,7 +85,7 @@ export default function ComparePage() {
           ))}
         </div>
 
-        <div className="compare-note">
+        <div className="compare-note reveal">
           * 평균 입지 적합도는 Score = 수요 35% + 경쟁역산 25% + 업종궁합 20% + 접근성 10% + 비용역산 10% 가중합으로 산출됩니다.
           지도에서 특정 동·후보지를 직접 선택하면 더 정밀한 분석을 볼 수 있습니다.
         </div>
