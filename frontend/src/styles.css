@@ -34,8 +34,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 60px;
-  padding: 0 max(20px, calc((100vw - 1160px) / 2));
+  min-height: 72px;
+  padding: 0 max(28px, calc((100vw - 1200px) / 2));
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -48,7 +48,7 @@ a {
 
 .brand {
   color: #030050;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 900;
   letter-spacing: 0;
 }
@@ -56,12 +56,12 @@ a {
 .top-nav nav {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 36px;
 }
 
 .top-nav nav a {
   color: #030050;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -74,11 +74,12 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 92px;
-  min-height: 38px;
+  min-width: 110px;
+  min-height: 44px;
   border-radius: 999px;
   background: #8272f9;
   color: #ffffff;
+  font-size: 15px;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(130, 114, 249, 0.3);
 }
@@ -124,18 +125,18 @@ a {
 }
 
 .home-hero {
-  min-height: 688px;
+  min-height: calc(100vh - 72px);
   display: grid;
   place-items: center;
   background: linear-gradient(170deg, rgba(136, 192, 238, 0.2) 9.6%, rgba(255, 255, 255, 0.2) 59.3%),
     linear-gradient(0deg, #ffffff 0%, #fbfdff 29.1%, #edf2ff 91.2%);
   color: #030050;
   text-align: center;
-  padding: 72px 20px 86px;
+  padding: 80px 20px 100px;
 }
 
 .hero-inner {
-  width: min(100%, 860px);
+  width: min(100%, 960px);
 }
 
 .hero-pill {
@@ -153,9 +154,9 @@ a {
 }
 
 .home-hero h1 {
-  font-size: clamp(52px, 6vw, 80px);
+  font-size: clamp(64px, 7vw, 100px);
   line-height: 1;
-  margin: 0 0 24px;
+  margin: 0 0 28px;
   font-weight: 900;
   color: #030050;
 }
@@ -163,7 +164,7 @@ a {
 .hero-subtitle {
   margin: 0;
   color: #030050;
-  font-size: clamp(18px, 2vw, 24px);
+  font-size: clamp(20px, 2.2vw, 28px);
   font-weight: 400;
 }
 
@@ -381,7 +382,7 @@ a {
 .map-page {
   padding: 10px 14px 0;
   background: linear-gradient(0deg, #ffffff 0%, #fbfdff 29%, #edf2ff 91%);
-  height: calc(100vh - 56px);
+  height: calc(100vh - 72px);
   display: flex;
   flex-direction: column;
   overflow: hidden;
