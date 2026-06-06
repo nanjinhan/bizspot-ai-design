@@ -1,4 +1,4 @@
-import { BarChart2, CheckCircle2, XCircle } from 'lucide-react'
+import { BarChart2, Bus, Building2, CheckCircle2, ShoppingBag, Layers, TrendingDown, Train, XCircle, Zap } from 'lucide-react'
 import { ScrollProgress, usePageReveal } from '../components/ScrollReveal.jsx'
 
 const WEIGHTS = [
@@ -9,14 +9,49 @@ const WEIGHTS = [
   { pct: '10%', label: '비용 역산', desc: '공시지가·거래 수준', color: '#d4cffd' },
 ]
 
-const VARIABLES = [
-  { cat: '경쟁', var: 'comp_density_300m / 500m', method: '후보지 반경 내 동일 소분류 업종 수', interp: '높으면 수요 신호이면서 경쟁 위험' },
-  { cat: '상권 규모', var: 'total_store_500m', method: '반경 내 전체 상가 수', interp: '상권 활성도 측정' },
-  { cat: '업종 다양성', var: 'hhi_500m', method: '반경 내 업종별 비율로 HHI 계산', interp: '업종 쏠림·다양성 판단' },
-  { cat: '교통 접근성', var: 'nearest_bus_m', method: '최근접 정류장 거리', interp: '방문 편의성' },
-  { cat: '도시철도', var: 'nearest_subway_m', method: '최근접 광주도시철도역 거리', interp: '직장인·학생 이동 수요' },
-  { cat: '비용 부담', var: 'cost_burden_proxy', method: '공시지가 등급 + 상업용 거래 수준', interp: '임대료 아니라 비용 부담 추정치' },
-  { cat: '건물 특성', var: 'building_age, gross_floor_area', method: '현재연도 - 사용승인연도, 면적', interp: '건물 노후도·규모' },
+const DATA_CARDS = [
+  {
+    icon: <ShoppingBag size={28} />,
+    title: '경쟁 분석',
+    tag: '경쟁 위험 탐지',
+    desc: '반경 300m 안에 같은 업종이 몇 개나 있는지 파악합니다. 경쟁이 너무 치열한 곳은 점수가 낮아집니다.',
+  },
+  {
+    icon: <Layers size={28} />,
+    title: '상권 활성도',
+    tag: '상권 규모',
+    desc: '주변 500m 내 전체 상가 수로 상권이 얼마나 살아있는지 측정합니다. 상권이 클수록 유동인구도 많습니다.',
+  },
+  {
+    icon: <Zap size={28} />,
+    title: '업종 다양성',
+    tag: '업종 균형',
+    desc: '특정 업종에 쏠린 상권인지, 다양한 업종이 공존하는지 분석합니다. 다양할수록 안정적인 상권입니다.',
+  },
+  {
+    icon: <Bus size={28} />,
+    title: '버스 접근성',
+    tag: '교통',
+    desc: '가장 가까운 버스 정류장까지의 거리를 측정합니다. 손님이 얼마나 쉽게 방문할 수 있는지를 나타냅니다.',
+  },
+  {
+    icon: <Train size={28} />,
+    title: '지하철 접근성',
+    tag: '도시철도',
+    desc: '광주도시철도 역까지의 거리를 측정합니다. 직장인·학생 유동인구 유입 가능성을 나타냅니다.',
+  },
+  {
+    icon: <TrendingDown size={28} />,
+    title: '예상 비용 부담',
+    tag: '임대 추정',
+    desc: '공시지가와 상업 거래 수준으로 예상 임대 부담을 추정합니다. 실제 임대료가 아닌 상대적 비용 수준입니다.',
+  },
+  {
+    icon: <Building2 size={28} />,
+    title: '건물 환경',
+    tag: '시설 상태',
+    desc: '건물 연령과 면적으로 시설의 상태와 규모를 파악합니다. 오래되거나 너무 작은 건물은 감점됩니다.',
+  },
 ]
 
 const CAN = [
@@ -42,12 +77,12 @@ export default function AnalysisPage() {
       <div className="info-hero reveal">
         <BarChart2 size={32} color="#8272f9" />
         <h1>분석 방법</h1>
-        <p>BizSpot AI가 입지 점수를 산출하는 방식을 설명합니다</p>
+        <p>BizSpot AI가 입지 점수를 어떻게 계산하는지 쉽게 설명합니다</p>
       </div>
 
       <section className="info-section">
         <div className="info-formula-bar reveal">
-          Score = 수요 가능성 35% + 경쟁강도 역산 25% + 업종궁합 20% + 접근성 10% + 비용부담 역산 10%
+          점수 = 수요 가능성 35% + 경쟁강도 역산 25% + 업종궁합 20% + 접근성 10% + 비용부담 역산 10%
         </div>
         <div className="info-weight-grid">
           {WEIGHTS.map((w, i) => (
@@ -61,24 +96,17 @@ export default function AnalysisPage() {
       </section>
 
       <section className="info-section">
-        <h2 className="reveal">사용 변수</h2>
-        <p className="info-sub reveal">"매출 예측" 대신 "창업 적합도·위험도·유지 가능성"으로 안전하게 설계했습니다</p>
-        <div className="info-table-wrap reveal">
-          <table className="info-table">
-            <thead>
-              <tr><th>범주</th><th>변수</th><th>산출 방법</th><th>해석</th></tr>
-            </thead>
-            <tbody>
-              {VARIABLES.map((v) => (
-                <tr key={v.var}>
-                  <td><strong>{v.cat}</strong></td>
-                  <td className="mono">{v.var}</td>
-                  <td>{v.method}</td>
-                  <td>{v.interp}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <h2 className="reveal">어떤 데이터를 보나요?</h2>
+        <p className="info-sub reveal">공공데이터 7종을 조합해 후보지를 평가합니다</p>
+        <div className="analysis-data-grid">
+          {DATA_CARDS.map((card, i) => (
+            <div key={card.title} className={`analysis-data-card reveal reveal-delay-${(i % 3) + 1}`}>
+              <div className="analysis-data-icon">{card.icon}</div>
+              <div className="analysis-data-tag">{card.tag}</div>
+              <h3 className="analysis-data-title">{card.title}</h3>
+              <p className="analysis-data-desc">{card.desc}</p>
+            </div>
+          ))}
         </div>
       </section>
 

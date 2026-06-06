@@ -1896,6 +1896,68 @@ a {
   line-height: 1.6;
 }
 
+/* ─── ANALYSIS DATA CARDS ──────────────────────────────────── */
+.analysis-data-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.analysis-data-card {
+  border: 1.5px solid #dfdef6;
+  border-radius: 20px;
+  padding: 24px 20px;
+  background: #fff;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.analysis-data-card:hover {
+  box-shadow: 0 8px 24px rgba(130, 114, 249, 0.15);
+  transform: translateY(-3px);
+}
+
+.analysis-data-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #f0eeff, #e4e0fd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8272f9;
+  margin-bottom: 14px;
+}
+
+.analysis-data-tag {
+  display: inline-block;
+  background: #f0eeff;
+  color: #8272f9;
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.analysis-data-title {
+  font-size: 15px;
+  font-weight: 800;
+  color: #030050;
+  margin: 0 0 8px;
+}
+
+.analysis-data-desc {
+  font-size: 13px;
+  color: #676767;
+  line-height: 1.65;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .analysis-data-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
 .about-team-badge {
   display: inline-block;
   background: #8272f9;
