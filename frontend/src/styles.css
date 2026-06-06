@@ -1393,7 +1393,7 @@ a {
   white-space: pre-wrap;
   font-family: inherit;
   margin: 0 0 20px;
-  max-height: 320px;
+  max-height: 480px;
   overflow-y: auto;
 }
 

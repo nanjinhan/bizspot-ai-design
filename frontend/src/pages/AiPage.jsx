@@ -2,6 +2,7 @@ import { Bot, Loader2, MapPin, Send, Sparkles } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { attachGridContext, buildFallbackAnswer, selectTop3ForQuestion, sortByScore } from '../utils/recommendation.js'
 import { sanitizeSafeText } from '../utils/safeText.js'
+import { cleanProxyText } from '../utils/cleanText.js'
 
 const configuredApiBase = import.meta.env.VITE_API_BASE_URL || ''
 const localApiBasePattern = /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?/i
@@ -53,9 +54,9 @@ export default function AiPage() {
       })
       if (!response.ok) throw new Error(`${response.status}`)
       const payload = await response.json()
-      answerText = sanitizeSafeText(payload.answer || buildFallbackAnswer(question, recommendations))
+      answerText = cleanProxyText(sanitizeSafeText(payload.answer || buildFallbackAnswer(question, recommendations)))
     } catch {
-      answerText = sanitizeSafeText(buildFallbackAnswer(question, recommendations))
+      answerText = cleanProxyText(sanitizeSafeText(buildFallbackAnswer(question, recommendations)))
     }
 
     setAnswer(answerText)

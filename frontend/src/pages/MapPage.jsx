@@ -183,6 +183,7 @@ export default function MapPage() {
 
           {activePanel === 'ai' && (
             <AiConsultPanel
+              key={aiInitialData ? 'restored' : 'default'}
               candidates={candidates}
               gridScores={gridScores}
               onRecommendations={setAiRecommendations}

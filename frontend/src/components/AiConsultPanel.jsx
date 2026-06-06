@@ -2,6 +2,7 @@ import { Bot, Loader2, Send } from 'lucide-react'
 import { useState } from 'react'
 import { attachGridContext, buildFallbackAnswer, selectTop3ForQuestion } from '../utils/recommendation.js'
 import { sanitizeSafeText } from '../utils/safeText.js'
+import { cleanProxyText } from '../utils/cleanText.js'
 import CandidateCard from './CandidateCard.jsx'
 
 const configuredApiBase = import.meta.env.VITE_API_BASE_URL || ''
@@ -33,10 +34,10 @@ export default function AiConsultPanel({ candidates, gridScores = [], onRecommen
       })
       if (!response.ok) throw new Error(`AI server responded ${response.status}`)
       const payload = await response.json()
-      setAnswer(sanitizeSafeText(payload.answer || buildFallbackAnswer(question, recommendations)))
+      setAnswer(cleanProxyText(sanitizeSafeText(payload.answer || buildFallbackAnswer(question, recommendations))))
       setStatus(payload.fallback ? 'fallback' : 'success')
     } catch {
-      setAnswer(sanitizeSafeText(buildFallbackAnswer(question, recommendations)))
+      setAnswer(cleanProxyText(sanitizeSafeText(buildFallbackAnswer(question, recommendations))))
       setStatus('fallback')
     }
   }
