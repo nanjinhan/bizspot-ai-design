@@ -513,7 +513,7 @@ a {
 
 .map-grid {
   display: grid;
-  grid-template-columns: 240px minmax(380px, 1fr) 280px;
+  grid-template-columns: 300px minmax(380px, 1fr) 300px;
   gap: 10px;
   align-items: stretch;
   flex: 1;
@@ -723,7 +723,8 @@ a {
   margin: 10px 0;
   background: #8272f9;
   min-height: 44px;
-  font-size: 15px;
+  font-size: 14px;
+  white-space: nowrap;
   border-radius: 30px;
   box-shadow: 0 0 10px rgba(130, 114, 249, 0.3);
 }

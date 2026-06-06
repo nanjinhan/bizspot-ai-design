@@ -73,7 +73,6 @@ export default function AiConsultPanel({ candidates, gridScores = [], onRecommen
           ))}
         </div>
       )}
-      {answer && <pre className="ai-answer">{answer}</pre>}
     </section>
   )
 }
