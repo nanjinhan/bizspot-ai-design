@@ -3,6 +3,10 @@
     {
       "source": "/map",
       "destination": "/index.html"
+    },
+    {
+      "source": "/ai",
+      "destination": "/index.html"
     }
   ]
 }

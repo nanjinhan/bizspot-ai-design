@@ -65,7 +65,7 @@ export default function HomePage() {
           <p className="hero-subtitle">| 감이 아닌 데이터로 소상공인 창업 입지를 분석합니다 |</p>
           <div className="hero-actions" style={{ marginTop: '42px' }}>
             <a className="hero-link primary" href="/map">지도에서 시작하기</a>
-            <a className="hero-link secondary" href="/map">AI 상담하기</a>
+            <a className="hero-link secondary" href="/ai">AI 상담하기</a>
           </div>
         </div>
       </section>

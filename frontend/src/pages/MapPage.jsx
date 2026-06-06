@@ -25,7 +25,21 @@ export default function MapPage() {
   const [clickInfo, setClickInfo] = useState(null)
   const [aiRecommendations, setAiRecommendations] = useState([])
   const [loadError, setLoadError] = useState('')
-  const [activePanel, setActivePanel] = useState('search')
+  const fromAi = new URLSearchParams(window.location.search).get('from') === 'ai'
+  const [activePanel, setActivePanel] = useState(fromAi ? 'ai' : 'search')
+
+  useEffect(() => {
+    if (fromAi) {
+      try {
+        const stored = sessionStorage.getItem('aiResults')
+        if (stored) {
+          const { recommendations } = JSON.parse(stored)
+          if (Array.isArray(recommendations)) setAiRecommendations(recommendations)
+          sessionStorage.removeItem('aiResults')
+        }
+      } catch {}
+    }
+  }, [])
 
   useEffect(() => {
     Promise.all([
