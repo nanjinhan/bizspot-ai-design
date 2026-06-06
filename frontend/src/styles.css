@@ -1896,6 +1896,76 @@ a {
   line-height: 1.6;
 }
 
+/* ─── INSIGHT PAGE ──────────────────────────────────────────── */
+.insight-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #f0eeff, #e4e0fd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8272f9;
+  margin-bottom: 16px;
+}
+
+.insight-usecase-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.insight-usecase-item {
+  border: 1.5px solid #dfdef6;
+  border-radius: 16px;
+  padding: 20px;
+  background: #fff;
+}
+
+.insight-usecase-q {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #030050;
+  margin-bottom: 12px;
+}
+
+.insight-usecase-a {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.65;
+}
+
+.insight-usecase-badge {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  background: #8272f9;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.insight-usecase-badge--a {
+  background: #f0eeff;
+  color: #8272f9;
+}
+
+@media (max-width: 768px) {
+  .insight-usecase-list { grid-template-columns: 1fr; }
+}
+
 /* ─── ANALYSIS DATA CARDS ──────────────────────────────────── */
 .analysis-data-grid {
   display: grid;
