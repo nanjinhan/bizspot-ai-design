@@ -1,4 +1,4 @@
-import { BarChart2, Bus, Building2, CheckCircle2, ShoppingBag, Layers, TrendingDown, Train, XCircle, Zap } from 'lucide-react'
+import { BarChart2, Bus, Building2, ShoppingBag, Layers, TrendingDown, Train, Zap } from 'lucide-react'
 import { ScrollProgress, usePageReveal } from '../components/ScrollReveal.jsx'
 
 const WEIGHTS = [
@@ -110,18 +110,6 @@ export default function AnalysisPage() {
         </div>
       </section>
 
-      <section className="info-section">
-        <div className="info-verdict-grid">
-          <div className="info-verdict can reveal reveal-delay-1">
-            <h3><CheckCircle2 size={18} /> 이 결과로 말할 수 있는 결론</h3>
-            <ul>{CAN.map((c) => <li key={c}>{c}</li>)}</ul>
-          </div>
-          <div className="info-verdict cannot reveal reveal-delay-2">
-            <h3><XCircle size={18} /> 아직 말하면 안 되는 결론</h3>
-            <ul>{CANNOT.map((c) => <li key={c}>{c}</li>)}</ul>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }

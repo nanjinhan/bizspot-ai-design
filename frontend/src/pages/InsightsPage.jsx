@@ -1,4 +1,4 @@
-import { AlertTriangle, CheckCircle2, Lightbulb, MapPin, TrendingUp, Users } from 'lucide-react'
+import { Lightbulb, MapPin, TrendingUp, Users } from 'lucide-react'
 import { ScrollProgress, usePageReveal } from '../components/ScrollReveal.jsx'
 
 const KEY_INSIGHTS = [
@@ -84,18 +84,6 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      <section className="info-section">
-        <div className="info-verdict-grid">
-          <div className="info-verdict can reveal reveal-delay-1">
-            <h3><CheckCircle2 size={18} /> 이 서비스로 할 수 있는 것</h3>
-            <ul>{CAN.map((c) => <li key={c}>{c}</li>)}</ul>
-          </div>
-          <div className="info-verdict cannot reveal reveal-delay-2">
-            <h3><AlertTriangle size={18} /> 이 서비스의 한계</h3>
-            <ul>{CANNOT.map((c) => <li key={c}>{c}</li>)}</ul>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
