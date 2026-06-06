@@ -760,7 +760,7 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #030050;
+  background: #2563eb;
   color: white;
   font-weight: 800;
   font-size: 13px;
@@ -770,12 +770,44 @@ a {
 }
 
 .kakao-rank-marker--selected {
-  background: #8272f9;
-  width: 34px;
-  height: 34px;
+  background: #1d4ed8;
+  width: 36px;
+  height: 36px;
   border: 3px solid #fff;
-  box-shadow: 0 0 0 3px rgba(130, 114, 249, 0.4), 0 4px 12px rgba(24, 32, 51, 0.3);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.4), 0 4px 12px rgba(24, 32, 51, 0.3);
+  font-size: 15px;
 }
+
+.map-legend {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #dfdef6;
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 12px;
+  color: #030050;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 100;
+  pointer-events: none;
+}
+
+.map-legend-item {
+  display: inline-grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 800;
+  font-size: 11px;
+}
+
+.map-legend-rank { background: #2563eb; }
+.map-legend-ai { background: #8272f9; margin-left: 6px; }
 
 .analysis-panel {
   min-height: 720px;

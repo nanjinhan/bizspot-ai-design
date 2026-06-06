@@ -191,7 +191,8 @@ export default function KakaoMap({
     if (mode !== 'kakao' || !window.kakao?.maps || !mapInstance.current) return
     const point = getPointLatLng(selectedCandidate)
     if (!point) return
-    mapInstance.current.panTo(new window.kakao.maps.LatLng(point.lat, point.lng))
+    mapInstance.current.setCenter(new window.kakao.maps.LatLng(point.lat, point.lng))
+    if (mapInstance.current.getLevel() > 5) mapInstance.current.setLevel(5)
   }, [mode, selectedCandidate])
 
   if (mode === 'fallback') {
@@ -213,6 +214,10 @@ export default function KakaoMap({
     <div className="kakao-map-wrap">
       {mode === 'loading' && <div className="map-loading">지도를 준비하는 중입니다.</div>}
       <div className="kakao-map" data-testid="kakao-map" ref={mapRef} />
+      <div className="map-legend">
+        <span className="map-legend-item map-legend-rank">1</span> 검색 상위 후보
+        <span className="map-legend-item map-legend-ai">1</span> AI 추천
+      </div>
     </div>
   )
 }
