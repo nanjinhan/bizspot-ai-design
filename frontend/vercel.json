@@ -1,12 +1,10 @@
 {
   "rewrites": [
-    {
-      "source": "/map",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/ai",
-      "destination": "/index.html"
-    }
+    { "source": "/map", "destination": "/index.html" },
+    { "source": "/ai", "destination": "/index.html" },
+    { "source": "/analysis", "destination": "/index.html" },
+    { "source": "/compare", "destination": "/index.html" },
+    { "source": "/insights", "destination": "/index.html" },
+    { "source": "/about", "destination": "/index.html" }
   ]
 }
