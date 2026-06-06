@@ -53,7 +53,7 @@ export default async function handler(req, res) {
 }
 
 async function callGemini({ question, candidates }) {
-  const model = process.env.GEMMA_MODEL || 'gemma-4-31b-it'
+  const model = process.env.GEMMA_MODEL || 'gemini-2.5-flash'
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(
     model,
   )}:generateContent?key=${encodeURIComponent(process.env.GEMINI_API_KEY)}`
