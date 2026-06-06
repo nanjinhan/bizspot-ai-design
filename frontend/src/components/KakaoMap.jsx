@@ -38,6 +38,7 @@ export default function KakaoMap({
   gridScores = [],
   selectedIndustry = 'cafe',
   selectedCandidate,
+  topCandidates = [],
   clickedPoint,
   aiRecommendations,
   onMapClick,
@@ -93,19 +94,48 @@ export default function KakaoMap({
     markerStore.current.forEach((marker) => marker.setMap(null))
     markerStore.current = []
 
+    const topIds = new Set(topCandidates.map((c) => markerKey(c)))
+    const selectedId = selectedCandidate ? markerKey(selectedCandidate) : null
+
     markerRows.forEach((row) => {
       const point = getPointLatLng(row)
       if (!point) return
+      const key = markerKey(row)
+      if (topIds.has(key)) return
+
+      const isSelected = key === selectedId
       const marker = new kakao.maps.Marker({
         map: mapInstance.current,
         position: new kakao.maps.LatLng(point.lat, point.lng),
         title: row.name || row.grid_id,
+        zIndex: isSelected ? 5 : 1,
       })
       kakao.maps.event.addListener(marker, 'click', () => {
         if (row.source_type === 'grid') onGridSelect(row)
         else onCandidateSelect(row)
       })
       markerStore.current.push(marker)
+    })
+
+    topCandidates.forEach((candidate, index) => {
+      const point = getPointLatLng(candidate)
+      if (!point) return
+      const key = markerKey(candidate)
+      const isSelected = key === selectedId
+      const element = document.createElement('button')
+      element.className = isSelected ? 'kakao-rank-marker kakao-rank-marker--selected' : 'kakao-rank-marker'
+      element.type = 'button'
+      element.textContent = String(index + 1)
+      element.title = candidate.name || `후보 ${index + 1}`
+      element.addEventListener('click', () => onCandidateSelect(candidate))
+      const overlay = new kakao.maps.CustomOverlay({
+        map: mapInstance.current,
+        position: new kakao.maps.LatLng(point.lat, point.lng),
+        content: element,
+        yAnchor: 1,
+        zIndex: isSelected ? 10 : 3,
+      })
+      markerStore.current.push(overlay)
     })
 
     aiRecommendations.forEach((candidate, index) => {
@@ -131,7 +161,7 @@ export default function KakaoMap({
       markerStore.current.forEach((marker) => marker.setMap(null))
       markerStore.current = []
     }
-  }, [mode, markerRows, aiRecommendations, onCandidateSelect, onGridSelect])
+  }, [mode, markerRows, topCandidates, selectedCandidate, aiRecommendations, onCandidateSelect, onGridSelect])
 
   useEffect(() => {
     if (mode !== 'kakao' || !window.kakao?.maps || !mapInstance.current) return

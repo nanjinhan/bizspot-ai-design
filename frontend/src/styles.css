@@ -754,6 +754,29 @@ a {
   box-shadow: 0 4px 10px rgba(24, 32, 51, 0.22);
 }
 
+.kakao-rank-marker {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #030050;
+  color: white;
+  font-weight: 800;
+  font-size: 13px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 10px rgba(24, 32, 51, 0.22);
+}
+
+.kakao-rank-marker--selected {
+  background: #8272f9;
+  width: 34px;
+  height: 34px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 3px rgba(130, 114, 249, 0.4), 0 4px 12px rgba(24, 32, 51, 0.3);
+}
+
 .analysis-panel {
   min-height: 720px;
   overflow: auto;

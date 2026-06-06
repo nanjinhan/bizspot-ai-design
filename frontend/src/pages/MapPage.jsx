@@ -166,6 +166,7 @@ export default function MapPage() {
             gridScores={gridScores}
             selectedIndustry={industry}
             selectedCandidate={selectedCandidate}
+            topCandidates={visibleCandidates.slice(0, 6)}
             clickedPoint={clickedPoint}
             aiRecommendations={aiRecommendations}
             onMapClick={handleMapClick}
