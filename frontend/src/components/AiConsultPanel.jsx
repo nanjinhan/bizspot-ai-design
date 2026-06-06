@@ -12,11 +12,11 @@ const API_BASE = import.meta.env.PROD
     : configuredApiBase
   : configuredApiBase || 'http://localhost:8787'
 
-export default function AiConsultPanel({ candidates, gridScores = [], onRecommendations, onSelectCandidate }) {
-  const [question, setQuestion] = useState('광주 북구에서 카페 창업지를 검토하고 싶은데 어디가 좋아?')
-  const [answer, setAnswer] = useState('')
-  const [localTop3, setLocalTop3] = useState([])
-  const [status, setStatus] = useState('idle')
+export default function AiConsultPanel({ candidates, gridScores = [], onRecommendations, onSelectCandidate, initialQuestion, initialAnswer, initialTop3 = [] }) {
+  const [question, setQuestion] = useState(initialQuestion ?? '광주 북구에서 카페 창업지를 검토하고 싶은데 어디가 좋아?')
+  const [answer, setAnswer] = useState(initialAnswer ?? '')
+  const [localTop3, setLocalTop3] = useState(initialTop3)
+  const [status, setStatus] = useState(initialAnswer ? 'success' : 'idle')
 
   async function askAi() {
     const { parsed, recommendations } = selectTop3ForQuestion(candidates, question)

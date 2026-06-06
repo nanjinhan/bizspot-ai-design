@@ -60,7 +60,7 @@ export default function AiPage() {
 
     setAnswer(answerText)
     setStatus('done')
-    sessionStorage.setItem('aiResults', JSON.stringify({ recommendations, answer: answerText }))
+    sessionStorage.setItem('aiResults', JSON.stringify({ recommendations, answer: answerText, question }))
   }
 
   function goToMap() {

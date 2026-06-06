@@ -24,6 +24,7 @@ export default function MapPage() {
   const [clickedPoint, setClickedPoint] = useState(null)
   const [clickInfo, setClickInfo] = useState(null)
   const [aiRecommendations, setAiRecommendations] = useState([])
+  const [aiInitialData, setAiInitialData] = useState(null)
   const [loadError, setLoadError] = useState('')
   const fromAi = new URLSearchParams(window.location.search).get('from') === 'ai'
   const [activePanel, setActivePanel] = useState(fromAi ? 'ai' : 'search')
@@ -33,8 +34,9 @@ export default function MapPage() {
       try {
         const stored = sessionStorage.getItem('aiResults')
         if (stored) {
-          const { recommendations } = JSON.parse(stored)
+          const { recommendations, answer, question } = JSON.parse(stored)
           if (Array.isArray(recommendations)) setAiRecommendations(recommendations)
+          if (answer || question) setAiInitialData({ question: question || '', answer: answer || '' })
           sessionStorage.removeItem('aiResults')
         }
       } catch {}
@@ -185,6 +187,9 @@ export default function MapPage() {
               gridScores={gridScores}
               onRecommendations={setAiRecommendations}
               onSelectCandidate={selectCandidate}
+              initialQuestion={aiInitialData?.question}
+              initialAnswer={aiInitialData?.answer}
+              initialTop3={aiInitialData ? aiRecommendations : []}
             />
           )}
         </aside>
