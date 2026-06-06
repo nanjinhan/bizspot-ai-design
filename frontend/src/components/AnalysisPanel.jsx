@@ -106,23 +106,23 @@ export default function AnalysisPanel({ candidate, clickInfo, relatedIndustries 
           <strong>{candidate.suitability_score}</strong>
         </div>
         <div>
-          <span>영업 유지 proxy 점수</span>
+          <span>영업 지속 점수</span>
           <strong>{candidate.retention_proxy_score}</strong>
         </div>
       </div>
 
       <div className="chip-row">
         <span className="chip">위험도 {candidate.risk_level}</span>
-        <span className="chip">동일 업종 {candidate.same_industry_300m ?? '-'}개</span>
-        <span className="chip">비용 부담 proxy {candidate.cost_burden_proxy?.toLocaleString?.() ?? '-'}</span>
+        <span className="chip">주변 동일업종 {candidate.same_industry_300m ?? '-'}개</span>
+        <span className="chip">예상 임대 부담 {candidate.cost_burden_proxy?.toLocaleString?.() ?? '-'}</span>
       </div>
 
       <section className="score-section">
         {[
-          scoreBar('수요 proxy', candidate.demand_proxy_score),
-          scoreBar('접근성 proxy', candidate.accessibility_score),
+          scoreBar('유동인구 지수', candidate.demand_proxy_score),
+          scoreBar('접근성 지수', candidate.accessibility_score),
           scoreBar('업종 궁합', candidate.industry_fit_score),
-          scoreBar('경쟁 부담 완화', candidate.competition_burden_score),
+          scoreBar('경쟁 강도 완화', candidate.competition_burden_score),
           scoreBar('비용 부담 완화', candidate.cost_inverted_score),
         ]}
       </section>

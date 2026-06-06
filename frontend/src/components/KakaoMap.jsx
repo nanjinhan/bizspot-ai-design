@@ -215,7 +215,8 @@ export default function KakaoMap({
       {mode === 'loading' && <div className="map-loading">지도를 준비하는 중입니다.</div>}
       <div className="kakao-map" data-testid="kakao-map" ref={mapRef} />
       <div className="map-legend">
-        <span className="map-legend-item map-legend-rank">1</span> 검색 상위 후보
+        <span className="map-legend-item map-legend-rank">1</span> 검색 후보
+        <span className="map-legend-item map-legend-selected">1</span> 선택됨
         <span className="map-legend-item map-legend-ai">1</span> AI 추천
       </div>
     </div>
