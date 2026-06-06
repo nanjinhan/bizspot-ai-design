@@ -353,9 +353,12 @@ a {
 
 /* ─── MAP PAGE ────────────────────────────────────────────── */
 .map-page {
-  padding: 20px;
+  padding: 16px 20px 0;
   background: linear-gradient(0deg, #ffffff 0%, #fbfdff 29%, #edf2ff 91%);
-  min-height: calc(100vh - 60px);
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .primary-button:disabled {
@@ -365,15 +368,16 @@ a {
 
 .map-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+  flex-shrink: 0;
 }
 
 .map-header h1 {
-  font-size: 28px;
-  margin: 4px 0 0;
+  font-size: 20px;
+  margin: 2px 0 0;
   color: #030050;
 }
 
@@ -413,9 +417,12 @@ a {
 
 .map-grid {
   display: grid;
-  grid-template-columns: 320px minmax(460px, 1fr) 360px;
-  gap: 14px;
+  grid-template-columns: 300px minmax(460px, 1fr) 340px;
+  gap: 12px;
   align-items: stretch;
+  flex: 1;
+  min-height: 0;
+  padding-bottom: 12px;
 }
 
 .control-panel,
@@ -430,7 +437,42 @@ a {
 
 .control-panel,
 .analysis-panel {
-  padding: 20px 18px;
+  padding: 16px 16px;
+  overflow-y: auto;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.panel-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-bottom: 14px;
+  background: #f0effe;
+  border-radius: 12px;
+  padding: 4px;
+}
+
+.panel-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px 0;
+  border-radius: 9px;
+  border: none;
+  background: transparent;
+  color: #8272f9;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.panel-tab.active {
+  background: #8272f9;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(130, 114, 249, 0.3);
 }
 
 .section-title {
@@ -638,8 +680,10 @@ a {
 }
 
 .map-stage {
-  min-height: 720px;
-  padding: 10px;
+  min-height: 0;
+  height: 100%;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
 .kakao-map-wrap,
@@ -648,7 +692,7 @@ a {
   position: relative;
   width: 100%;
   height: 100%;
-  min-height: 696px;
+  min-height: 0;
   border-radius: 16px;
   overflow: hidden;
 }

@@ -25,6 +25,7 @@ export default function MapPage() {
   const [clickInfo, setClickInfo] = useState(null)
   const [aiRecommendations, setAiRecommendations] = useState([])
   const [loadError, setLoadError] = useState('')
+  const [activePanel, setActivePanel] = useState('search')
 
   useEffect(() => {
     Promise.all([
@@ -111,53 +112,67 @@ export default function MapPage() {
 
       <section className="map-grid">
         <aside className="control-panel">
-          <div className="section-title">
-            <Filter size={18} />
-            <h2>조건 선택</h2>
-          </div>
-          <label>
-            자치구
-            <select value={district} onChange={(event) => setDistrict(event.target.value)}>
-              {DISTRICTS.map((item) => (
-                <option key={item} value={item}>
-                  {item}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label>
-            업종
-            <select value={industry} onChange={(event) => setIndustry(event.target.value)}>
-              {INDUSTRIES.map((item) => (
-                <option key={item.value} value={item.value}>
-                  {item.label}
-                </option>
-              ))}
-            </select>
-          </label>
-
-          <div className="section-title compact-title">
-            <MapPinned size={18} />
-            <h2>상위 후보</h2>
-          </div>
-          <div className="candidate-list">
-            {visibleCandidates.slice(0, 6).map((candidate, index) => (
-              <CandidateCard
-                key={candidate.candidate_id}
-                candidate={candidate}
-                active={selectedCandidate?.candidate_id === candidate.candidate_id}
-                rank={index + 1}
-                onSelect={selectCandidate}
-              />
-            ))}
+          <div className="panel-tabs">
+            <button
+              className={`panel-tab ${activePanel === 'search' ? 'active' : ''}`}
+              onClick={() => setActivePanel('search')}
+              type="button"
+            >
+              <Filter size={14} /> 조건 검색
+            </button>
+            <button
+              className={`panel-tab ${activePanel === 'ai' ? 'active' : ''}`}
+              onClick={() => setActivePanel('ai')}
+              type="button"
+            >
+              AI 상담
+            </button>
           </div>
 
-          <AiConsultPanel
-            candidates={candidates}
-            gridScores={gridScores}
-            onRecommendations={setAiRecommendations}
-            onSelectCandidate={selectCandidate}
-          />
+          {activePanel === 'search' && (
+            <>
+              <label>
+                자치구
+                <select value={district} onChange={(event) => setDistrict(event.target.value)}>
+                  {DISTRICTS.map((item) => (
+                    <option key={item} value={item}>{item}</option>
+                  ))}
+                </select>
+              </label>
+              <label>
+                업종
+                <select value={industry} onChange={(event) => setIndustry(event.target.value)}>
+                  {INDUSTRIES.map((item) => (
+                    <option key={item.value} value={item.value}>{item.label}</option>
+                  ))}
+                </select>
+              </label>
+              <div className="section-title compact-title">
+                <MapPinned size={16} />
+                <h2>상위 후보</h2>
+              </div>
+              <div className="candidate-list">
+                {visibleCandidates.slice(0, 6).map((candidate, index) => (
+                  <CandidateCard
+                    key={candidate.candidate_id}
+                    candidate={candidate}
+                    active={selectedCandidate?.candidate_id === candidate.candidate_id}
+                    rank={index + 1}
+                    onSelect={selectCandidate}
+                  />
+                ))}
+              </div>
+            </>
+          )}
+
+          {activePanel === 'ai' && (
+            <AiConsultPanel
+              candidates={candidates}
+              gridScores={gridScores}
+              onRecommendations={setAiRecommendations}
+              onSelectCandidate={selectCandidate}
+            />
+          )}
         </aside>
 
         <section className="map-stage">
