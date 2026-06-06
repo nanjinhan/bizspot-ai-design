@@ -1,5 +1,6 @@
 import { Bot, Loader2, MapPin, Send, Sparkles } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import CandidateCard from '../components/CandidateCard.jsx'
 import { attachGridContext, buildFallbackAnswer, selectTop3ForQuestion, sortByScore } from '../utils/recommendation.js'
 import { sanitizeSafeText } from '../utils/safeText.js'
 import { cleanProxyText } from '../utils/cleanText.js'
@@ -27,6 +28,7 @@ export default function AiPage() {
   const [gridScores, setGridScores] = useState([])
   const [question, setQuestion] = useState('')
   const [status, setStatus] = useState('idle')
+  const [recommendations, setRecommendations] = useState([])
   const [answer, setAnswer] = useState('')
 
   useEffect(() => {
@@ -41,8 +43,9 @@ export default function AiPage() {
 
   async function handleSubmit() {
     if (!question.trim() || !candidates.length) return
-    const { parsed, recommendations } = selectTop3ForQuestion(candidates, question)
-    const recsWithGrid = attachGridContext(recommendations, gridScores)
+    const { parsed, recommendations: recs } = selectTop3ForQuestion(candidates, question)
+    const recsWithGrid = attachGridContext(recs, gridScores)
+    setRecommendations(recs)
     setStatus('loading')
 
     let answerText = ''
@@ -54,14 +57,14 @@ export default function AiPage() {
       })
       if (!response.ok) throw new Error(`${response.status}`)
       const payload = await response.json()
-      answerText = cleanProxyText(sanitizeSafeText(payload.answer || buildFallbackAnswer(question, recommendations)))
+      answerText = cleanProxyText(sanitizeSafeText(payload.answer || buildFallbackAnswer(question, recs)))
     } catch {
-      answerText = cleanProxyText(sanitizeSafeText(buildFallbackAnswer(question, recommendations)))
+      answerText = cleanProxyText(sanitizeSafeText(buildFallbackAnswer(question, recs)))
     }
 
     setAnswer(answerText)
     setStatus('done')
-    sessionStorage.setItem('aiResults', JSON.stringify({ recommendations, answer: answerText, question }))
+    sessionStorage.setItem('aiResults', JSON.stringify({ recommendations: recs, answer: answerText, question }))
   }
 
   function goToMap() {
@@ -72,6 +75,7 @@ export default function AiPage() {
     setStatus('idle')
     setQuestion('')
     setAnswer('')
+    setRecommendations([])
   }
 
   return (
@@ -125,9 +129,18 @@ export default function AiPage() {
           <div className="ai-page-result">
             <div className="ai-result-header">
               <Sparkles size={20} color="#8272f9" />
-              <span>분석 완료</span>
+              <span>분석 완료 — 추천 후보지 {recommendations.length}곳</span>
             </div>
-            <pre className="ai-result-answer">{answer}</pre>
+            <div className="ai-result-cards">
+              {recommendations.map((candidate, index) => (
+                <CandidateCard
+                  key={candidate.candidate_id}
+                  candidate={candidate}
+                  rank={index + 1}
+                  onSelect={() => {}}
+                />
+              ))}
+            </div>
             <button className="ai-page-submit" type="button" onClick={goToMap}>
               <MapPin size={17} />
               지도에서 결과 보기
