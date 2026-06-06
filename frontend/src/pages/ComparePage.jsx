@@ -26,7 +26,7 @@ function ScoreBar({ value, max }) {
 
 export default function ComparePage() {
   const [data, setData] = useState([])
-  usePageReveal()
+  usePageReveal([data.length])
 
   useEffect(() => {
     loadJson('/data/district_summary.json').then(setData)

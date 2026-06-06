@@ -15,12 +15,15 @@ export function ScrollProgress() {
   return <div className="scroll-progress-bar" style={{ width: `${progress}%` }} />
 }
 
-export function usePageReveal() {
+export function usePageReveal(deps = []) {
   useEffect(() => {
+    let observer
+
     function observe() {
+      observer?.disconnect()
       const elements = document.querySelectorAll('.reveal')
       if (!elements.length) return
-      const observer = new IntersectionObserver(
+      observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
@@ -33,10 +36,13 @@ export function usePageReveal() {
         { threshold: 0.1 }
       )
       elements.forEach((el) => observer.observe(el))
-      return observer
     }
 
-    const observer = observe()
-    return () => observer?.disconnect()
-  }, [])
+    const timer = setTimeout(observe, 50)
+    return () => {
+      clearTimeout(timer)
+      observer?.disconnect()
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, deps)
 }
