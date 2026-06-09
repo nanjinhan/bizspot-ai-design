@@ -130,9 +130,7 @@ export default function KakaoMap({
         kakao.maps.event.addListener(marker, 'click', () => onCandidateSelect(candidate))
         markerStore.current.push(marker)
       })
-      return
-    }
-
+    } else {
     topCandidates.forEach((candidate, index) => {
       const point = getPointLatLng(candidate)
       if (!point) return
@@ -153,6 +151,7 @@ export default function KakaoMap({
       })
       markerStore.current.push(overlay)
     })
+    }
 
     aiRecommendations.forEach((candidate, index) => {
       const point = getPointLatLng(candidate)
