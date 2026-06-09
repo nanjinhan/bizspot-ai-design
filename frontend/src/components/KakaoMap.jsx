@@ -117,7 +117,21 @@ export default function KakaoMap({
       markerStore.current.push(marker)
     })
 
-    if (aiRecommendations.length > 0) return
+    if (aiRecommendations.length > 0) {
+      topCandidates.forEach((candidate) => {
+        const point = getPointLatLng(candidate)
+        if (!point) return
+        const marker = new kakao.maps.Marker({
+          map: mapInstance.current,
+          position: new kakao.maps.LatLng(point.lat, point.lng),
+          title: candidate.name || '',
+          zIndex: 2,
+        })
+        kakao.maps.event.addListener(marker, 'click', () => onCandidateSelect(candidate))
+        markerStore.current.push(marker)
+      })
+      return
+    }
 
     topCandidates.forEach((candidate, index) => {
       const point = getPointLatLng(candidate)
