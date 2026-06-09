@@ -117,6 +117,8 @@ export default function KakaoMap({
       markerStore.current.push(marker)
     })
 
+    if (aiRecommendations.length > 0) return
+
     topCandidates.forEach((candidate, index) => {
       const point = getPointLatLng(candidate)
       if (!point) return
