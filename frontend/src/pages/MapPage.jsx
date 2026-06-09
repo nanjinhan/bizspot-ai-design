@@ -1,5 +1,5 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
-import { Filter, MapPinned } from 'lucide-react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { Filter, Loader2, MapPinned, Search } from 'lucide-react'
 import AiConsultPanel from '../components/AiConsultPanel.jsx'
 import AnalysisPanel from '../components/AnalysisPanel.jsx'
 import CandidateCard from '../components/CandidateCard.jsx'
@@ -20,6 +20,10 @@ export default function MapPage() {
   const [industryRecommendations, setIndustryRecommendations] = useState([])
   const [district, setDistrict] = useState('전체')
   const [industry, setIndustry] = useState('cafe')
+  const [appliedDistrict, setAppliedDistrict] = useState('전체')
+  const [appliedIndustry, setAppliedIndustry] = useState('cafe')
+  const [isSearching, setIsSearching] = useState(false)
+  const searchTimerRef = useRef(null)
   const [selectedCandidate, setSelectedCandidate] = useState(null)
   const [clickedPoint, setClickedPoint] = useState(null)
   const [clickInfo, setClickInfo] = useState(null)
@@ -60,9 +64,19 @@ export default function MapPage() {
   }, [])
 
   const visibleCandidates = useMemo(
-    () => sortByScore(filterCandidates(candidates, district, industry)).slice(0, 40),
-    [candidates, district, industry],
+    () => sortByScore(filterCandidates(candidates, appliedDistrict, appliedIndustry)).slice(0, 40),
+    [candidates, appliedDistrict, appliedIndustry],
   )
+
+  function handleSearch() {
+    setIsSearching(true)
+    clearTimeout(searchTimerRef.current)
+    searchTimerRef.current = setTimeout(() => {
+      setAppliedDistrict(district)
+      setAppliedIndustry(industry)
+      setIsSearching(false)
+    }, 600)
+  }
 
   const relatedIndustries = useMemo(() => {
     if (clickInfo?.analysisType === 'grid') return clickInfo.gridTop5 || []
@@ -163,6 +177,10 @@ export default function MapPage() {
                   ))}
                 </select>
               </label>
+              <button className="search-button" type="button" onClick={handleSearch} disabled={isSearching}>
+                {isSearching ? <Loader2 size={16} className="spin" /> : <Search size={16} />}
+                <span>{isSearching ? '검색 중...' : '검색하기'}</span>
+              </button>
               <div className="section-title compact-title">
                 <MapPinned size={16} />
                 <h2>상위 후보</h2>

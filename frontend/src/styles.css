@@ -540,6 +540,26 @@ a {
   font-size: 13px;
 }
 
+.search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 10px 0;
+  margin: 8px 0 4px;
+  border: none;
+  border-radius: 10px;
+  background: #8272f9;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+}
+.search-button:hover { background: #6c5ee8; }
+.search-button:disabled { opacity: 0.65; cursor: not-allowed; }
+
 .panel-tabs {
   display: grid;
   grid-template-columns: 1fr 1fr;
