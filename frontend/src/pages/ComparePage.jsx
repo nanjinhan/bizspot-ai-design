@@ -86,7 +86,7 @@ export default function ComparePage() {
         </div>
 
         <div className="compare-note reveal">
-          * 평균 입지 적합도는 Score = 수요 35% + 경쟁역산 25% + 업종궁합 20% + 접근성 10% + 비용역산 10% 가중합으로 산출됩니다.
+          * 평균 입지 적합도는 Score = 수요 30% + 접근성 20% + 업종궁합 20% + 경쟁역산 15% + 비용역산 15% 가중합으로 산출됩니다.
           지도에서 특정 동·후보지를 직접 선택하면 더 정밀한 분석을 볼 수 있습니다.
         </div>
       </section>

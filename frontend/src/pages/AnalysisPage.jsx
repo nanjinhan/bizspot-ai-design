@@ -2,11 +2,11 @@ import { BarChart2, Bus, Building2, ShoppingBag, Layers, TrendingDown, Train, Za
 import { ScrollProgress, usePageReveal } from '../components/ScrollReveal.jsx'
 
 const WEIGHTS = [
-  { pct: '35%', label: '수요 가능성', desc: '유동인구·배후·상권 활성도', color: '#8272f9' },
-  { pct: '25%', label: '경쟁 역산', desc: '동일 업종 과밀 보정', color: '#6254e8' },
+  { pct: '30%', label: '수요 가능성', desc: '유동인구·배후·상권 활성도', color: '#8272f9' },
+  { pct: '20%', label: '접근성', desc: '버스·지하철 거리', color: '#6254e8' },
   { pct: '20%', label: '업종 궁합', desc: '지역 업종 구조와 적합성', color: '#a294fa' },
-  { pct: '10%', label: '접근성', desc: '버스·지하철 거리', color: '#bdb5fc' },
-  { pct: '10%', label: '비용 역산', desc: '공시지가·거래 수준', color: '#d4cffd' },
+  { pct: '15%', label: '경쟁 역산', desc: '동일 업종 과밀 보정', color: '#bdb5fc' },
+  { pct: '15%', label: '비용 역산', desc: '공시지가·거래 수준', color: '#d4cffd' },
 ]
 
 const DATA_CARDS = [
@@ -82,7 +82,7 @@ export default function AnalysisPage() {
 
       <section className="info-section">
         <div className="info-formula-bar reveal">
-          점수 = 수요 가능성 35% + 경쟁강도 역산 25% + 업종궁합 20% + 접근성 10% + 비용부담 역산 10%
+          점수 = 수요 가능성 30% + 접근성 20% + 업종궁합 20% + 경쟁강도 역산 15% + 비용부담 역산 15%
         </div>
         <div className="info-weight-grid">
           {WEIGHTS.map((w, i) => (

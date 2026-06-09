@@ -58,9 +58,7 @@ export default function AiConsultPanel({ candidates, gridScores = [], onRecommen
         {status === 'loading' ? <Loader2 className="spin" size={17} /> : <Send size={17} />}
         <span>후보지 찾기</span>
       </button>
-      {status === 'fallback' && (
-        <div className="fallback-badge">API 연결이 불안정하거나 키가 없어 rule-based fallback 답변을 표시합니다.</div>
-      )}
+
       {localTop3.length > 0 && (
         <div className="ai-top3">
           {localTop3.map((candidate, index) => (
