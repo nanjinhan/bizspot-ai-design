@@ -204,6 +204,7 @@ export default function MapPage() {
             topCandidates={visibleCandidates.slice(0, 6)}
             clickedPoint={clickedPoint}
             aiRecommendations={aiRecommendations}
+            activePanel={activePanel}
             onMapClick={handleMapClick}
             onCandidateSelect={selectCandidate}
             onGridSelect={selectGridScore}

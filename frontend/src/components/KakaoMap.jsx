@@ -41,6 +41,7 @@ export default function KakaoMap({
   topCandidates = [],
   clickedPoint,
   aiRecommendations,
+  activePanel = 'search',
   onMapClick,
   onCandidateSelect,
   onGridSelect,
@@ -117,7 +118,7 @@ export default function KakaoMap({
       markerStore.current.push(marker)
     })
 
-    if (aiRecommendations.length > 0) {
+    if (activePanel === 'ai' && aiRecommendations.length > 0) {
       topCandidates.forEach((candidate) => {
         const point = getPointLatLng(candidate)
         if (!point) return
@@ -179,7 +180,7 @@ export default function KakaoMap({
       markerStore.current.forEach((marker) => marker.setMap(null))
       markerStore.current = []
     }
-  }, [mode, markerRows, topCandidates, selectedCandidate, aiRecommendations, onCandidateSelect, onGridSelect])
+  }, [mode, markerRows, topCandidates, selectedCandidate, aiRecommendations, activePanel, onCandidateSelect, onGridSelect])
 
   useEffect(() => {
     if (mode !== 'kakao' || !window.kakao?.maps || !mapInstance.current) return
