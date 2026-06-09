@@ -133,7 +133,7 @@ export default function KakaoMap({
         position: new kakao.maps.LatLng(point.lat, point.lng),
         content: element,
         yAnchor: 1,
-        zIndex: isSelected ? 10 : 3,
+        zIndex: isSelected ? 200 : 3,
       })
       markerStore.current.push(overlay)
     })
