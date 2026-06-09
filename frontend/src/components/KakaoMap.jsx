@@ -141,8 +141,10 @@ export default function KakaoMap({
     aiRecommendations.forEach((candidate, index) => {
       const point = getPointLatLng(candidate)
       if (!point) return
+      const key = markerKey(candidate)
+      const isSelected = key === selectedId
       const element = document.createElement('button')
-      element.className = 'kakao-ai-marker'
+      element.className = isSelected ? 'kakao-ai-marker kakao-ai-marker--selected' : 'kakao-ai-marker'
       element.type = 'button'
       element.textContent = String(index + 1)
       element.title = candidate.name || `AI 추천 ${index + 1}`
@@ -153,6 +155,7 @@ export default function KakaoMap({
         position: new kakao.maps.LatLng(point.lat, point.lng),
         content: element,
         yAnchor: 1,
+        zIndex: isSelected ? 200 : 4,
       })
       markerStore.current.push(overlay)
     })
